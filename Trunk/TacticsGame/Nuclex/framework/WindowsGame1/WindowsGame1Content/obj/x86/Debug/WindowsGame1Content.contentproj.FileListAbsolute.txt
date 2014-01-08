@@ -1,0 +1,4 @@
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1Content\obj\x86\Debug\ResolveAssemblyReference.cache

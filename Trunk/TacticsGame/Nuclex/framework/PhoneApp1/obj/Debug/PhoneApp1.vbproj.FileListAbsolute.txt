@@ -1,0 +1,4 @@
+D:\nuclex-framework-r1404-sources\framework\PhoneApp1\obj\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\PhoneApp1\obj\Debug\App.g.i.vb
+D:\nuclex-framework-r1404-sources\framework\PhoneApp1\obj\Debug\MainPage.g.i.vb
+D:\nuclex-framework-r1404-sources\framework\PhoneApp1\obj\Debug\PhoneApp1.g.resources

@@ -1,0 +1,27 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\obj\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Game.ContentCompressor.exe
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Game.ContentCompressor.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\LzmaSharp.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\LzmaSharp.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\obj\Debug\Nuclex.Game.ContentCompressor.exe
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game.ContentCompressor\obj\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Game.ContentCompressor.exe
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\LzmaSharp.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Support.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\LzmaSharp.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Support.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\obj\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\obj\Debug\Nuclex.Game.ContentCompressor.exe
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\obj\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Game.ContentCompressor.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\LzmaSharp.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\LzmaSharp.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\bin\net-4.0\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\obj\Debug\Nuclex.Game.ContentCompressor.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game.ContentCompressor\obj\Debug\Nuclex.Game.ContentCompressor.pdb

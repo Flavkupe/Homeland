@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{80F56A69-D3AF-4A64-911F-C0DEB999352B}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TacticsGame</RootNamespace>
+    <AssemblyName>Homeland</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>97fe185e-250b-4f34-b457-2acc70672baf</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Flav\Desktop\Homeland\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9B8148C41D807EB4D5169BD82EACCBFB54C7F4DB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Homeland_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Nuclex.Input, Version=4.0.0.0, Culture=neutral, PublicKeyToken=96bb577564343f16, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Nuclex\Nuclex.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Nuclex.Math">
+      <HintPath>Nuclex\Nuclex.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="Nuclex.Networking">
+      <HintPath>Nuclex\Nuclex.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Nuclex.Support">
+      <HintPath>Nuclex\Nuclex.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Nuclex.Windows.Forms">
+      <HintPath>Nuclex\Nuclex.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.5.0, Culture=neutral, PublicKeyToken=96bb577564343f16, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Nuclex\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PowerCollections, Version=1.0.2141.24679, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>External References\PowerCollections\PowerCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimDX.DirectInput">
+      <HintPath>Nuclex\SlimDX.DirectInput.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abilities\AbilityInfo.cs" />
+    <Compile Include="Abilities\AbilityEffect.cs" />
+    <Compile Include="Abilities\AbilityType.cs" />
+    <Compile Include="Abilities\AbilitySceneResults.cs" />
+    <Compile Include="Managers\WorldGenerationManager.cs" />
+    <Compile Include="Preference\GovernancePreference.cs" />
+    <Compile Include="Preference\ItemPreference.cs" />
+    <Compile Include="Managers\Resources\AbilityResourceInfo.cs" />
+    <Compile Include="Abilities\AbilityStats.cs" />
+    <Compile Include="Abilities\AbilityVisualEffectInfo.cs" />
+    <Compile Include="Abilities\AbilityTargetType.cs" />
+    <Compile Include="AI\CombatMode\CombatAIDecisionEngine.cs" />
+    <Compile Include="AI\CombatMode\UnitCombatActivity.cs" />
+    <Compile Include="AI\MaintenanceMode\ActivityResult.cs" />
+    <Compile Include="AI\MaintenanceMode\Decision.cs" />
+    <Compile Include="AI\MaintenanceMode\UnitDecisionActivity.cs" />
+    <Compile Include="AI\MaintenanceMode\Params.cs" />
+    <Compile Include="AI\MaintenanceMode\UnitDecisionEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\UnitDecisionResultEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\UnitDecisionUtils.cs" />
+    <Compile Include="AI\CombatMode\SimpleEnemyDecisionEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\UnitDecisionUtils.Text.cs">
+      <DependentUpon>UnitDecisionUtils.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attributes\DisplayNameAttribute.cs" />
+    <Compile Include="Attributes\IconResourceAttribute.cs" />
+    <Compile Include="Attributes\TextureResourceAttribute.cs" />
+    <Compile Include="Crafting\Recipe.cs" />
+    <Compile Include="Edicts\Edict.cs" />
+    <Compile Include="Edicts\EdictType.cs" />
+    <Compile Include="GameObjects\Buildings\Building.cs" />
+    <Compile Include="GameObjects\Buildings\Types\Workshop.cs" />
+    <Compile Include="GameObjects\Buildings\Types\WoodHouse.cs" />
+    <Compile Include="GameObjects\Buildings\Types\Tavern.cs" />
+    <Compile Include="GameObjects\DrawMode.cs" />
+    <Compile Include="GameObjects\EntityMetadata\UnitStatusEffectInfo.cs" />
+    <Compile Include="GameObjects\EntityMetadata\Equipment.cs" />
+    <Compile Include="GameObjects\EntityMetadata\EquipmentSlot.cs" />
+    <Compile Include="GameObjects\EntityMetadata\UnitStatus.cs" />
+    <Compile Include="GameObjects\IHasInventory.cs" />
+    <Compile Include="GameObjects\ISubSprite.cs" />
+    <Compile Include="GameObjects\Owners\Crafter.cs" />
+    <Compile Include="GameObjects\Owners\Smithy.cs" />
+    <Compile Include="GameObjects\Owners\Owner.cs" />
+    <Compile Include="GameObjects\Owners\Shopkeep.cs" />
+    <Compile Include="GameObjects\Buildings\Types\Blacksmith.cs" />
+    <Compile Include="GameObjects\Buildings\IBuildable.cs" />
+    <Compile Include="GameObjects\Structures\NeighborDependentStructure.cs" />
+    <Compile Include="GameObjects\Structures\Specific\Cobblestone.cs" />
+    <Compile Include="GameObjects\Structures\Specific\Barrier.cs" />
+    <Compile Include="GameObjects\Structures\Specific\StoneWall.cs" />
+    <Compile Include="GameObjects\Structures\Specific\Fence.cs" />
+    <Compile Include="GameObjects\Structures\Specific\NiceRoad.cs" />
+    <Compile Include="GameObjects\Structures\Structure.cs" />
+    <Compile Include="GameObjects\SubSpriteCollection.cs" />
+    <Compile Include="GameObjects\Units\AcquiredItemSource.cs" />
+    <Compile Include="GameObjects\Units\Enemy\Types\Wolf.cs" />
+    <Compile Include="GameObjects\Units\Enemy\Types\Bandit.cs" />
+    <Compile Include="GameObjects\Units\HireableUnit.cs" />
+    <Compile Include="GameObjects\Units\ICanBeHired.cs" />
+    <Compile Include="GameObjects\Visitors\Types\WeaponTrader.cs" />
+    <Compile Include="GameObjects\Visitors\Types\ResourceTrader.cs" />
+    <Compile Include="GameObjects\Visitors\Types\JunkCollector.cs" />
+    <Compile Include="GameObjects\Visitors\Types\BottleTrader.cs" />
+    <Compile Include="GameObjects\Zones\ExitZone.cs" />
+    <Compile Include="GameObjects\Zones\Types\MountainZone.cs" />
+    <Compile Include="GameObjects\Zones\Types\WoodlandZone.cs" />
+    <Compile Include="GameObjects\Zones\Zone.cs" />
+    <Compile Include="Items\IDropLoot.cs" />
+    <Compile Include="Items\IGenerateLoot.cs" />
+    <Compile Include="Interfaces\IModifyNeighbors.cs" />
+    <Compile Include="Items\ArmorTypes.cs" />
+    <Compile Include="Items\LootGenerationEngine.cs" />
+    <Compile Include="Items\SpecialStats\ArmorStats.cs" />
+    <Compile Include="Items\SpecialStats\WeaponStats.cs" />
+    <Compile Include="Items\WeaponTypes.cs" />
+    <Compile Include="Managers\ItemManager.cs" />
+    <Compile Include="Managers\Resources\EdictResourceInfo.cs" />
+    <Compile Include="Managers\Resources\IconInfo.cs" />
+    <Compile Include="Managers\Resources\RecipeResourceInfo.cs" />
+    <Compile Include="Managers\Resources\ResourceId.cs" />
+    <Compile Include="Managers\Resources\TextureInfo.cs" />
+    <Compile Include="Metrics\MetricsLogger.cs" />
+    <Compile Include="PlayerThings\GameObjective.cs" />
+    <Compile Include="PlayerThings\GameStatus.cs" />
+    <Compile Include="Items\ItemOrder.cs" />
+    <Compile Include="GameObjects\Buildings\Types\Shop.cs" />
+    <Compile Include="GameObjects\Buildings\Types\GuildHouse.cs" />
+    <Compile Include="PlayerThings\Player.cs" />
+    <Compile Include="Interfaces\IExpire.cs" />
+    <Compile Include="Items\Inventory.cs" />
+    <Compile Include="GameObjects\EntityMetadata\UnitSkill.cs" />
+    <Compile Include="GameObjects\EntityMetadata\UnitSkills.cs" />
+    <Compile Include="GameObjects\EntityMetadata\UnitStats.cs" />
+    <Compile Include="GameObjects\Effects\AnimatedEffect.cs" />
+    <Compile Include="GameObjects\Effects\ProjectileEffect.cs" />
+    <Compile Include="GameObjects\EntityMetadata\UnitTrait.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\Units\Classes\Fool.cs" />
+    <Compile Include="GameObjects\Units\Classes\Footman.cs" />
+    <Compile Include="GameObjects\Units\Classes\Ranger.cs" />
+    <Compile Include="GameObjects\Units\DecisionMakingUnit.cs" />
+    <Compile Include="GameObjects\Units\IMakeDecisions.cs" />
+    <Compile Include="GameObjects\Visitors\Types\Traveller.cs" />
+    <Compile Include="GameObjects\Visitors\Types\Merchant.cs" />
+    <Compile Include="GameObjects\Visitors\Visitor.cs" />
+    <Compile Include="Managers\Resources\GameResourceInfo.cs" />
+    <Compile Include="GameObjects\IMultiTile.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Managers\Resources\ItemResourceInfo.cs" />
+    <Compile Include="Items\ItemStats.cs" />
+    <Compile Include="Managers\GameResourceManager.cs" />
+    <Compile Include="Managers\GameSerializer.cs" />
+    <Compile Include="Managers\PlayerStateManager.cs" />
+    <Compile Include="PlayerThings\PlayerInfo.cs" />
+    <Compile Include="Preference\Preference.cs" />
+    <Compile Include="Preference\PreferenceValue.cs" />
+    <Compile Include="UI\Dialogs\CaravanDialog.cs" />
+    <Compile Include="UI\Special\ItemValueControl.cs" />
+    <Compile Include="UI\Special\InventoryControl.cs" />
+    <Compile Include="World\Caravans\Caravan.cs" />
+    <Compile Include="World\DailyActivityStats.cs" />
+    <Compile Include="World\ForeignTownInfo.cs" />
+    <Compile Include="World\TownState.cs" />
+    <Compile Include="Managers\Resources\ResourceType.cs" />
+    <Compile Include="Scene\Drivers\AbilityDriver.cs" />
+    <Compile Include="Scene\Fade.cs" />
+    <Compile Include="Scene\ZoneCombatScene.Logic.cs">
+      <DependentUpon>ZoneCombatScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\ZoneManagementScene.cs" />
+    <Compile Include="Scene\ZoneManagementScene.DecisionLogic.cs">
+      <DependentUpon>ZoneManagementScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\ZoneManagementScene.Handlers.cs">
+      <DependentUpon>ZoneManagementScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\ZoneManagementScene.Logic.cs">
+      <DependentUpon>ZoneManagementScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\FloatingText.cs" />
+    <Compile Include="GameObjects\AnimatedSprite.cs" />
+    <Compile Include="GameObjects\GameEntity.cs" />
+    <Compile Include="GameObjects\Obstacles\Obstacle.cs" />
+    <Compile Include="GameObjects\Units\Enemy\EnemyUnit.cs" />
+    <Compile Include="GameObjects\Units\Unit.cs" />
+    <Compile Include="UI\Dialogs\GameInitDialog.cs" />
+    <Compile Include="UI\Dialogs\LootDialog.cs" />
+    <Compile Include="UI\Dialogs\EdictsDialog.cs" />
+    <Compile Include="UI\Dialogs\InputDialog.cs" />
+    <Compile Include="UI\Groups\UnitEquipmentGroup.cs" />
+    <Compile Include="UI\Panels\ItemStatsPanel.cs" />
+    <Compile Include="Utility\AttributeHelper.cs" />
+    <Compile Include="Utility\CommentGenerationUtilities.cs" />
+    <Compile Include="Utility\ExtensionFunctions.cs" />
+    <Compile Include="Managers\InterfaceManager.cs" />
+    <Compile Include="Map\Tiles\Tile.cs" />
+    <Compile Include="Map\TileGrid.cs" />
+    <Compile Include="Map\Tiles\ZoneTile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="MainGame.cs" />
+    <Compile Include="Scene\SceneBase.cs" />
+    <Compile Include="Scene\ZoneCombatScene.cs" />
+    <Compile Include="Scene\ZoneScene.cs" />
+    <Compile Include="Managers\GameStateManager.cs" />
+    <Compile Include="Managers\TextureManager.cs" />
+    <Compile Include="UIResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\BetterLabelControl.cs" />
+    <Compile Include="UI\Dialogs\FinanceDialog.cs" />
+    <Compile Include="UI\Dialogs\Interfaces\ICloseOnRightClick.cs" />
+    <Compile Include="UI\Controls\ModalDialogControl.cs" />
+    <Compile Include="UI\Controls\ScrollableControlList.cs" />
+    <Compile Include="UI\Controls\TooltipButtonAndTextControl.cs" />
+    <Compile Include="UI\Controls\IconAndLabelControl.cs" />
+    <Compile Include="UI\Dialogs\MessageDialog.cs" />
+    <Compile Include="UI\Dialogs\NewOrderDialog.cs" />
+    <Compile Include="UI\Dialogs\PlaceOrdersDialog.cs" />
+    <Compile Include="UI\Dialogs\VisitorsDialog.cs" />
+    <Compile Include="UI\Dialogs\Interfaces\ICanBeClosed.cs" />
+    <Compile Include="UI\Dialogs\PlayerStockDialog.cs" />
+    <Compile Include="UI\Dialogs\PlayerItemBidDialog.cs" />
+    <Compile Include="UI\Groups\UnitAttributeGroup.cs" />
+    <Compile Include="UI\Margin.cs" />
+    <Compile Include="UI\Panels\BuildingDetailsPanel.cs" />
+    <Compile Include="UI\Panels\BuildingConstructionPanel.cs" />
+    <Compile Include="UI\Special\CrazyTextWithIcon.cs" />
+    <Compile Include="UI\Controls\FramePanelControl.cs" />
+    <Compile Include="UI\Controls\IconControl.cs" />
+    <Compile Include="UI\Controls\TooltipButtonControl.cs" />
+    <Compile Include="UI\Dialogs\UnitDialog.cs" />
+    <Compile Include="UI\Dialogs\StockDialog.cs" />
+    <Compile Include="UI\Controls\FlowPanelControl.cs" />
+    <Compile Include="UI\Groups\UnitActivityIconsGroup.cs" />
+    <Compile Include="UI\Groups\UnitInventoryGroup.cs" />
+    <Compile Include="UI\Groups\UnitStatsGroup.cs" />
+    <Compile Include="UI\Panels\ActionFeedPanel.cs" />
+    <Compile Include="UI\Controls\CollapsiblePanel.cs" />
+    <Compile Include="UI\Panels\BuildingCommandsPanel.cs" />
+    <Compile Include="UI\Panels\UnitAbilitiesPanel.cs" />
+    <Compile Include="UI\Panels\UnitStatsPanel.cs" />
+    <Compile Include="UI\Dialogs\TileSelectionDialog.cs" />
+    <Compile Include="UI\Panels\CommandPane.cs" />
+    <Compile Include="Utility\Classes\CountingDictionary.cs" />
+    <Compile Include="Utility\Classes\EventArgsEx.cs" />
+    <Compile Include="Utility\Classes\Singleton.cs" />
+    <Compile Include="Utility\EnemyGenerationUtilities.cs" />
+    <Compile Include="Utility\ItemGenerationUtilities.cs" />
+    <Compile Include="Utility\NamingUtilities.cs" />
+    <Compile Include="Utility\Classes\ObjectValuePair.cs" />
+    <Compile Include="Utility\Comparers.cs" />
+    <Compile Include="Utility\Utilities.cs" />
+    <Compile Include="Utility\ValueEventArgs.cs" />
+    <Compile Include="World\GameWorld.cs" />
+    <Compile Include="World\WorldState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+    <Content Include="PowerCollections.dll" />
+    <Content Include="Xml\Abilities.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Xml\Icons.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\VisualEffects.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\Edicts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\Misc.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Xml\Recipes.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\Tiles.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\Items.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Xml\GameObjects.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="bin\x86\Debug\Content\Xml\FlavSheet.xnb" />
+    <None Include="Homeland_TemporaryKey.pfx" />
+    <None Include="Resources\FlavSkin.skin.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\FlavSheet.png" />
+    <None Include="Resources\LucidaSpriteFont.xnb" />
+    <None Include="Resources\ScreenMaskEffect.xnb" />
+    <None Include="Resources\skin.xsd" />
+    <None Include="Resources\SolidColorEffect.xnb" />
+    <None Include="Resources\SuaveSheet.xnb" />
+    <None Include="Resources\TitleFont.spritefont" />
+    <None Include="Resources\TitleFont.xnb" />
+    <None Include="Resources\UnitTestEffect.xnb" />
+    <None Include="Resources\UnitTestFont.xnb" />
+    <None Include="Resources\UnitTestVectorFont.xnb" />
+    <None Include="Resources\WaterSurfaceEffect.xnb" />
+    <None Include="Xml\Schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nuclex\framework\Nuclex.UserInterface\Nuclex.UserInterface %28xna-4.0-x86%29.csproj">
+      <Project>{2CB08AB5-46B8-44A9-92AE-33790629696D}</Project>
+      <Name>Nuclex.UserInterface %28xna-4.0-x86%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TacticsGameContent\TacticsGameContent.contentproj">
+      <Name>TacticsGameContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{71D71CCD-C0B9-4479-A7A5-C1D9964D798E}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="UIResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultFont.spritefont" />
+    <None Include="Resources\DefaultFont.xnb" />
+    <None Include="Resources\DefaultTextEffect.xnb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

@@ -1,0 +1,36 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\Nuclex.Input.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\Nuclex.Input.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\nunit.framework.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\nunit.framework.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\obj\x86\Debug\Nuclex.Input.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Input\obj\x86\Debug\Nuclex.Input.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\Nuclex.Input.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\Nuclex.Input.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\Nuclex.Input.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\Nuclex.Input.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\Nuclex.Input.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\Nuclex.Input.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\Nuclex.Input.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Input\obj\x86\Debug\Nuclex.Input.pdb

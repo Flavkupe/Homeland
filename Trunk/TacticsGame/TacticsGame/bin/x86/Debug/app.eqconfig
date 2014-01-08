@@ -1,0 +1,36 @@
+﻿<config Version="2">
+  <OutputFolder>$(AppDir)</OutputFolder>
+  <ReportFolderNetFull>$(SystemRoot)\Temp\EQATECProfilerLogs</ReportFolderNetFull>
+  <ReportFolderNetCF>\Temp\EQATECProfilerLogs</ReportFolderNetCF>
+  <AutoSnapshot>Main OnStop ApplicationEnd</AutoSnapshot>
+  <TinyMethodAction>Skip</TinyMethodAction>
+  <ServerControlHost />
+  <ServerControlPort>4515</ServerControlPort>
+  <RuntimeModuleLogLevel>Errors</RuntimeModuleLogLevel>
+  <ExcludeFiles>
+    <ExcludeFile>Microsoft.Xna.Framework.Avatar.dll</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.Game.dll</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.GamerServices.dll</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.Graphics.dll</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.Net.dll</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.Storage.dll</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.Video.dll</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.Xact.dll</ExcludeFile>
+    <ExcludeFile>NMock.StrongNamed.dll</ExcludeFile>
+    <ExcludeFile>Nuclex.Math.dll</ExcludeFile>
+    <ExcludeFile>Nuclex.Networking.dll</ExcludeFile>
+    <ExcludeFile>Nuclex.Support.dll</ExcludeFile>
+    <ExcludeFile>Nuclex.Windows.Forms.dll</ExcludeFile>
+    <ExcludeFile>nunit.framework.dll</ExcludeFile>
+    <ExcludeFile>SlimDX.DirectInput.dll</ExcludeFile>
+    <ExcludeFile>Nuclex.Testing.Xna.dll</ExcludeFile>
+    <ExcludeFile>TacticsGame.exe</ExcludeFile>
+    <ExcludeFile>Microsoft.Xna.Framework.dll</ExcludeFile>
+  </ExcludeFiles>
+  <SignActions>
+    <SignAction action="Strip" publickey="ACQAAASAAACUAAAABgIAAAAkAABSU0ExAAQAAAEAAQALCeQxu/KnK5+idivpu1xXh4bQHmb3Oc6XjBcjfWFXqKuCwFh9G6/rsRa8RQnERKxGBn0fFWdHvmiF41ud1Na+T6t69ANJZNOKs0zH45+/Q0jshWrz/ZfvVbfijzIf8R733sDo+x8mLsV/fKKzX/WtkSRqEZ3iJwYfpHVhb+7n9w==" usedby="C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.dll" keyfile="" />
+    <SignAction action="Sign" publickey="ACQAAASAAACUAAAABgIAAAAkAABSU0ExAAQAAAEAAQDztCLPi+uohd4H+nwQERjsmiW1iW9FRjCHLAYjxvCpYtNcQmkw6VM6o9J52bPGf0yBt6Y2WTaAqZG/GlCVkkpDjp4GfvZPwSSb2zQdQJMCucq4dkgFee9yyepQ98OZV5ny1ueW7jZhLq4WGQR7N0sja69uUjZuI9EdBfRSxw7JwA==" usedby="C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.dll" keyfile="C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Framework.snk" />
+  </SignActions>
+  <AppType>FullNet</AppType>
+  <InputFolderOK>true</InputFolderOK>
+</config>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameObjects xmlns="Schema.xsd">
+  
+  <GameObject Id="SampleSprite">    
+    <TextureInfo TextureName="Textures/Animated/sampleSprite" Animated="true"  VerticalColumns="3" HorizontalRows="1" DefaultVertical="2" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="200" IconName="sampleIcon" />    
+  </GameObject>
+
+  <GameObject Id="Fool">
+    <TextureInfo TextureName="Textures/Animated/fool" Animated="true"  VerticalColumns="2" HorizontalRows="1" DefaultVertical="1" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="200" IconName="fool" />
+  </GameObject>
+
+  <GameObject Id="Ranger">
+    <TextureInfo TextureName="Textures/Animated/ranger" Animated="true"  VerticalColumns="2" HorizontalRows="1" DefaultVertical="1" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="200" IconName="ranger" />
+  </GameObject>
+
+  <GameObject Id="Footman">
+    <TextureInfo TextureName="Textures/Animated/footsoldier" Animated="true"  VerticalColumns="2" HorizontalRows="1" DefaultVertical="2" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="200" IconName="footman" />
+  </GameObject>
+
+  <GameObject Id="Shopkeep">
+    <TextureInfo IconName="ShopkeepIcon" />
+  </GameObject>
+
+  <GameObject Id="BottleTrader">
+    <TextureInfo IconName="BottleTrader" />
+  </GameObject>
+
+  <GameObject Id="JunkCollector">
+    <TextureInfo IconName="junkCollectorIcon" />
+  </GameObject>
+
+  <GameObject Id="Smithy">
+    <TextureInfo IconName="SmithyIcon" />
+  </GameObject>
+
+  <GameObject Id="Crafter">
+    <TextureInfo IconName="sampleIcon" />
+  </GameObject>
+
+  <GameObject Id="Traveller">
+    <TextureInfo IconName="travellerIcon" />
+  </GameObject>
+
+  <GameObject Id="WeaponTrader">
+    <TextureInfo IconName="WeaponTraderIcon" />
+  </GameObject>
+
+  <GameObject Id="Bandit">    
+    <TextureInfo TextureName="Textures/Animated/sampleEnemy" Animated="true"  VerticalColumns="3" HorizontalRows="1" DefaultVertical="2" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="200" IconName="sampleEnemyIcon" />
+  </GameObject>
+
+  <GameObject Id="BlackWolf">
+    <TextureInfo TextureName="Textures/Animated/wolf" Animated="true"  VerticalColumns="3" HorizontalRows="1" DefaultVertical="2" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="200" IconName="wolfIcon" />
+  </GameObject>
+
+  <GameObject Id="Rock" DisplayName="Rock">
+    <TextureInfo TextureName="Textures/rock" />    
+  </GameObject>
+
+  <GameObject Id="Skeleton">
+    <TextureInfo TextureName="Textures/Skeleton" />
+  </GameObject>
+
+  <GameObject Id="Effect_SwordSlash">
+    <TextureInfo TextureName="Textures/Animated/Effects/SwordEffect" Animated="true" VerticalColumns="3" HorizontalRows="1" DefaultVertical="2" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="100" />
+  </GameObject>
+
+  <GameObject Id="Building_Shop" DisplayName="Shop" > 
+    <TextureInfo TextureName="Textures/Buildings/brickHouseItemShop" Width="96" Height="96" />
+  </GameObject>
+
+  <GameObject Id="Building_Guildhouse" DisplayName="Guildhouse" >
+    <TextureInfo TextureName="Textures/Buildings/Building2" Width="128" Height="128" />
+  </GameObject>
+
+  <GameObject Id="Building_Blacksmith" DisplayName="Blacksmith" >
+    <TextureInfo TextureName="Textures/Buildings/smithy" Width="128" Height="128" />
+  </GameObject>
+
+  <GameObject Id="Building_Tavern" DisplayName="Tavern" >
+    <TextureInfo TextureName="Textures/Buildings/Tavern" Width="96" Height="96" />
+  </GameObject>
+
+  <GameObject Id="Building_WoodHouse" DisplayName="Wooden House" >
+    <TextureInfo TextureName="Textures/Buildings/WoodHouse" Width="96" Height="96" />
+  </GameObject>
+
+  <GameObject Id="Building_Workshop" DisplayName="Workshop" >
+    <TextureInfo TextureName="Textures/Buildings/Workshop" Width="128" Height="96" />
+  </GameObject>
+
+  <GameObject Id="NiceRoad" DisplayName="Nice Road" >
+    <TextureInfo TextureName="Textures/NeighborDependant/NiceRoad" Width="32" Height="32" />
+  </GameObject>
+
+  <GameObject Id="Fence" DisplayName="Fence" >
+    <TextureInfo TextureName="Textures/NeighborDependant/Fence" Width="32" Height="32" />
+  </GameObject>
+
+  <GameObject Id="Barrier" DisplayName="Barrier" >
+    <TextureInfo TextureName="Textures/NeighborDependant/Barrier" Width="32" Height="32" />
+  </GameObject>
+
+  <GameObject Id="Cobblestone" DisplayName="Cobblestone" >
+    <TextureInfo TextureName="Textures/NeighborDependant/Cobblestone" Width="32" Height="32" />
+  </GameObject>
+
+  <GameObject Id="StoneWall" DisplayName="Stone Wall" >
+    <TextureInfo TextureName="Textures/NeighborDependant/StoneWall" Width="32" Height="32" />
+  </GameObject>
+
+</GameObjects>
+
+
+
+

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Recipes xmlns="Schema.xsd">
+
+  <!-- Smith-type -->
+  <Recipe Id="IronBar" DisplayName="Iron Bar">
+    <TextureInfo TextureName="Icons/Items/IronBar" />
+    <Ingredient Item="IronOre" Number="1"/>
+    <Result Item="IronBar" Number="1"/>
+  </Recipe>
+  <Recipe Id="Sword" DisplayName="Sword" >
+    <TextureInfo TextureName="Icons/Items/Sword" />
+    <Ingredient Item="IronBar" Number="2"/>
+    <Result Item="Sword" Number="1"/>
+  </Recipe>
+  <Recipe Id="BasicBow" DisplayName="Bow">
+    <TextureInfo TextureName="Icons/Items/BasicBow" />
+    <Ingredient Item="Wood" Number="2"/>
+    <Result Item="BasicBow" Number="1"/>
+  </Recipe>
+  <Recipe Id="BasicDagger" DisplayName="Basic Dagger">
+    <TextureInfo TextureName="Icons/Items/BasicDagger" />
+    <Ingredient Item="IronBar" Number="1"/>
+    <Result Item="BasicDagger" Number="1"/>
+  </Recipe>
+  <Recipe Id="Spear" DisplayName="Spear">
+    <TextureInfo TextureName="Icons/Items/Spear" />
+    <Ingredient Item="IronBar" Number="2"/>
+    <Ingredient Item="Wood" Number="1"/>
+    <Result Item="Spear" Number="1"/>
+  </Recipe>
+
+  <!-- Workshop-type -->
+
+  <Recipe Id="LeatherSet" DisplayName="Leather Set">
+    <TextureInfo TextureName="Icons/Items/ClothShirt" />
+    <Ingredient Item="Leather" Number="2"/>    
+    <Result Item="LeatherBoots" Number="1"/>
+    <Result Item="ClothShirt" Number="1"/>
+    <Result Item="LightCap" Number="1"/>
+  </Recipe>
+  
+  <Recipe Id="Balm" DisplayName="Balm">
+    <TextureInfo TextureName="Icons/Items/Balm" />
+    <Ingredient Item="HerbCluster" Number="1"/>
+    <Ingredient Item="LeafCluster" Number="1"/>
+    <Result Item="Balm" Number="3"/>
+  </Recipe>
+  <Recipe Id="Balm2" DisplayName="Balm">
+    <TextureInfo TextureName="Icons/Items/Balm" />
+    <Ingredient Item="WhiteFlowers" Number="1"/>
+    <Ingredient Item="HerbCluster" Number="1"/>
+    <Result Item="Balm" Number="4"/>
+  </Recipe>
+
+  <Recipe Id="EnergyElixer" DisplayName="Energy Elixer">
+    <TextureInfo TextureName="Icons/Items/EnergyElixer" />
+    <Ingredient Item="Bottle" Number="2"/>
+    <Ingredient Item="GreenShroom" Number="1"/>
+    <Ingredient Item="BulbousRoot" Number="2"/>
+    <Result Item="EnergyElixer" Number="2"/>
+  </Recipe>
+  
+  <Recipe Id="SmallTincture" DisplayName="Small Tincture">
+    <TextureInfo TextureName="Icons/Items/SmallTincture" />
+    <Ingredient Item="Bottle" Number="2"/>
+    <Ingredient Item="WildMushroom" Number="1"/>
+    <Ingredient Item="Root" Number="1"/>
+    <Result Item="SmallTincture" Number="2"/>
+  </Recipe>
+  
+  <Recipe Id="HealingPotion" DisplayName="Healing Potion">
+    <TextureInfo TextureName="Icons/Items/HealingPotion" />
+    <Ingredient Item="Bottle" Number="2"/>
+    <Ingredient Item="HerbCluster" Number="1"/>
+    <Ingredient Item="Root" Number="1"/>
+    <Result Item="HealingPotion" Number="2"/>
+  </Recipe>
+  <Recipe Id="HealingPotion2" DisplayName="Healing Potion">
+    <TextureInfo TextureName="Icons/Items/HealingPotion" />
+    <Ingredient Item="Bottle" Number="2"/>
+    <Ingredient Item="LeafCluster" Number="1"/>
+    <Ingredient Item="WhiteFlowers" Number="1"/>
+    <Result Item="HealingPotion" Number="2"/>
+  </Recipe>
+  <Recipe Id="HealingPotion3" DisplayName="Healing Potion">
+    <TextureInfo TextureName="Icons/Items/HealingPotion" />
+    <Ingredient Item="Bottle" Number="1"/>    
+    <Ingredient Item="WhiteFlowers" Number="1"/>
+    <Result Item="HealingPotion" Number="1"/>
+  </Recipe>
+
+</Recipes>

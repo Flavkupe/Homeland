@@ -1,0 +1,87 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.Resources.UnitTestResources.resources
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LucidaSpriteFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\SolidColorEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\UnitTestEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LzmaSharp.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.exe
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\nunit.framework.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LzmaSharp.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\nunit.framework.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LucidaSpriteFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\SolidColorEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\UnitTestEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LzmaSharp.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.exe
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LzmaSharp.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.Resources.UnitTestResources.resources
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LucidaSpriteFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\SolidColorEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\UnitTestEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LzmaSharp.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Game.ContentCompressor.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Graphics.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\LzmaSharp.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.Resources.UnitTestResources.resources
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Game\obj\x86\Debug\Nuclex.Game.pdb

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VisualEffects xmlns="Schema.xsd">
+
+  <VisualEffect Id="Slash" >        
+    <TextureInfo TextureName="Textures/Animated/Effects/SwordEffect" Animated="true" VerticalColumns="3" HorizontalRows="1" DefaultVertical="2" DefaultHorizontal="1" Width="32" Height="32" AnimationRate="100" />
+  </VisualEffect>
+
+  <VisualEffect Id="RockThrow" >
+    <TextureInfo TextureName="Textures/Abilities/RockThrow" />
+  </VisualEffect>
+
+</VisualEffects>
+
+
+
+

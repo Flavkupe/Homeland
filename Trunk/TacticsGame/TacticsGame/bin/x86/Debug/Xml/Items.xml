@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items xmlns="Schema.xsd">
+
+  <!-- Weapons -->
+
+  <Item Id="Sword" DisplayName="Basic Sword" >    
+    <TextureInfo IconName="Sword" />
+    <ItemStats Cost="100" ItemType="Weapon">      
+      <Description>A simple, stubby sword.</Description>
+      <WeaponStats Attack="5" APCost="3" RangeMax="1" RangeMin="1" Type="Sword">
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="Spear" DisplayName="Cracked Spear" >
+    <TextureInfo IconName="Spear" />
+    <ItemStats Cost="150" ItemType="Weapon" Rarity="Scrap">
+      <Description>A long spear.</Description>
+      <WeaponStats Attack="5" APCost="4" RangeMax="2" RangeMin="1" Type="Spear" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="BasicBow" DisplayName="Basic Bow" >
+    <TextureInfo IconName="BasicBow" />
+    <ItemStats Cost="60" ItemType="Weapon">
+      <Description>A simple wooden bow.</Description>
+      <WeaponStats Attack="3" APCost="4" RangeMax="5" RangeMin="3" Type="Bow" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="LinearProjectile" Cycles="1" EffectName="RockThrow" Scale="0.3" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="BasicDagger" DisplayName="Basic Dagger" >
+    <TextureInfo IconName="BasicDagger" />
+    <ItemStats Cost="50" ItemType="Weapon">
+      <Description>A simple iron dagger.</Description>
+      <WeaponStats Attack="2" APCost="2" RangeMax="1" RangeMin="1" Type="Dagger" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="CrackedSword" DisplayName="Cracked Sword" >
+    <TextureInfo IconName="CrackedSword" />
+    <ItemStats Cost="5" ItemType="Weapon" Rarity="Scrap">
+      <Description>A broken sword.</Description>
+      <WeaponStats Attack="2" APCost="3" RangeMax="1" RangeMin="1" Type="Sword" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="SharpSaber" DisplayName="Sharp Saber" >
+    <TextureInfo IconName="SharpSaber" />
+    <ItemStats Cost="250" ItemType="Weapon" Rarity="Uncommon"> 
+      <Description>A quick, sharp sword.</Description>
+      <WeaponStats Attack="6" APCost="2" RangeMax="1" RangeMin="1" Type="Sword" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="ShinyAxe" DisplayName="Shiny Axe" >
+    <TextureInfo IconName="ShinyAxe" />
+    <ItemStats Cost="300" ItemType="Weapon" Rarity="Uncommon" >
+      <Description>A well-polished axe.</Description>
+      <WeaponStats Attack="15" APCost="4" RangeMax="1" RangeMin="1" Type="Axe" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="ShortSword" DisplayName="Short Sword" >
+    <TextureInfo IconName="ShortSword" />
+    <ItemStats Cost="80" ItemType="Weapon">
+      <Description>A well-polished axe.</Description>
+      <WeaponStats Attack="4" APCost="3" RangeMax="1" RangeMin="1" Type="Sword" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="SmallKnife" DisplayName="Small Knife" >
+    <TextureInfo IconName="SmallKnife" />
+    <ItemStats Cost="5" ItemType="Weapon" Rarity="Scrap">
+      <Description>A well-polished axe.</Description>
+      <WeaponStats Attack="1" APCost="2" RangeMax="1" RangeMin="1" Type="Dagger" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="BattleAxe" DisplayName="Battle Axe" >
+    <TextureInfo IconName="BattleAxe" />
+    <ItemStats Cost="180" ItemType="Weapon">
+      <Description>A large, well-built axe.</Description>
+      <WeaponStats Attack="10" APCost="5" RangeMax="1" RangeMin="1" Type="Axe" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="StrongBow" DisplayName="Strong Bow" >
+    <TextureInfo IconName="StrongBow" />
+    <ItemStats Cost="350" ItemType="Weapon" Rarity="Uncommon" >
+      <Description>A highly stable bow.</Description>
+      <WeaponStats Attack="15" APCost="7" RangeMax="6" RangeMin="3" Type="Bow" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="LinearProjectile" Cycles="1" EffectName="RockThrow" Scale="0.3" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="Glaive" DisplayName="Glaive" >
+    <TextureInfo IconName="Glaive" />
+    <ItemStats Cost="300" ItemType="Weapon" Rarity="Uncommon">
+      <Description>Spear with a sharp edge.</Description>
+      <WeaponStats Attack="9" APCost="4" RangeMax="2" RangeMin="1" Type="Spear" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="Hatchet" DisplayName="Hatchet" >
+    <TextureInfo IconName="Hatchet" />
+    <ItemStats Cost="5" ItemType="Weapon" Rarity="Scrap">
+      <Description>A very cheap axe.</Description>
+      <WeaponStats Attack="2" APCost="3" RangeMax="1" RangeMin="1" Type="Axe" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="MifsSword" DisplayName="Mif's Sword" >
+    <TextureInfo IconName="MifsSword" />
+    <ItemStats Cost="1000" ItemType="Weapon" Rarity="Artifact" >
+      <Description>Sword owned by the explorer Mif.</Description>
+      <WeaponStats Attack="15" APCost="3" RangeMax="1" RangeMin="1" Type="Sword" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+  <Item Id="CheapBow" DisplayName="Cheap Bow" >
+    <TextureInfo IconName="CheapBow" />
+    <ItemStats Cost="5" ItemType="Weapon" Rarity="Scrap">
+      <Description>A cheap, broken bow.</Description>
+      <WeaponStats Attack="3" APCost="5" RangeMax="5" RangeMin="3" Type="Bow" >
+        <VisualEffect TargetType="Enemy" VisualEffectType="LinearProjectile" Cycles="1" EffectName="RockThrow" Scale="0.3" />
+      </WeaponStats>
+    </ItemStats>
+  </Item>
+
+  <!-- Armor -->
+
+  <Item Id="LeatherBoots" DisplayName="Leather Boots" >
+    <TextureInfo IconName="LeatherBoots" />
+    <ItemStats Cost="15" ItemType="Armor" Rarity="Common" >
+      <Description>Weak leather boots.</Description>
+      <ArmorStats Defense="1" Slot="Feet" Type="Light"/>
+    </ItemStats>
+  </Item>
+  <Item Id="ClothShirt" DisplayName="Cloth Shirt" >
+    <TextureInfo IconName="ClothShirt" />
+    <ItemStats Cost="15" ItemType="Armor" Rarity="Common" >
+      <Description>A light shirt.</Description>
+      <ArmorStats Defense="1" Slot="Chest" Type="Light"/>
+    </ItemStats>
+  </Item>
+  <Item Id="LightCap" DisplayName="Light Cap" >
+    <TextureInfo IconName="BasicCap" />
+    <ItemStats Cost="10" ItemType="Armor" Rarity="Common" >
+      <Description>A simple hat.</Description>
+      <ArmorStats Defense="1" Slot="Helm" Type="Light"/>
+    </ItemStats>
+  </Item>
+  <Item Id="LeatherBreastplate" DisplayName="Leather Breastplate" >
+    <TextureInfo IconName="LeatherBreastplate" />
+    <ItemStats Cost="50" ItemType="Armor" Rarity="Common" >
+      <Description>A strong plate of leather.</Description>
+      <ArmorStats Defense="3" Slot="Chest" Type="Light" />
+    </ItemStats>
+  </Item>
+  <Item Id="IronBreastplate" DisplayName="Iron Breastplate" >
+    <TextureInfo IconName="IronBreastplate" />
+    <ItemStats Cost="200" ItemType="Armor" Rarity="Uncommon" >
+      <Description>A strong plate of iron.</Description>
+      <ArmorStats Defense="6" Slot="Chest" Type="Heavy" />
+    </ItemStats>
+  </Item>
+  <Item Id="MetalCap" DisplayName="Metal Cap" >
+    <TextureInfo IconName="MetalCap" />
+    <ItemStats Cost="60" ItemType="Armor" Rarity="Uncommon" >
+      <Description>An iron skullcap.</Description>
+      <ArmorStats Defense="3" Slot="Helm" Type="Heavy" />
+    </ItemStats>
+  </Item>
+  <Item Id="MetalBoots" DisplayName="Metal Boots" >
+    <TextureInfo IconName="MetalBoots" />
+    <ItemStats Cost="60" ItemType="Armor" Rarity="Uncommon" >
+      <Description>A pair of heavy metal boots.</Description>
+      <ArmorStats Defense="3" Slot="Feet" Type="Heavy" />
+    </ItemStats>
+  </Item>
+
+  <!-- Food -->
+
+  <Item Id="Apple" DisplayName="Apple" >
+    <TextureInfo IconName="Apple" />
+    <ItemStats Cost="20"  ItemType="Food" >
+      <Description>A freakin' apple.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Ham" DisplayName="Ham" >
+    <TextureInfo IconName="Ham" />
+    <ItemStats Cost="50"  ItemType="Food" >
+      <Description>A big ham.</Description>
+    </ItemStats>
+  </Item>
+
+  <!-- Consumable -->
+
+  <Item Id="Balm" DisplayName="Balm" >
+    <TextureInfo IconName="Balm" />
+    <ItemStats Cost="15"  ItemType="Consumable" >
+      <Description>A small bit of healing balm.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="EnergyElixer" DisplayName="Energy Elixer" >
+    <TextureInfo IconName="EnergyElixer" />
+    <ItemStats Cost="30"  ItemType="Consumable" >
+      <Description>One-time AP boost.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="HealingPotion" DisplayName="Healing Potion" >
+    <TextureInfo IconName="HealingPotion" />
+    <ItemStats Cost="30"  ItemType="Consumable" >
+      <Description>Recovers HP.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="SmallTincture" DisplayName="Small Tincture" >
+    <TextureInfo IconName="SmallTincture" />
+    <ItemStats Cost="30"  ItemType="Consumable" >
+      <Description>Quick strength boost.</Description>
+    </ItemStats>
+  </Item>
+
+  <!-- Scrap -->
+  
+  <Item Id="Rags" DisplayName="Rags" >
+    <TextureInfo IconName="Rags" />
+    <ItemStats Cost="5"  ItemType="Scrap" >
+      <Description>Dirty torn rags. No good.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Bone" DisplayName="Cracked Bone" >
+    <TextureInfo IconName="Bone" />
+    <ItemStats Cost="5"  ItemType="Scrap" >
+      <Description>A useless bone.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Feather" DisplayName="Feather" >
+    <TextureInfo IconName="Feather" />
+    <ItemStats Cost="3"  ItemType="Scrap" >
+      <Description>A low quality bird feather.</Description> 
+    </ItemStats>
+  </Item>
+  <Item Id="Fur" DisplayName="Animal Fur" >
+    <TextureInfo IconName="Fur" />
+    <ItemStats Cost="10"  ItemType="Scrap" >
+      <Description>Rough animal fur.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="TreeResin" DisplayName="Tree Resin" >
+    <TextureInfo IconName="TreeResin" />
+    <ItemStats Cost="10" Rarity="Scrap" ItemType="Scrap" >
+      <Description>Useless gunk from a tree.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Bark" DisplayName="Tree Bark" >
+    <TextureInfo IconName="Bark" />
+    <ItemStats Cost="10" Rarity="Scrap" ItemType="Scrap" >
+      <Description>Rough tree bark.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Branch" DisplayName="Tree Branch" >
+    <TextureInfo IconName="Branch" />
+    <ItemStats Cost="5" Rarity="Scrap" ItemType="Scrap" >
+      <Description>Rough tree bark.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Rubble" DisplayName="Rubble" >
+    <TextureInfo IconName="Rubble" />
+    <ItemStats Cost="4" Rarity="Scrap" ItemType="Scrap" >
+      <Description>Left-over rubble from mining.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Talon" DisplayName="Small Talon" >
+    <TextureInfo IconName="Talon" />
+    <ItemStats Cost="4" Rarity="Scrap" ItemType="Scrap" >
+      <Description>A small animal claw.</Description>
+    </ItemStats>
+  </Item>
+
+  <!-- Mats -->
+  
+  <Item Id="Bottle" DisplayName="Bottle" >
+    <TextureInfo IconName="Bottle" />
+    <ItemStats Cost="30" ItemType="Ingredient" >
+      <Description>A small bottle for potions.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="IronOre" DisplayName="Iron Ore" >
+    <TextureInfo IconName="IronOre" />
+    <ItemStats Cost="15" ItemType="Ingredient" >
+      <Description>A small clump of solid ore.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="IronBar" DisplayName="Iron Bar" >
+    <TextureInfo IconName="IronBar" />
+    <ItemStats Cost="40" ItemType="Ingredient" >
+      <Description>A nice metallic rectangle.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="UncutSapphire" DisplayName="Uncut Sapphire" >
+    <TextureInfo IconName="UncutSapphire" />
+    <ItemStats Rarity="Uncommon" Cost="120" ItemType="Ingredient" >
+      <Description>Sapphire that needs to be cut.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="UncutRuby" DisplayName="Uncut Ruby" >
+    <TextureInfo IconName="UncutRuby" />
+    <ItemStats Rarity="Uncommon" Cost="130" ItemType="Ingredient" >
+      <Description>Ruby that needs to be cut.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="BulbousRoot" DisplayName="Bulbous Root" >
+    <TextureInfo IconName="BulbousRoot" />
+    <ItemStats Rarity="Common" Cost="8" ItemType="Ingredient" >
+      <Description>A small, chubby root.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="GreenShroom" DisplayName="Green Mushroom" >
+    <TextureInfo IconName="GreenShroom" />
+    <ItemStats Rarity="Common" Cost="5" ItemType="Ingredient" >
+      <Description>A green speckled mushroom.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="HerbCluster" DisplayName="Herb Cluster" >
+    <TextureInfo IconName="HerbCluster" />
+    <ItemStats Rarity="Common" Cost="15" ItemType="Ingredient" >
+      <Description>A cluster of aromatic herbs.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="LeafCluster" DisplayName="Leaf Cluster" >
+    <TextureInfo IconName="LeafCluster" />
+    <ItemStats Rarity="Common" Cost="10" ItemType="Ingredient" >
+      <Description>A bundle of pungent leaves.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Leather" DisplayName="Leather" >
+    <TextureInfo IconName="Leather" />
+    <ItemStats Rarity="Uncommon" Cost="20" ItemType="Ingredient" >
+      <Description>A tough piece of raw hide.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="RedShroom" DisplayName="Red Mushroom" >
+    <TextureInfo IconName="RedShroom" />
+    <ItemStats Rarity="Common" Cost="8" ItemType="Ingredient" >
+      <Description>A speckled red mushroom.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Root" DisplayName="Wild Root" >
+    <TextureInfo IconName="Root" />
+    <ItemStats Rarity="Common" Cost="10" ItemType="Ingredient" >
+      <Description>A tangled root.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="WhiteFlowers" DisplayName="White Flowers" >
+    <TextureInfo IconName="WhiteFlowers" />
+    <ItemStats Rarity="Common" Cost="20" ItemType="Ingredient" >
+      <Description>A bundle of white flowes.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="WildMushroom" DisplayName="Wild Mushroom" >
+    <TextureInfo IconName="WildMushroom" />
+    <ItemStats Rarity="Uncommon" Cost="30" ItemType="Ingredient" >
+      <Description>A small, pungent mushroom.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="YellowFlowers" DisplayName="Yellow Flower" >
+    <TextureInfo IconName="YellowFlowers" />
+    <ItemStats Rarity="Uncommon" Cost="30" ItemType="Ingredient" >
+      <Description>A flower with a great scent.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Vial" DisplayName="Vial" >
+    <TextureInfo IconName="Vial" />
+    <ItemStats Rarity="Common" Cost="10" ItemType="Ingredient" >
+      <Description>A small glass cylinder.</Description>
+    </ItemStats>
+  </Item>
+  
+  <!-- Commodities -->
+  
+  <Item Id="GoldIngot" DisplayName="Gold Ingot" >
+    <TextureInfo IconName="GoldIngot" />
+    <ItemStats Cost="500" Rarity="Uncommon" ItemType="Commodity" >
+      <Description>A bar of pure gold.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="TreeSap" DisplayName="Tree Sap" >
+    <TextureInfo IconName="TreeSap" />
+    <ItemStats Cost="30" Rarity="Common" ItemType="Commodity" >
+      <Description>Valuable tree sap.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Shale" DisplayName="Shale" >
+    <TextureInfo IconName="Shale" />
+    <ItemStats Cost="30" Rarity="Common" ItemType="Commodity" >
+      <Description>Market-grade shale.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Coal" DisplayName="Coal" >
+    <TextureInfo IconName="Coal" />
+    <ItemStats Cost="50" Rarity="Common" ItemType="Commodity" >
+      <Description>Pitch-black coal.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Flint" DisplayName="Flint" >
+    <TextureInfo IconName="Flint" />
+    <ItemStats Cost="30" Rarity="Common" ItemType="Commodity" >
+      <Description>Useful for many.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Sapphire" DisplayName="Sapphire" >
+    <TextureInfo IconName="Sapphire" />
+    <ItemStats Cost="400" Rarity="Uncommon" ItemType="Commodity" >
+      <Description>A small, precious sapphire.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Ruby" DisplayName="Ruby" >
+    <TextureInfo IconName="Ruby" />
+    <ItemStats Cost="500" Rarity="Uncommon" ItemType="Commodity" >
+      <Description>A small, precious ruby.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="SmallCrystal" DisplayName="Small Crystal" >
+    <TextureInfo IconName="SmallCrystal" />
+    <ItemStats Cost="120" Rarity="Uncommon" ItemType="Commodity" >
+      <Description>A small, beautiful crystal.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Opal" DisplayName="Opal" >
+    <TextureInfo IconName="Opal" />
+    <ItemStats Cost="80" Rarity="Common" ItemType="Commodity" >
+      <Description>A small, colorful rock.</Description>
+    </ItemStats>
+  </Item>  
+  <Item Id="Diamond" DisplayName="Diamond" >
+    <TextureInfo IconName="Diamond" />
+    <ItemStats Cost="2000" Rarity="Rare" ItemType="Commodity" >
+      <Description>A beautiful, shiny diamond.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="NiceFur" DisplayName="Nice Fur" >
+    <TextureInfo IconName="NiceFur" />
+    <ItemStats Cost="100" Rarity="Uncommon" ItemType="Commodity" >
+      <Description>A soft animal fur.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Horn" DisplayName="Horn" >
+    <TextureInfo IconName="Horn" />
+    <ItemStats Cost="50" Rarity="Uncommon" ItemType="Commodity" >
+      <Description>A smooth animal horn.</Description>
+    </ItemStats>
+  </Item>
+
+  <!-- Resources -->
+  
+  <Item Id="Wood" DisplayName="Wood" >
+    <TextureInfo IconName="Wood" />
+    <ItemStats Cost="15" ItemType="Resource" >
+      <Description>Wood for construction.</Description>
+    </ItemStats>
+  </Item>
+  <Item Id="Stone" DisplayName="Stone" >
+    <TextureInfo IconName="Stone" />
+    <ItemStats Cost="20" ItemType="Resource" >
+      <Description>Stone for construction.</Description>
+    </ItemStats>
+  </Item>
+
+</Items>
+
+
+
+

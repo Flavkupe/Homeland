@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Schema"
+    targetNamespace="Schema.xsd"
+    elementFormDefault="qualified"
+    xmlns="Schema.xsd"
+    xmlns:mstns="http://tempuri.org/Schema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!-- Definitions -->
+  
+  <xs:complexType name="TextureInfoType">    
+    <xs:attribute name="TextureName" type="xs:string" use="optional" />
+    <xs:attribute name="Animated" type="xs:boolean" use="optional" default="false" />
+    <xs:attribute name="VerticalColumns" type="xs:integer" use="optional" default="1" />
+    <xs:attribute name="HorizontalRows" type="xs:integer" use="optional" default="1" />
+    <xs:attribute name="DefaultVertical" type="xs:integer" use="optional" default="1" />
+    <xs:attribute name="DefaultHorizontal" type="xs:integer" use="optional" default="1" />
+    <xs:attribute name="Width" type="xs:integer" use="optional" default="32" />
+    <xs:attribute name="Height" type="xs:integer" use="optional" default="32" />
+    <xs:attribute name="AnimationRate" type="xs:integer" use="optional" default="500" />
+    <xs:attribute name="IconName" type="xs:string" use="optional" default="" />
+    <xs:attribute name="Scale" type="xs:double" use="optional" default="1.0" />
+  </xs:complexType>
+
+  <xs:complexType name="VisualEffectNodeType">    
+    <xs:attribute name="TargetType" type="AbilityTargetType" use="required" />
+    <xs:attribute name="VisualEffectType" type="VisualEffectAnimationType" use="required" />
+    <xs:attribute name="Cycles" type="xs:integer" use="optional" default="1" />
+    <xs:attribute name="Scale" type="xs:double" use="optional" default="1.0" />
+    <xs:attribute name="EffectName" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="IconInfoType">
+    <xs:attribute name="SheetName" type="xs:string" use="required" />
+    <xs:attribute name="XCoord" type="xs:integer" use="optional" default="0" />
+    <xs:attribute name="YCoord" type="xs:integer" use="optional" default="0" />
+    <xs:attribute name="Dimensions" type="xs:integer" use="optional" default="32" />
+  </xs:complexType>
+
+  <xs:simpleType name="Rarity">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Scrap" />
+      <xs:enumeration value="Common" />
+      <xs:enumeration value="Uncommon" />
+      <xs:enumeration value="Rare" />
+      <xs:enumeration value="Ancient" />
+      <xs:enumeration value="Artifact" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="WeaponType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Sword" />
+      <xs:enumeration value="Dagger" />
+      <xs:enumeration value="Spear" />
+      <xs:enumeration value="Axe" />
+      <xs:enumeration value="Bow" />
+      <xs:enumeration value="Hammer" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ArmorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Light" />
+      <xs:enumeration value="Medium" />
+      <xs:enumeration value="Heavy" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ArmorSlot">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Chest" />
+      <xs:enumeration value="Helm" />
+      <xs:enumeration value="Feet" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AbilityType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Self" />
+      <xs:enumeration value="TargetEnemy" />
+      <xs:enumeration value="TargetFriendly" />
+      <xs:enumeration value="SelfRadialAll" />
+      <xs:enumeration value="SelfRadialEnemy" />
+      <xs:enumeration value="SelfRadialFriendly" />
+      <xs:enumeration value="TargetRadialAll" />
+      <xs:enumeration value="TargetRadialEnemy" />
+      <xs:enumeration value="TargetRadialFriendly" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ItemType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Scrap" />
+      <xs:enumeration value="Resource" />
+      <xs:enumeration value="Weapon" />
+      <xs:enumeration value="Armor" />
+      <xs:enumeration value="Ingredient" />
+      <xs:enumeration value="Food" />
+      <xs:enumeration value="Luxury" />
+      <xs:enumeration value="Consumable" />
+      <xs:enumeration value="Miscellaneous" />
+      <xs:enumeration value="Commodity" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AbilityDirectEffects">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="SkipRestOfTurn" />      
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AbilityTargetType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Self" /> 
+      <xs:enumeration value="Enemy" /> 
+      <xs:enumeration value="EmptyTile" /> 
+      <xs:enumeration value="Ally" /> 
+      <xs:enumeration value="Any" /> 
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AbilityPropertyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="CanActAfter" />
+      <xs:enumeration value="CanMoveAfter" />
+      <xs:enumeration value="CanAttackAfter" />
+      <xs:enumeration value="CanUseAbilityAfter" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="UnitStatusEffectType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="FreeMove" />
+      <xs:enumeration value="MoveAfterAttacking" />
+      <xs:enumeration value="ActAgain" />
+      <xs:enumeration value="SkipTurn" />
+      <xs:enumeration value="Stun" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="VisualEffectAnimationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="LinearProjectile" />
+      <xs:enumeration value="Animation" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="CooldownEffectCondition">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="OnKill" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TargetAbilityCooldownType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="All"/>
+      <xs:enumeration value="RandomDisabled"/>
+      <xs:enumeration value="RandomEnabled"/>
+      <xs:enumeration value="AllSpells" />
+      <xs:enumeration value="Specific"/>
+      <xs:enumeration value="Select" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- Elements-->
+  
+  <xs:element name="GameObjects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="GameObject" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >              
+              <xs:element name="TextureInfo" type="TextureInfoType" />
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+            <xs:attribute name="DisplayName" type="xs:string" use="optional" />            
+          </xs:complexType>          
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Edicts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Edict" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="TextureInfo" type="TextureInfoType" />
+              <xs:element name="Description" minOccurs="0" maxOccurs="1"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+            <xs:attribute name="DisplayName" type="xs:string" use="optional" />            
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Icons">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Icon" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="IconInfo" type="IconInfoType" />
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Items">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Item" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="TextureInfo" type="TextureInfoType" />
+              <xs:element name="ItemStats">                                
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Description" minOccurs="0" maxOccurs="1"></xs:element>
+                    <xs:element name="WeaponStats" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="VisualEffect" type="VisualEffectNodeType" minOccurs="1" maxOccurs="unbounded" />
+                        </xs:sequence>
+                        <xs:attribute name="Attack" type="xs:integer" use="required" />
+                        <xs:attribute name="Type" type="WeaponType" use="required" />
+                        <xs:attribute name="RangeMin" type="xs:integer" use="optional" />
+                        <xs:attribute name="RangeMax" type="xs:integer" use="optional" />
+                        <xs:attribute name="APCost" type="xs:integer" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ArmorStats" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:attribute name="Defense" type="xs:integer" use="required" />
+                        <xs:attribute name="Slot" type="ArmorSlot" use="required" />
+                        <xs:attribute name="Type" type="ArmorType" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="Cost" type="xs:integer" use="required" />
+                  <xs:attribute name="ItemType" type="ItemType" use="required" />
+                  <xs:attribute name="Rarity" type="Rarity" use="optional" />                  
+                </xs:complexType>                
+              </xs:element>              
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+            <xs:attribute name="DisplayName" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Tiles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Tile" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="TextureInfo" type="TextureInfoType" />
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+            <xs:attribute name="DisplayName" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="VisualEffects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="VisualEffect" maxOccurs="unbounded" >
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="TextureInfo" type="TextureInfoType" minOccurs="1" maxOccurs="1" />
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />            
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="MiscObjects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MiscObject" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="TextureInfo" type="TextureInfoType" />
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+            <xs:attribute name="DisplayName" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Recipes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Recipe" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="TextureInfo" type="TextureInfoType" />              
+              <xs:element name ="Ingredient" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Number" type="xs:integer" use="required"/>
+                  <xs:attribute name="Item" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name ="Result" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Number" type="xs:integer" use="required"/>
+                  <xs:attribute name="Item" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+            <xs:attribute name="DisplayName" type="xs:string" use="optional" />            
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>  
+
+  <xs:element name="Abilities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Ability" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence >
+              <xs:element name="TextureInfo" type="TextureInfoType" />
+              <xs:element name="VisualEffect" type="VisualEffectNodeType" minOccurs="0" maxOccurs="unbounded" />                         
+              <xs:element name="AbilityStats" minOccurs="1" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="AbilityProperty" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="PropertyType" type="AbilityPropertyType" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="AbilityDirectEffect" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="TargetType" type="AbilityTargetType" use="required" />
+                        <xs:attribute name="APModification" type="xs:integer" use="optional" />
+                        <xs:attribute name="HPModification" type="xs:integer" use="optional" />
+                        <xs:attribute name="MoraleModification" type="xs:integer" use="optional" />
+                        <xs:attribute name="DirectEffect" type="AbilityDirectEffects" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="AbilityStatusEffect" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="TargetType" type="AbilityTargetType" use="required" />
+                        <xs:attribute name="StatusEffect" type="UnitStatusEffectType" use="required" />
+                        <xs:attribute name="Modifier" type="xs:integer" use="optional" />
+                        <xs:attribute name="Duration" type="xs:integer" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CooldownEffect" minOccurs="0" maxOccurs="unbounded">                      
+                      <xs:complexType>                        
+                        <xs:attribute name="TargetType" type="AbilityTargetType" use="required" />
+                        <xs:attribute name="Condition" type="CooldownEffectCondition" use="optional" default="None" />
+                        <xs:attribute name="CooldownTarget" type="TargetAbilityCooldownType" use="required" />
+                        <xs:attribute name="Modification" type="xs:integer" use="optional" />
+                        <xs:attribute name="SpecificName" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="APCost" type="xs:integer" use="required" />
+                  <xs:attribute name="AbilityType" type="AbilityType" use="required" />
+                  <xs:attribute name="Cooldown" type="xs:integer" use="optional" default="0" />                  
+                  <xs:attribute name="MaxRange" type="xs:integer" use="optional" default="1" />
+                  <xs:attribute name="MinRange" type="xs:integer" use="optional" default="1" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Id" type="xs:string" use="required" />
+            <xs:attribute name="DisplayName" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+

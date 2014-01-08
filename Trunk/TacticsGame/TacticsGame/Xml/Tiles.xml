@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tiles xmlns="Schema.xsd">
+  
+  <Tile Id="Grass" DisplayName="Grass">    
+    <TextureInfo TextureName="Textures/Grass" />
+  </Tile>
+
+  <Tile Id="Dirt" DisplayName="Dirt">
+    <TextureInfo TextureName="Textures/Dirt" />
+  </Tile>
+
+</Tiles>
+
+
+
+

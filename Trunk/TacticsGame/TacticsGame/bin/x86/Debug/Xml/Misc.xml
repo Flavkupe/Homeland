@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MiscObjects xmlns="Schema.xsd">
+
+  <MiscObject Id="Cursor">
+    <TextureInfo TextureName="Textures/Cursor" />
+  </MiscObject >
+
+  <MiscObject Id="EnemyCursor">
+    <TextureInfo TextureName="Textures/EnemyCursor" />
+  </MiscObject>
+
+  <MiscObject Id="Footprints">
+    <TextureInfo TextureName="Textures/Footsteps" />
+  </MiscObject>
+
+  <MiscObject Id="X">
+    <TextureInfo TextureName="Textures/X" />
+  </MiscObject>
+
+  <MiscObject Id="Frame_Ranger">
+    <TextureInfo TextureName="Textures/Frames/Ranger"  Height="96" Width="96" />
+  </MiscObject>
+
+  <MiscObject Id="Frame_Fool">
+    <TextureInfo TextureName="Textures/Frames/Fool"  Height="96" Width="96" />
+  </MiscObject>
+
+  <MiscObject Id="Frame_Footsoldier">
+    <TextureInfo TextureName="Textures/Frames/Footsoldier"  Height="96" Width="96" />
+  </MiscObject>
+
+  <MiscObject Id="StatusEffect_FreeMove">
+    <TextureInfo IconName="RunnyGuyIcon" />
+  </MiscObject>
+  <MiscObject Id="StatusEffect_ActAgain">
+    <TextureInfo IconName="RunnyGuyIcon" />
+  </MiscObject>
+  <MiscObject Id="StatusEffect_MoveAfterAttacking">
+    <TextureInfo IconName="RunnyGuyIcon" />
+  </MiscObject>
+  <MiscObject Id="StatusEffect_SkipTurn">
+    <TextureInfo IconName="QuestionMarkIcon" />
+  </MiscObject>
+  <MiscObject Id="StatusEffect_Stun">
+    <TextureInfo IconName="OddStarIcon" />
+  </MiscObject>
+
+</MiscObjects>
+
+
+
+

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MiscObjects xmlns="Schema.xsd">
+
+  <MiscObject Id="Cursor">
+    <TextureInfo TextureName="Textures/Cursor" />
+  </MiscObject >
+
+  <MiscObject Id="EnemyCursor">
+    <TextureInfo TextureName="Textures/EnemyCursor" />
+  </MiscObject>
+
+  <MiscObject Id="Footprints">
+    <TextureInfo TextureName="Textures/Footsteps" />
+  </MiscObject>
+
+  <MiscObject Id="X">
+    <TextureInfo TextureName="Textures/X" />
+  </MiscObject>
+
+  <MiscObject Id="Frame_Ranger">
+    <TextureInfo TextureName="Textures/Frames/Ranger"  Height="96" Width="96" />
+  </MiscObject>
+
+  <MiscObject Id="Frame_Fool">
+    <TextureInfo TextureName="Textures/Frames/Fool"  Height="96" Width="96" />
+  </MiscObject>
+
+  <MiscObject Id="Frame_Footsoldier">
+    <TextureInfo TextureName="Textures/Frames/Footsoldier"  Height="96" Width="96" />
+  </MiscObject>
+
+  <MiscObject Id="GoldCoin">
+    <TextureInfo TextureName="Icons/Misc/GoldBag" />
+  </MiscObject>
+
+  <MiscObject Id="GoldCoins">
+    <TextureInfo TextureName="Icons/Misc/GoldCoins" />
+  </MiscObject>
+
+  <MiscObject Id="stockIcon">
+    <TextureInfo TextureName="Icons/stockIcon" />
+  </MiscObject>
+
+  <MiscObject Id="sampleIcon">
+    <TextureInfo TextureName="Icons/sampleIcon" />
+  </MiscObject>
+
+  <MiscObject Id="Buy">
+    <TextureInfo TextureName="Icons/Buy" />
+  </MiscObject>
+  
+  <MiscObject Id="Sell">
+    <TextureInfo TextureName="Icons/Sell" />
+  </MiscObject>
+
+  <MiscObject Id="Scroll1">
+    <TextureInfo TextureName="Icons/Scroll1" />
+  </MiscObject>
+
+  <MiscObject Id="PowerIcon">
+    <TextureInfo TextureName="Icons/Misc/PowerIcon" />
+  </MiscObject>
+
+  <MiscObject Id="RangeIcon">
+    <TextureInfo TextureName="Icons/Misc/RangeIcon" />
+  </MiscObject>
+
+  <MiscObject Id="RunnyGuyIcon">
+    <TextureInfo TextureName="Icons/Misc/RunnyGuyIcon" />
+  </MiscObject>
+
+  <MiscObject Id="CrownIcon">
+    <TextureInfo TextureName="Icons/Misc/CrownIcon" />
+  </MiscObject>
+
+  <MiscObject Id="OddStarIcon">
+    <TextureInfo TextureName="Icons/Misc/OddStarIcon" />
+  </MiscObject>
+
+  <MiscObject Id="QuestionMarkIcon">
+    <TextureInfo TextureName="Icons/Misc/QuestionMarkIcon" />
+  </MiscObject>
+
+  <MiscObject Id="TreasureChestIcon">
+    <TextureInfo TextureName="Icons/Misc/TreasureChestIcon" />
+  </MiscObject>
+
+  <MiscObject Id="ShieldIcon">
+    <TextureInfo TextureName="Icons/Misc/ShieldIcon" />
+  </MiscObject>
+
+  <MiscObject Id="Scroll">
+    <TextureInfo TextureName="Icons/Items/Scroll" />
+  </MiscObject>
+
+</MiscObjects>
+
+
+
+

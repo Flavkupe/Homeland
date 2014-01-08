@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Abilities xmlns="Schema.xsd">
+  
+  <Ability Id="RockThrow" DisplayName="Rock Throw">    
+    <TextureInfo IconName="RockThrow" />
+    <VisualEffect TargetType="Enemy" VisualEffectType="LinearProjectile" Cycles="1" EffectName="RockThrow" Scale="0.3" />      
+    <AbilityStats AbilityType="TargetEnemy" Cooldown="1" APCost="1" MaxRange="4" MinRange="2" >
+      <AbilityDirectEffect TargetType="Enemy" HPModification="-1" />
+    </AbilityStats>    
+  </Ability>
+
+  <Ability Id="Focus" DisplayName="Focus">
+    <TextureInfo TextureName="Textures/Abilities/Focus" IconName="Focus" />
+    <VisualEffect TargetType="Self" VisualEffectType="Animation" Cycles="1"  EffectName="Slash" />      
+    <AbilityStats AbilityType="Self" Cooldown="2" APCost="0" >
+      <AbilityProperty PropertyType="CanActAfter" />
+      <AbilityDirectEffect TargetType="Self" APModification="3" />
+    </AbilityStats>
+  </Ability>
+
+  <Ability Id="Mock" DisplayName="Mock">
+    <TextureInfo IconName="JesterCap" />
+    <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="2"  EffectName="Slash" />
+    <AbilityStats AbilityType="TargetEnemy" Cooldown="2" APCost="3" MaxRange="5" MinRange="1" >
+      <AbilityDirectEffect TargetType="Enemy" APModification="-5" MoraleModification="-10" />
+    </AbilityStats>
+  </Ability>
+
+  <Ability Id="Muddle" DisplayName="Muddle">
+    <TextureInfo IconName="QuestionMarkIcon" />
+    <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="3"  EffectName="Slash" />
+    <AbilityStats AbilityType="TargetEnemy" Cooldown="5" APCost="8" MaxRange="4" MinRange="1" >
+      <AbilityDirectEffect TargetType="Enemy" MoraleModification="-20" />
+      <AbilityStatusEffect TargetType="Enemy" StatusEffect="SkipTurn" Duration="1" />
+      <AbilityStatusEffect TargetType="Enemy" StatusEffect="Stun" Duration="0" />
+    </AbilityStats>
+  </Ability>
+
+  <Ability Id="Charge" DisplayName="Charge">
+    <TextureInfo IconName="RunnyGuyIcon" />
+    <VisualEffect TargetType="Self" VisualEffectType="Animation" Cycles="1" EffectName="Slash" />
+    <AbilityStats AbilityType="Self" Cooldown="1" APCost="0" >
+      <AbilityProperty PropertyType="CanActAfter" />
+      <AbilityStatusEffect TargetType="Self" StatusEffect="FreeMove" Duration="0" />
+    </AbilityStats>
+  </Ability>
+
+  <Ability Id="FocusedStrike" DisplayName="Focused Strike">
+    <TextureInfo IconName="PowerIcon" />
+    <VisualEffect TargetType="Enemy" VisualEffectType="Animation" Cycles="1"  EffectName="Slash" />
+    <AbilityStats AbilityType="TargetEnemy" Cooldown="3" APCost="10" MaxRange="1" MinRange="1" >
+      <AbilityDirectEffect TargetType="Enemy" HPModification="-20" />
+    </AbilityStats>
+  </Ability>
+
+  <Ability Id="AimedShot" DisplayName="Aimed Shot">
+    <TextureInfo IconName="RangeIcon" />
+    <VisualEffect TargetType="Enemy" VisualEffectType="LinearProjectile" Cycles="1" EffectName="RockThrow" Scale="0.3" />
+    <AbilityStats AbilityType="TargetEnemy" Cooldown="3" APCost="10" MaxRange="8" MinRange="3" >
+      <AbilityDirectEffect TargetType="Enemy" HPModification="-20" />
+    </AbilityStats>
+  </Ability>
+
+  <Ability Id="QuickShot" DisplayName="Quick Shot">
+    <TextureInfo IconName="BasicBow" />
+    <VisualEffect TargetType="Enemy" VisualEffectType="LinearProjectile" Cycles="1" EffectName="RockThrow" Scale="0.3" />
+    <AbilityStats AbilityType="TargetEnemy" Cooldown="3" APCost="1" MaxRange="6" MinRange="2" >
+      <AbilityDirectEffect TargetType="Enemy" HPModification="-5" />
+      <CooldownEffect TargetType="Self" CooldownTarget="Specific" SpecificName="QuickShot" Condition="OnKill" />
+      <CooldownEffect TargetType="Self" CooldownTarget="Specific" SpecificName="AimedShotShot" Condition="OnKill" />
+    </AbilityStats>
+  </Ability>
+
+  <Ability Id="Battlecry" DisplayName="Battle Cry">
+    <TextureInfo IconName="HornInstrument" />
+    <VisualEffect TargetType="Self" VisualEffectType="Animation" Cycles="1" EffectName="Slash" />
+    <AbilityStats AbilityType="SelfRadialAll" Cooldown="5" APCost="5" MaxRange="5" MinRange="0" >
+      <AbilityProperty PropertyType="CanActAfter" />
+      <AbilityDirectEffect TargetType="Enemy" APModification="-3" MoraleModification="-10" />
+      <AbilityDirectEffect TargetType="Ally" APModification="3" MoraleModification="10" />
+      <AbilityDirectEffect TargetType="Self" APModification="5" MoraleModification="20" />
+    </AbilityStats>
+  </Ability>   
+  
+</Abilities>
+
+
+
+

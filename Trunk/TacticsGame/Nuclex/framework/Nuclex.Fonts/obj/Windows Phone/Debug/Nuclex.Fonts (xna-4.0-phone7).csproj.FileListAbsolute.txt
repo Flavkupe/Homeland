@@ -1,0 +1,17 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\LucidaSpriteFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\UnitTestVectorFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Fonts.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Fonts.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Fonts.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Graphics.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Graphics.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Graphics.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-phone7\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\Windows Phone\Debug\Nuclex.Fonts.Resources.UnitTestResources.resources
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\Windows Phone\Debug\GenerateResource.read.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\Windows Phone\Debug\GenerateResource.write.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\Windows Phone\Debug\Nuclex.Fonts.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\Windows Phone\Debug\Nuclex.Fonts.pdb

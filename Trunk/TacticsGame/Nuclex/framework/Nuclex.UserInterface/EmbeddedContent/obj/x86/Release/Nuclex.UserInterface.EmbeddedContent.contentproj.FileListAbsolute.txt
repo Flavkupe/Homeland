@@ -1,0 +1,1 @@
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\EmbeddedContent\obj\x86\Release\ResolveAssemblyReference.cache

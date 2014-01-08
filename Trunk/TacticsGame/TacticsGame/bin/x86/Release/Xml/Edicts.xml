@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Edicts xmlns="Schema.xsd">
+  <Edict Id="Mercantilism" DisplayName="Mercantilism">
+    <TextureInfo TextureName="Icons/Items/Map" />
+    <Description>Merchant visitors are tax-exempt.</Description>
+  </Edict>
+
+  <Edict Id="GovernmentControl" DisplayName="Government Control">
+    <TextureInfo TextureName="Icons/Misc/Fist" />
+    <Description>Shops cannot sell items if guild has outstanding order for them.</Description>
+  </Edict>
+
+  <Edict Id="HardWork" DisplayName="Hard Work">
+    <TextureInfo TextureName="Icons/Items/Whip" />
+    <Description>Units work harder.</Description>
+  </Edict>
+
+  <Edict Id="Protectionism" DisplayName="Protectionism">
+    <TextureInfo TextureName="Icons/Items/IronShield" />
+    <Description>Visitors cannot buy the last of each item.</Description>
+  </Edict>
+
+  <Edict Id="LongLunchBreak" DisplayName="Long Lunch Break">
+    <TextureInfo TextureName="Icons/Items/Ham" />
+    <Description>Units are less active but gain loyalty.</Description>
+  </Edict>  
+</Edicts>

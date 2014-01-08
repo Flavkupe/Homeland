@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>TextBatch\DefaultTextEffect.fx</Source>
+      <Name>TextBatch\DefaultTextEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\EmbeddedContent\TextBatch\DefaultTextEffect.xnb</Output>
+      <Time>2010-06-13T14:02:22-07:00</Time>
+    </Item>
+    <Item>
+      <Source>UnitTest\UnitTestVectorFont.spritefont</Source>
+      <Name>UnitTest\UnitTestVectorFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>NuclexVectorFontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\EmbeddedContent\UnitTest\UnitTestVectorFont.xnb</Output>
+      <Time>2009-08-04T01:46:08-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\EmbeddedContent\</RootDirectory>
+      <LoggerRootDirectory>C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\EmbeddedContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\EmbeddedContent\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts.Content.TrueTypeImporter\bin\xna-4.0-x86\Debug\Nuclex.Fonts.Content.TrueTypeImporter.dll</Key>
+        <Value>2011-03-16T20:34:08-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-20T20:36:42.0707144-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

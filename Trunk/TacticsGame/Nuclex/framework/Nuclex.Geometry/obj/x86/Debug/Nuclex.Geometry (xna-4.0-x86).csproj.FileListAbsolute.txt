@@ -1,0 +1,30 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Geometry.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Geometry.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\nunit.framework.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\nunit.framework.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\obj\x86\Debug\Nuclex.Geometry.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Geometry\obj\x86\Debug\Nuclex.Geometry.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Geometry.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Geometry.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\Nuclex.Geometry.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\Nuclex.Geometry.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Geometry.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Geometry.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\Nuclex.Geometry.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Geometry\obj\x86\Debug\Nuclex.Geometry.pdb

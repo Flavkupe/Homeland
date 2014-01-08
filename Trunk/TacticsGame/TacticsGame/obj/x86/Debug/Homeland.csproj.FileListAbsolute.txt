@@ -1,0 +1,399 @@
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Abilities.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Misc.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Tiles.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Items.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\GameObjects.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Grass.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\Focus.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\RockThrow.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\brickHouseItemShop.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Apple.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bottle.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sword.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.UIResources.resources
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Ranger.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Diamond.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GoldIngot.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeatherBoots.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Spear.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Fool.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Footsoldier.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Wood.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Stone.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coin.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\ShopkeepIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\stockIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\foolIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\footmanIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\rangerIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Building2.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\smithy.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\SmithyIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.exe.manifest
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.application
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Avatar.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Net.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Storage.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Video.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Xact.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Video.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Avatar.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Net.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Storage.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.exe.manifest
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.application
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Buy.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Sell.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Scroll1.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\wolf.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\wolfIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\fool.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\ranger.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\travellerIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\junkCollectorIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bone.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Feather.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Fur.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rags.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\PowerIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RangeIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RunnyGuyIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CrownIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\OddStarIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\QuestionMarkIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\ShieldIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\TreasureChestIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Tavern.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Fence.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\NiceRoad.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Barrier.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Cobblestone.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\StoneWall.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicBow.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicCap.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicDagger.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ClothShirt.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Recipes.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronBar.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronOre.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\WoodHouse.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Branch.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coal.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Flint.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Opal.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rubble.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ruby.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sapphire.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Shale.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallCrystal.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeResin.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeSap.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutRuby.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutSapphire.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bark.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldBag.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldCoins.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Book.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Fist.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ham.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronShield.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Map.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Scroll.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Whip.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Edicts.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Workshop.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Balm.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BulbousRoot.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\EnergyElixer.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GreenShroom.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HealingPotion.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HerbCluster.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Horn.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeafCluster.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Leather.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\NiceFur.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\OpenTreasure.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\RedShroom.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Root.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallTincture.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Talon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Vial.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WhiteFlowers.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WildMushroom.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\YellowFlowers.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\BottleTrader.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\SandClock.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\footsoldier.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\BlackOrb.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GreenOrb.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RedOrb.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\YellowishOrb.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\PowerCollections.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CheckMark.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Zs.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\VisualEffects.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HornInstrument.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\JesterCap.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\MainFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\MiscSheet.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\DefaultFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\TitleFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\UnitTestFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SuaveSheet.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Icons.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\IconsSheet.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ItemsSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\DefaultFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\TitleFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\UnitTestFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SuaveSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Abilities.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Icons.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\VisualEffects.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Edicts.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Misc.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Recipes.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Tiles.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Items.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\GameObjects.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Grass.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\Focus.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\RockThrow.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\brickHouseItemShop.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Apple.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bottle.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sword.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Ranger.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Diamond.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GoldIngot.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeatherBoots.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Spear.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Fool.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Footsoldier.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Wood.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Stone.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coin.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\ShopkeepIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\stockIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\foolIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\footmanIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\rangerIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Building2.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\smithy.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\SmithyIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Buy.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Sell.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Scroll1.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\wolf.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\wolfIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\fool.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\ranger.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\travellerIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\junkCollectorIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bone.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Feather.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Fur.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rags.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\PowerIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RangeIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RunnyGuyIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CrownIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\OddStarIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\QuestionMarkIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\ShieldIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\TreasureChestIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Tavern.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Fence.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\NiceRoad.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Barrier.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Cobblestone.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\StoneWall.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicBow.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicCap.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicDagger.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ClothShirt.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronBar.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronOre.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\WoodHouse.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Branch.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coal.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Flint.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Opal.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rubble.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ruby.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sapphire.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Shale.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallCrystal.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeResin.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeSap.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutRuby.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutSapphire.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bark.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldBag.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldCoins.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Book.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Fist.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ham.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronShield.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Map.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Scroll.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Whip.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Workshop.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Balm.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BulbousRoot.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\EnergyElixer.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GreenShroom.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HealingPotion.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HerbCluster.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Horn.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeafCluster.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Leather.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\NiceFur.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\OpenTreasure.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\RedShroom.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Root.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallTincture.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Talon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Vial.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WhiteFlowers.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WildMushroom.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\YellowFlowers.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\BottleTrader.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\SandClock.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\footsoldier.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\BlackOrb.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GreenOrb.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RedOrb.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\YellowishOrb.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CheckMark.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Zs.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HornInstrument.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\JesterCap.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\MiscSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\IconsSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ItemsSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\MainFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.exe.manifest
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.application
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.exe
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Avatar.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Net.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Storage.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Video.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\PowerCollections.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Xact.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Video.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Avatar.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Net.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Microsoft.Xna.Framework.Storage.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.UIResources.resources
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.exe.manifest
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.application
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.exe
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.csprojResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.csproj.GenerateResource.Cache

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Icons xmlns="Schema.xsd">
+  
+  <Icon Id="BlackOrb">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="0" YCoord="0"/>
+  </Icon>
+  <Icon Id="Book">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="1" YCoord="0"/>
+  </Icon>
+  <Icon Id="CheckMark">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="2" YCoord="0"/>
+  </Icon>
+  <Icon Id="CrownIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="3" YCoord="0"/>
+  </Icon>
+  <Icon Id="Fist">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="4" YCoord="0"/>
+  </Icon>
+  <Icon Id="GoldBag">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="5" YCoord="0"/>
+  </Icon>
+  <Icon Id="GoldCoins">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="6" YCoord="0"/>
+  </Icon>
+  <Icon Id="GreenOrb">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="7" YCoord="0"/>
+  </Icon>
+  <Icon Id="OddStarIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="0" YCoord="1"/>
+  </Icon>
+  <Icon Id="PowerIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="1" YCoord="1"/>
+  </Icon>
+  <Icon Id="QuestionMarkIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="2" YCoord="1"/>
+  </Icon>
+  <Icon Id="RangeIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="3" YCoord="1"/>
+  </Icon>
+  <Icon Id="RedOrb">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="4" YCoord="1"/>
+  </Icon>
+  <Icon Id="RunnyGuyIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="5" YCoord="1"/>
+  </Icon>
+  <Icon Id="SandClock">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="6" YCoord="1"/>
+  </Icon>
+  <Icon Id="ShieldIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="7" YCoord="1"/>
+  </Icon>
+  <Icon Id="TreasureChestIcon">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="0" YCoord="2"/>
+  </Icon>
+  <Icon Id="YellowOrb">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="1" YCoord="2"/>
+  </Icon>
+  <Icon Id="Zs">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="2" YCoord="2"/>
+  </Icon>
+  <Icon Id="RockThrow">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="4" YCoord="2"/>
+  </Icon>
+  <Icon Id="Focus">
+    <IconInfo SheetName="Icons/Misc/MiscSheet" XCoord="3" YCoord="2"/>
+  </Icon>
+
+  <Icon Id="Apple">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="0"/>
+  </Icon>
+  <Icon Id="Balm">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="0"/>
+  </Icon>
+  <Icon Id="Bark">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="0"/>
+  </Icon>
+  <Icon Id="BasicBow">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="0"/>
+  </Icon>
+  <Icon Id="BasicCap">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="0"/>
+  </Icon>
+  <Icon Id="BasicDagger">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="0"/>
+  </Icon>
+  <Icon Id="Bone">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="0"/>
+  </Icon>
+  <Icon Id="Bottle">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="0"/>
+  </Icon>
+  <Icon Id="Branch">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="1"/>
+  </Icon>
+  <Icon Id="BulbousRoot">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="1"/>
+  </Icon>
+  <Icon Id="ClothShirt">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="1"/>
+  </Icon>
+  <Icon Id="Coal">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="1"/>
+  </Icon>
+  <Icon Id="Coin">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="1"/>
+  </Icon>
+  <Icon Id="Diamond">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="1"/>
+  </Icon>
+  <Icon Id="EnergyElixer">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="1"/>
+  </Icon>
+  <Icon Id="Feather">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="1"/>
+  </Icon>
+  <Icon Id="Flint">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="2"/>
+  </Icon>
+  <Icon Id="Fur">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="2"/>
+  </Icon>
+  <Icon Id="GoldIngot">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="2"/>
+  </Icon>
+  <Icon Id="GreenShroom">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="2"/>
+  </Icon>
+  <Icon Id="Ham">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="2"/>
+  </Icon>
+  <Icon Id="HealingPotion">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="2"/>
+  </Icon>
+  <Icon Id="HerbCluster">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="2"/>
+  </Icon>
+  <Icon Id="Horn">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="2"/>
+  </Icon>
+  <Icon Id="HornInstrument">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="3"/>
+  </Icon>
+  <Icon Id="IronBar">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="3"/>
+  </Icon>
+  <Icon Id="IronOre">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="3"/>
+  </Icon>
+  <Icon Id="IronShield">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="3"/>
+  </Icon>
+  <Icon Id="JesterCap">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="3"/>
+  </Icon>
+  <Icon Id="LeafCluster">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="3"/>
+  </Icon>
+  <Icon Id="Leather">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="3"/>
+  </Icon>
+  <Icon Id="LeatherBoots">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="3"/>
+  </Icon>
+  <Icon Id="Map">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="4"/>
+  </Icon>
+  <Icon Id="NiceFur">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="4"/>
+  </Icon>
+  <Icon Id="Opal">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="4"/>
+  </Icon>
+  <Icon Id="OpenTreasure">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="4"/>
+  </Icon>
+  <Icon Id="Rags">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="4"/>
+  </Icon>
+  <Icon Id="RedShroom">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="4"/>
+  </Icon>
+  <Icon Id="Root">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="4"/>
+  </Icon>
+  <Icon Id="Rubble">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="4"/>
+  </Icon>
+  <Icon Id="Ruby">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="5"/>
+  </Icon>
+  <Icon Id="Sapphire">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="5"/>
+  </Icon>
+  <Icon Id="Scroll">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="5"/>
+  </Icon>
+  <Icon Id="Shale">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="5"/>
+  </Icon>
+  <Icon Id="SmallCrystal">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="5"/>
+  </Icon>
+  <Icon Id="SmallTincture">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="5"/>
+  </Icon>
+  <Icon Id="Spear">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="5"/>
+  </Icon>
+  <Icon Id="Stone">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="5"/>
+  </Icon>
+  <Icon Id="Sword">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="6"/>
+  </Icon>
+  <Icon Id="Talon">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="6"/>
+  </Icon>
+  <Icon Id="TreeResin">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="6"/>
+  </Icon>
+  <Icon Id="TreeSap">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="6"/>
+  </Icon>
+  <Icon Id="UncutRuby">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="6"/>
+  </Icon>
+  <Icon Id="UncutSapphire">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="6"/>
+  </Icon>
+  <Icon Id="Vial">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="6"/>
+  </Icon>
+  <Icon Id="Whip">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="6"/>
+  </Icon>
+  <Icon Id="WhiteFlowers">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="7"/>
+  </Icon>
+  <Icon Id="WildMushroom">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="7"/>
+  </Icon>
+  <Icon Id="Wood">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="7"/>
+  </Icon>
+  <Icon Id="YellowFlowers">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="7"/>
+  </Icon>
+  <Icon Id="CrackedSword">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="7"/>
+  </Icon>
+  <Icon Id="SharpSaber">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="7"/>
+  </Icon>
+  <Icon Id="ShinyAxe">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="7"/>
+  </Icon>
+  <Icon Id="LeatherBreastplate">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="7"/>
+  </Icon>
+  <Icon Id="IronBreastplate">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="8"/>
+  </Icon>
+  <Icon Id="ShortSword">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="8"/>
+  </Icon>
+  <Icon Id="SmallKnife">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="8"/>
+  </Icon>
+  <Icon Id="BattleAxe">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="3" YCoord="8"/>
+  </Icon>
+  <Icon Id="StrongBow">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="4" YCoord="8"/>
+  </Icon>
+  <Icon Id="MetalCap">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="5" YCoord="8"/>
+  </Icon>
+  <Icon Id="Glaive">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="6" YCoord="8"/>
+  </Icon>
+  <Icon Id="Hatchet">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="7" YCoord="8"/>
+  </Icon>
+  <Icon Id="MetalBoots">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="0" YCoord="9"/>
+  </Icon>
+  <Icon Id="MifsSword">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="1" YCoord="9"/>
+  </Icon>
+  <Icon Id="CheapBow">
+    <IconInfo SheetName="Icons/Items/ItemsSheet" XCoord="2" YCoord="9"/>
+  </Icon>
+
+  <Icon Id="BottleTrader">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="0" YCoord="0"/>
+  </Icon>
+  <Icon Id="Buy">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="1" YCoord="0"/>
+  </Icon>
+  <Icon Id="defaultIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="2" YCoord="0"/>
+  </Icon>
+  <Icon Id="fool">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="3" YCoord="0"/>
+  </Icon>
+  <Icon Id="footman">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="4" YCoord="0"/>
+  </Icon>
+  <Icon Id="junkCollectorIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="5" YCoord="0"/>
+  </Icon>
+  <Icon Id="ranger">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="6" YCoord="0"/>
+  </Icon>
+  <Icon Id="sampleEnemyIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="7" YCoord="0"/>
+  </Icon>
+  <Icon Id="sampleIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="0" YCoord="1"/>
+  </Icon>
+  <Icon Id="Scroll1">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="1" YCoord="1"/>
+  </Icon>
+  <Icon Id="Sell">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="2" YCoord="1"/>
+  </Icon>
+  <Icon Id="ShopkeepIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="3" YCoord="1"/>
+  </Icon>
+  <Icon Id="SmithyIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="4" YCoord="1"/>
+  </Icon>
+  <Icon Id="stockIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="5" YCoord="1"/>
+  </Icon>
+  <Icon Id="travellerIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="6" YCoord="1"/>
+  </Icon>
+  <Icon Id="wolfIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="7" YCoord="1"/>
+  </Icon>
+  <Icon Id="WeaponTraderIcon">
+    <IconInfo SheetName="Icons/IconsSheet" XCoord="0" YCoord="2"/>
+  </Icon>
+</Icons>

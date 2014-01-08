@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>DebugDrawer\LucidaSpriteFont.spritefont</Source>
+      <Name>DebugDrawer\LucidaSpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>NuclexSpriteFontDescriptionProcessor</Processor>
+      <Parameters>
+        <Data Key="Origin">BaseLine</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\nuclex-framework-r1404-sources\framework\Nuclex.Graphics\bin\EmbeddedContent\DebugDrawer\LucidaSpriteFont.xnb</Output>
+      <Time>2009-08-03T22:04:26-07:00</Time>
+    </Item>
+    <Item>
+      <Source>DebugDrawer\SolidColorEffect.fx</Source>
+      <Name>DebugDrawer\SolidColorEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\nuclex-framework-r1404-sources\framework\Nuclex.Graphics\bin\EmbeddedContent\DebugDrawer\SolidColorEffect.xnb</Output>
+      <Time>2010-06-09T16:15:14-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{1B2C1970-E62B-4F9F-9BD9-D273FFE465E0}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\nuclex-framework-r1404-sources\framework\Nuclex.Graphics\EmbeddedContent\</RootDirectory>
+      <LoggerRootDirectory>D:\nuclex-framework-r1404-sources\framework\Nuclex.Graphics\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\nuclex-framework-r1404-sources\framework\Nuclex.Graphics\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\nuclex-framework-r1404-sources\framework\Nuclex.Graphics\bin\EmbeddedContent\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts.Content.TrueTypeImporter\bin\xna-4.0-x86\Debug\Nuclex.Fonts.Content.TrueTypeImporter.dll</Key>
+        <Value>2011-03-16T19:34:08-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>D:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-02-27T16:14:42.7962794-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

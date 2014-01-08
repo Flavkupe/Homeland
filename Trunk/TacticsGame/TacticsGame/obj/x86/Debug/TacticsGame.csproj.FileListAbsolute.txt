@@ -1,0 +1,213 @@
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\TacticsGame.exe
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\TacticsGame.pdb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.exe
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.pdb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\grass.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.pdb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.UIResources.resources
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Grass.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\TacticsGame.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\TacticsGame.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.UIResources.resources
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\Focus.xnb
+C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\RockThrow.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Grass.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\Focus.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\RockThrow.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.UIResources.resources
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Grass.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\Focus.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\RockThrow.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\TacticsGame.exe
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\TacticsGame.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Input.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Math.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Networking.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Support.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Windows.Forms.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\NMock.StrongNamed.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.UIResources.resources
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.exe
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\brickHouseItemShop.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Apple.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bottle.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sword.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\brickHouseItemShop.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Apple.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bottle.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sword.xnb
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\TacticsGame.Resources.resources
+C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\GameObjects.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Abilities.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Misc.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Tiles.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\Items.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Xml\GameObjects.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Homeland.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGame\obj\x86\Debug\Homeland.pdb

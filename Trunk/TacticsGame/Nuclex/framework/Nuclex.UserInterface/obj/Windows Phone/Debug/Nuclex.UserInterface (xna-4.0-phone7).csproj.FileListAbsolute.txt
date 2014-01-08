@@ -1,0 +1,19 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\DefaultFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\TitleFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\UnitTestFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\SuaveSheet.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.UserInterface.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.UserInterface.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.UserInterface.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.Input.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.Input.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.Input.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\bin\xna-4.0-phone7\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\obj\Windows Phone\Debug\Nuclex.UserInterface.Resources.SuaveSkinResources.resources
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\obj\Windows Phone\Debug\GenerateResource.read.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\obj\Windows Phone\Debug\GenerateResource.write.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\obj\Windows Phone\Debug\Nuclex.UserInterface.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\obj\Windows Phone\Debug\Nuclex.UserInterface.pdb

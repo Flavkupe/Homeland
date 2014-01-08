@@ -1,0 +1,209 @@
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\DefaultTextEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestVectorFont.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\ScreenMaskEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WaterSurfaceEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LucidaSpriteFont.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SolidColorEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\DefaultFont.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\TitleFont.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestFont.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SuaveSheet.xnb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.exe
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.dll
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.xml
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+D:\nuclex-framework-r1404-sources\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Images\Elf.xnb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Images\Elf.xnb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.exe
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+C:\Users\Flav\Desktop\nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\DefaultTextEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestVectorFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\ScreenMaskEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WaterSurfaceEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LucidaSpriteFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SolidColorEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\DefaultFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\TitleFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SuaveSheet.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Images\Elf.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.exe
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\DefaultTextEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestVectorFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\ScreenMaskEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WaterSurfaceEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LucidaSpriteFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SolidColorEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\DefaultFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\TitleFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\UnitTestFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SuaveSheet.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Images\Elf.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Fonts.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Geometry.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.SpecialEffects.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Graphics.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Input.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.UserInterface.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Game.ContentCompressor.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\LzmaSharp.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\bin\x86\Debug\SlimDX.DirectInput.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb

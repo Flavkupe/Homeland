@@ -1,0 +1,78 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.Resources.TextBatchResources.resources
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.Resources.UnitTestResources.resources
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\LucidaSpriteFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\SolidColorEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\DefaultTextEffect.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\UnitTestVectorFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Fonts.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Fonts.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\nunit.framework.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\nunit.framework.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\LucidaSpriteFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\SolidColorEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\DefaultTextEffect.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\UnitTestVectorFont.xnb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Fonts.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Fonts.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.Resources.TextBatchResources.resources
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.Resources.UnitTestResources.resources
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\LucidaSpriteFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\SolidColorEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\DefaultTextEffect.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\UnitTestVectorFont.xnb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Fonts.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Fonts.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Graphics.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.Resources.TextBatchResources.resources
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.Resources.UnitTestResources.resources
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Fonts\obj\x86\Debug\Nuclex.Fonts.pdb

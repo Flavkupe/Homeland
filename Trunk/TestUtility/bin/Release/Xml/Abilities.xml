@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Abilities xmlns="Schema.xsd">
+  
+  <Ability Id="RockThrow" DisplayName="Rock Throw">    
+    <TextureInfo TextureName="Textures/Abilities/RockThrow" />
+    <AbilityStats APCost="1" MaxRange="4" MinRange="2" />
+  </Ability>
+
+  <Ability Id="Focus" DisplayName="Focus">
+    <TextureInfo TextureName="Textures/Abilities/Focus" />
+    <AbilityStats APCost="0" />
+  </Ability>
+
+</Abilities>
+
+
+
+

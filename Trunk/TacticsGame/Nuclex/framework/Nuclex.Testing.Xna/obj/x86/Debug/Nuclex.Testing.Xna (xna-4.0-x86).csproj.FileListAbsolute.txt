@@ -1,0 +1,30 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\nunit.framework.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\nunit.framework.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\obj\x86\Debug\Nuclex.Testing.Xna.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Testing.Xna\obj\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\Nuclex.Testing.Xna.dll
+C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.Testing.Xna\obj\x86\Debug\Nuclex.Testing.Xna.pdb

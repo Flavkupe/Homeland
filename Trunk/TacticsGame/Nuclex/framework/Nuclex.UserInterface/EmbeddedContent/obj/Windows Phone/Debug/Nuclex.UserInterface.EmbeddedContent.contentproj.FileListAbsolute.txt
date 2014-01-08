@@ -1,0 +1,1 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\EmbeddedContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache

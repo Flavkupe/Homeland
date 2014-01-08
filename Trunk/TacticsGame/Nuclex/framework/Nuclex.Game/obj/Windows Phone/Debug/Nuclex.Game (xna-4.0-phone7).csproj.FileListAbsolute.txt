@@ -1,0 +1,15 @@
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\LucidaSpriteFont.xnb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Game.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Game.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Game.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\LzmaSharp.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Graphics.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Support.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Graphics.pdb
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Graphics.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\LzmaSharp.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\bin\xna-4.0-phone7\Debug\Nuclex.Support.xml
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\Windows Phone\Debug\Nuclex.Game.dll
+D:\nuclex-framework-r1404-sources\framework\Nuclex.Game\obj\Windows Phone\Debug\Nuclex.Game.pdb
