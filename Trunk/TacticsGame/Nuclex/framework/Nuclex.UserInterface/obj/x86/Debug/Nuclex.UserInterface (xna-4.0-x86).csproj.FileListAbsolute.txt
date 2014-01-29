@@ -84,3 +84,31 @@ C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsG
 C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Nuclex.UserInterface.pdb
 C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.UserInterface.xml
 C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.UserInterface.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Nuclex.UserInterface.pdb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Nuclex.UserInterface (xna-4.0-x86).csprojResolveAssemblyReference.cache
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Nuclex.UserInterface.Resources.SuaveSkinResources.resources
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Nuclex.UserInterface.Resources.UnitTestResources.resources
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Nuclex.UserInterface (xna-4.0-x86).csproj.GenerateResource.Cache
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\DefaultFont.xnb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\TitleFont.xnb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\UnitTestFont.xnb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\SuaveSheet.xnb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.UserInterface.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.UserInterface.dll
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.UserInterface.pdb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\NMock.StrongNamed.dll
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Input.dll
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Support.dll
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.dll
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\nunit.framework.dll
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.dll
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\NMock.StrongNamed.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Input.pdb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Input.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Support.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.pdb
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\Nuclex.Testing.Xna.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\nunit.framework.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\bin\xna-4.0-x86\Debug\SlimDX.DirectInput.xml
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\obj\x86\Debug\Nuclex.UserInterface.dll

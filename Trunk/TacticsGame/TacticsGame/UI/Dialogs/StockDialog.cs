@@ -12,6 +12,7 @@ using TacticsGame.GameObjects.EntityMetadata;
 using TacticsGame.GameObjects.Owners;
 using System.Diagnostics;
 using TacticsGame.GameObjects.Units;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Dialogs
 {

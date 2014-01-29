@@ -17,7 +17,8 @@ namespace TacticsGame.Managers
         public GameWorld GenerateNewWorld()
         {
             GameWorld world = new GameWorld();
-            
+            world.WorldTime = new DateTime(100, 10, 10, 8, 0, 0, DateTimeKind.Unspecified);
+
             for(int i = 0; i < 8; ++i) 
             {
                 ForeignTownInfo town = new ForeignTownInfo(NamingUtilities.GenerateTownName());                

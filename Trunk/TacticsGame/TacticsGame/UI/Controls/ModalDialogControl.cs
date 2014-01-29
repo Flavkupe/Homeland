@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Nuclex.UserInterface.Controls.Desktop;
 using TacticsGame.UI.Dialogs;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Controls
 {   
@@ -13,6 +14,7 @@ namespace TacticsGame.UI.Controls
 
         public ModalDialogControl()
         {
+            this.AffectsOrdering = false;
             this.ModalZOrder = InterfaceManager.Instance.GetNextZOrder();
         }
 

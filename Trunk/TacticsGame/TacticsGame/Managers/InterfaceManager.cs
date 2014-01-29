@@ -13,7 +13,7 @@ using TacticsGame.GameObjects.Units;
 using TacticsGame.Items;
 using TacticsGame.Utility.Classes;
 
-namespace TacticsGame
+namespace TacticsGame.Managers
 {
     public class InterfaceManager : Singleton<InterfaceManager>
     {

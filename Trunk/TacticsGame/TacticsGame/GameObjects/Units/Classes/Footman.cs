@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using TacticsGame.Items;
 using TacticsGame.Abilities;
+using TacticsGame.Managers;
 
 namespace TacticsGame.GameObjects.Units.Classes
 {

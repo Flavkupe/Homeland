@@ -24,25 +24,24 @@ namespace TacticsGame.GameObjects.Owners
             this.CurrentStats.Skills.LevelSkill(UnitSkills.SkillType.Woodcrafting, 5);
             this.CurrentStats.Skills.LevelSkill(UnitSkills.SkillType.Mining, 2);           
 
-            this.ItemPreference["Leather"] = 80;
-            this.ItemPreference["HerbCluster"] = 60;
-            this.ItemPreference["LeafCluster"] = 60;
-            this.ItemPreference["WhiteFlowers"] = 60;
-            this.ItemPreference["Bottle"] = 90;
-            this.ItemPreference["BulbousRoot"] = 50;
-            this.ItemPreference["GreenShroom"] = 50;
-            this.ItemPreference["Root"] = 60;
-            this.ItemPreference["WildMushroom"] = 60;
-            this.ItemPreference["RedShroom"] = 20;
-            this.ItemPreference["YellowFlowers"] = 50;
+            this.Preferences.ItemPreference.SetPreference("Leather", 80);
+            this.Preferences.ItemPreference.SetPreference("HerbCluster", 60);
+            this.Preferences.ItemPreference.SetPreference("LeafCluster", 60);
+            this.Preferences.ItemPreference.SetPreference("WhiteFlowers", 60);
+            this.Preferences.ItemPreference.SetPreference("Bottle", 90);
+            this.Preferences.ItemPreference.SetPreference("BulbousRoot", 50);
+            this.Preferences.ItemPreference.SetPreference("GreenShroom", 50);
+            this.Preferences.ItemPreference.SetPreference("Root", 60);
+            this.Preferences.ItemPreference.SetPreference("WildMushroom", 60);
+            this.Preferences.ItemPreference.SetPreference("RedShroom", 20);
+            this.Preferences.ItemPreference.SetPreference("YellowFlowers", 50);
 
-            this.PriceMarkupRange = 15;
+            this.Preferences.ItemPreference.PriceMarkupRange = 15;
+            this.Preferences.ItemPreference.OnlyBuysPreferredItemTypes = true;
 
             this.KnownRecipes = new List<Recipe>() { new Recipe("LeatherSet"), new Recipe("Balm"), new Recipe("Balm2"), new Recipe("EnergyElixer"), new Recipe("SmallTincture"), new Recipe("HealingPotion"), new Recipe("HealingPotion2"), new Recipe("HealingPotion3") };
 
             this.BaseStats.ActionPoints = 6;
         }
-
-        public override bool OnlyBuysPreferredItemTypes { get { return true; } }
     }
 }

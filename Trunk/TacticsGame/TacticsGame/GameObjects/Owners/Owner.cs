@@ -26,15 +26,7 @@ namespace TacticsGame.GameObjects.Owners
         {
             this.DisplayName = Utilities.GenerateRandomName(ownerType);
             this.BaseStats.ActionPoints = 6; // By default, owners get 6 AP per turn but buy/sell actions cost more for them
-        }
-        
-        /// <summary>
-        /// Whether the item needs to be in preferred list to buy
-        /// </summary>
-        public override bool OnlyBuysPreferredItemTypes
-        {
-            get { return false; }
-        }
+        }       
 
         protected override void InitializeEquipment()
         {
@@ -52,6 +44,8 @@ namespace TacticsGame.GameObjects.Owners
                 ownedBuildingID = value.ID;
             }
         }
+
+        public override bool IsShopOwner { get { return true; } }
 
         public override bool UpgradesEquipment { get { return false; } }
 

@@ -349,3 +349,4 @@ C:\code\Tactics\Trunk\TestUtility\bin\Debug\UnitTestFont.xnb
 C:\code\Tactics\Trunk\TestUtility\bin\Debug\SuaveSheet.xnb
 C:\code\Tactics\Trunk\TestUtility\obj\x86\Debug\TestUtility.csprojResolveAssemblyReference.cache
 C:\code\Tactics\Trunk\TestUtility\obj\x86\Debug\TestUtility.csproj.GenerateResource.Cache
+C:\code\Homeland\Trunk\TestUtility\obj\x86\Debug\TestUtility.pdb

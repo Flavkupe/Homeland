@@ -12,7 +12,7 @@ using TacticsGame.Items;
 using TacticsGame.Managers;
 using TacticsGame.Utility.Classes;
 
-namespace TacticsGame
+namespace TacticsGame.Managers
 {
     public class TextureManager : Singleton<TextureManager>
     {
@@ -49,6 +49,11 @@ namespace TacticsGame
         public TextureInfo GetTextureInfo(string name, ResourceType type)
         {
             return GameResourceManager.Instance.GetResourceByResourceType(name, type).TextureInfo;
+        }
+
+        public IconInfo GetIconInfo(Enum name)
+        {
+            return this.GetIconInfo(name.ToString());
         }
 
         public IconInfo GetIconInfo(string name)

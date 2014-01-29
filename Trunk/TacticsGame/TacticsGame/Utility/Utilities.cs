@@ -6,6 +6,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using TacticsGame.Utility;
 using System.Reflection;
+using TacticsGame.Managers;
+using TacticsGame.GameObjects;
 
 namespace TacticsGame
 {
@@ -48,6 +50,13 @@ namespace TacticsGame
             DrawTexture2D(texture, destination, source, color, 0.0f, 1.0f);
         }
 
+        public static void DrawTexture2D(Sprite sprite)
+        {
+            SpriteEffects effects = !sprite.FacingLeft ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
+            float scale = sprite.Scale ?? 1.0f;
+            DrawTexture2D(sprite.TextureInfo.Texture, sprite.DrawPosition, sprite.CurrentTextureSource, sprite.ColorFilter, 0.0f, scale, false, effects);
+        }
+
         /// <summary>
         /// Draws the 2D texture
         /// </summary>
@@ -60,7 +69,7 @@ namespace TacticsGame
             DrawTexture2D(texture, destination, null, color, 0.0f, 1.0f, overrideCameraCheck);
         }
 
-        public static void DrawTexture2D(Texture2D texture, Rectangle destination, Rectangle? source, Color? color = null, float rotation = 0.0f, float scale = 1.0f, bool overrideCameraCheck = false)
+        public static void DrawTexture2D(Texture2D texture, Rectangle destination, Rectangle? source, Color? color = null, float rotation = 0.0f, float scale = 1.0f, bool overrideCameraCheck = false, SpriteEffects effects = SpriteEffects.None)
         {
             GameStateManager instance = GameStateManager.Instance;
             Rectangle camera = instance.CameraView;
@@ -73,9 +82,9 @@ namespace TacticsGame
                 Vector2 position; 
                 
                 scale = scale * instance.ZoomLevel;
-                position = new Vector2(destX - camera.X, destY - camera.Y);                
+                position = new Vector2(destX - camera.X, destY - camera.Y);
 
-                TextureManager.Instance.Draw(texture, position, source, !color.HasValue ? Color.White : color.Value, rotation, origin, scale, SpriteEffects.None, 0);
+                TextureManager.Instance.Draw(texture, position, source, !color.HasValue ? Color.White : color.Value, rotation, origin, scale, effects, 0);
             }
         }
 
@@ -187,6 +196,11 @@ namespace TacticsGame
             {
                 action();
             }            
-        }        
+        }
+
+        public static int GetSpeedMultiplier(GameSpeed speed)
+        {
+            return speed == GameSpeed.Normal ? 1 : 5;
+        }
     }
 }

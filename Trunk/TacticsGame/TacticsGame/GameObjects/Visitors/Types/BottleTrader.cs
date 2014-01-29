@@ -19,10 +19,10 @@ namespace TacticsGame.GameObjects.Visitors.Types
 
             this.Inventory.Money = Utilities.GetRandomNumber(200, 400);
 
-            this.ItemTypePreference.Add(ItemType.Scrap, 20);
-            this.ItemTypePreference.Add(ItemType.Misc, 20);
-            this.ItemPreference.Add("Bottle", -50);
-            this.ItemPreference.Add("Vial", -50);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Scrap, 20);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Misc, 20);
+            this.Preferences.ItemPreference.SetPreference("Bottle", -50);
+            this.Preferences.ItemPreference.SetPreference("Vial", -50);
         }
     }
 }

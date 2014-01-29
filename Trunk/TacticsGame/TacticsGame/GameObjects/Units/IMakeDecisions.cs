@@ -21,6 +21,8 @@ namespace TacticsGame.GameObjects.Units
 
         Decision PreviousDecision { get; set; }
 
+        UnitStats BaseStats { get; set; }
+
         UnitStats CurrentStats { get; set; }        
 
         Equipment Equipment { get; set; }
@@ -28,8 +30,6 @@ namespace TacticsGame.GameObjects.Units
         List<Recipe> KnownRecipes { get; }
 
         void RefreshStatsForNewManagementModeTurn();
-
-        int PriceMarkupRange { get; set; }
 
         ActivityResult LastResult { get; set; }
 
@@ -45,25 +45,10 @@ namespace TacticsGame.GameObjects.Units
 
         void AcquireItems(IEnumerable<string> items, AcquiredItemSource source);
 
-        /// <summary>
-        /// Whether only items in ItemTypePreference are bought. If it's null, all items are bought. If empty, none are bought.
-        /// </summary>
-        bool OnlyBuysPreferredItemTypes { get; }
-
         bool IsTrader { get; }
 
         Preferences Preferences { get; }
 
         Dictionary<string, int> TransactionHistory { get; }
-
-        /// <summary>
-        /// Rating this unit gives to willingness to buy certain item types.
-        /// </summary>
-        Dictionary<ItemType, int> ItemTypePreference { get; }
-
-        /// <summary>
-        /// Rating this unit gives to willingness to buy specific items.
-        /// </summary>
-        Dictionary<string, int> ItemPreference { get; }
     }
 }

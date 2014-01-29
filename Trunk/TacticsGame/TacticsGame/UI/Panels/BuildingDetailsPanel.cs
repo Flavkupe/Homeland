@@ -28,7 +28,7 @@ namespace TacticsGame.UI.Panels
 
             if (building.IsBuildingWithOwner)
             {
-                this.uxOwnerControl = new TooltipButtonAndTextControl(building.Owner.GetEntityIcon(), building.Owner.DisplayName, 198);
+                this.uxOwnerControl = new TooltipButtonAndTextControl(building.Owner.Sprite.GetEntityIcon(), building.Owner.DisplayName, 198);
                 this.uxOwnerControl.Tag = building.Owner;
                 this.uxOwnerControl.TooltipText = "Building Owner";
 

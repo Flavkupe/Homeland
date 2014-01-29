@@ -130,10 +130,6 @@ Content\Icons\IconsSheet.xnb
 Content\Icons\Items\ItemsSheet.xnb
 Content\Fonts\Debug.xnb
 Content\Fonts\MainFont.xnb
-DefaultFont.xnb
-TitleFont.xnb
-UnitTestFont.xnb
-SuaveSheet.xnb
 Xml\Abilities.xml
 Xml\Icons.xml
 Xml\VisualEffects.xml
@@ -143,3 +139,7 @@ Xml\Recipes.xml
 Xml\Tiles.xml
 Xml\Items.xml
 Xml\GameObjects.xml
+DefaultFont.xnb
+TitleFont.xnb
+UnitTestFont.xnb
+SuaveSheet.xnb

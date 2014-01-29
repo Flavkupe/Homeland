@@ -47,9 +47,6 @@ namespace TacticsGame.UI.Dialogs
             GameStateManager.Instance.GameObjective = objective;
             PlayerStateManager.Instance.Player = new Player(this.selectedClass, this.uxNameTextbox.Text);
 
-            // TODO: put this somewhere else
-            GameStateManager.Instance.World = WorldGenerationManager.Instance.GenerateNewWorld();
-
             base.HandleCloseClicked(sender, e);
         }
 

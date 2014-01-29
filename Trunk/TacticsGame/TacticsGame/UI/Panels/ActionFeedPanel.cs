@@ -127,7 +127,7 @@ namespace TacticsGame.UI.Panels
         private ButtonControl uxIconModeButton = new ButtonControl();
         private UnitActivityIconsGroup uxActivityGroup;
 
-        public void AddToFeed(UnitDecisionActivity activity)
+        public void AddToFeed(UnitManagementActivity activity)
         {
             this.uxActivityGroup.AddDecisionActivityIcon(activity);
         }
@@ -137,7 +137,7 @@ namespace TacticsGame.UI.Panels
             this.uxActivityGroup.AddCombatActivityIcon(activity);
         }
 
-        public void RemoveFromFeed(UnitDecisionActivity activity)
+        public void RemoveFromFeed(UnitManagementActivity activity)
         {
             this.uxActivityGroup.RemoveActivityIcon(activity);
         }
@@ -156,12 +156,12 @@ namespace TacticsGame.UI.Panels
         /// Updates the existing icon to account for a new activity change.
         /// </summary>
         /// <param name="activity"></param>
-        public void UpdateActivity(UnitDecisionActivity activity)
+        public void UpdateActivity(UnitManagementActivity activity)
         {
             this.uxActivityGroup.UpdateActivityIcon(activity);    
         }
 
-        public void UpdateResultOnActivity(UnitDecisionActivity activity, ActivityResult result)
+        public void UpdateResultOnActivity(UnitManagementActivity activity, ActivityResult result)
         {
             this.uxActivityGroup.UpdateResultOnActivityIcon(activity, result);    
         }        

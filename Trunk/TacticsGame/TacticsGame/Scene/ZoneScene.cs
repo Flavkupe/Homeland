@@ -23,6 +23,7 @@ using TacticsGame.GameObjects.Zones;
 using Nuclex.UserInterface.Controls;
 using TacticsGame.PlayerThings;
 using TacticsGame.World;
+using TacticsGame.Managers;
 
 namespace TacticsGame.Scene
 {
@@ -57,19 +58,21 @@ namespace TacticsGame.Scene
         /// <summary>
         /// The active town being seen by this zone.
         /// </summary>
-        protected TownState townState = new TownState();        
-        
-        protected List<Obstacle> obstacles = new List<Obstacle>();
-        protected List<Zone> zones = new List<Zone>();
-        protected TileGrid grid = null;
+        protected TownState TownState { get { return GameManager.GameStateManager.World.CurrentTown; } }
+
+        protected TileGrid Grid
+        {
+            get { return this.TownState.TileGrid; }
+            set { this.TownState.TileGrid = value; }
+        }            
 
         /// <summary>
         /// List of all units in this town.
         /// </summary>
         protected List<Unit> Units
         {
-            get { return this.townState.Units; }
-            set { this.townState.Units = value; }
+            get { return this.TownState.Units; }
+            set { this.TownState.Units = value; }
         }
 
         /// <summary>
@@ -77,8 +80,20 @@ namespace TacticsGame.Scene
         /// </summary>
         protected List<Building> Buildings
         {
-            get { return this.townState.Buildings; }
-            set { this.townState.Buildings = value; }
+            get { return this.TownState.Buildings; }
+            set { this.TownState.Buildings = value; }
+        }
+
+        protected List<Zone> Zones
+        {
+            get { return this.TownState.Zones; }
+            set { this.TownState.Zones = value; }
+        }
+
+        protected List<Obstacle> Obstacles
+        {
+            get { return this.TownState.Obstacles; }
+            set { this.TownState.Obstacles = value; }
         }
 
         /// <summary>
@@ -98,6 +113,9 @@ namespace TacticsGame.Scene
         protected Fade fade = new Fade();
 
         [NonSerialized]
+        private DaylightFilter daylightFilter = new DaylightFilter();        
+        
+        [NonSerialized]
         private Point? cameraTargetLoc = null;
 
         [NonSerialized]
@@ -108,13 +126,18 @@ namespace TacticsGame.Scene
             InitializeUI();            
 
             // TEMP
-            if (grid == null)
+            if (Grid == null)
             {
-                grid = new TileGrid(50, 50, 32);
-                grid.LoadTiles();
+                Grid = new TileGrid(50, 50, 32);
+                Grid.LoadTiles();
             }
 
-            grid.TileClicked += this.HandleClickedOnATile;
+            Grid.TileClicked += this.HandleClickedOnATile;
+        }
+
+        public DaylightFilter DaylightFilter
+        {
+            get { return daylightFilter; }
         }
 
         protected virtual void InitializeUI()
@@ -146,7 +169,7 @@ namespace TacticsGame.Scene
 
                 int gridX = this.MouseX + cameraX;
                 int gridY = this.MouseY + cameraY;
-                grid.MouseReleased(gridX, gridY);
+                Grid.MouseReleased(gridX, gridY);
             }
 
             if (this.MouseWheelDown)
@@ -177,8 +200,8 @@ namespace TacticsGame.Scene
             float zoom = instance.ZoomLevel;
             int locX = x - (instance.CameraView.Width / 2);
             int locY = y - (instance.CameraView.Height / 2);    
-            locX = locX.GetClampedValue(0, this.grid.LevelPixelWidth.Scale(zoom) - instance.CameraView.Width - 1);
-            locY = locY.GetClampedValue(0, this.grid.LevelPixelHeight.Scale(zoom) - instance.CameraView.Height - 1);
+            locX = locX.GetClampedValue(0, this.Grid.LevelPixelWidth.Scale(zoom) - instance.CameraView.Width - 1);
+            locY = locY.GetClampedValue(0, this.Grid.LevelPixelHeight.Scale(zoom) - instance.CameraView.Height - 1);
             this.cameraTargetLoc = new Point(locX, locY);
             this.pauseForPanning = pauseForPanning;
         }
@@ -189,8 +212,8 @@ namespace TacticsGame.Scene
             float zoom = instance.ZoomLevel;
             int locX = x - (instance.CameraView.Width / 2);
             int locY = y - (instance.CameraView.Height / 2);
-            locX = locX.GetClampedValue(0, this.grid.LevelPixelWidth.Scale(zoom) - instance.CameraView.Width - 1);
-            locY = locY.GetClampedValue(0, this.grid.LevelPixelHeight.Scale(zoom) - instance.CameraView.Height - 1);
+            locX = locX.GetClampedValue(0, this.Grid.LevelPixelWidth.Scale(zoom) - instance.CameraView.Width - 1);
+            locY = locY.GetClampedValue(0, this.Grid.LevelPixelHeight.Scale(zoom) - instance.CameraView.Height - 1);
             GameStateManager.Instance.RelocateCamera(locX, locY);
         }
 
@@ -259,7 +282,7 @@ namespace TacticsGame.Scene
                 GameStateManager.Instance.OffsetCamera(-scrollSpeed, 0);
             }
 
-            if (this.scrollingRight && camera.Right < grid.LevelPixelWidth.Scale(zoom) + this.commandPane.Width - scrollSpeed)
+            if (this.scrollingRight && camera.Right < Grid.LevelPixelWidth.Scale(zoom) + this.commandPane.Width - scrollSpeed)
             {
                 GameStateManager.Instance.OffsetCamera(scrollSpeed, 0);
             }
@@ -269,7 +292,7 @@ namespace TacticsGame.Scene
                 GameStateManager.Instance.OffsetCamera(0, -scrollSpeed);
             }
 
-            if (this.scrollingDown && camera.Bottom < grid.LevelPixelHeight.Scale(zoom) - scrollSpeed)
+            if (this.scrollingDown && camera.Bottom < Grid.LevelPixelHeight.Scale(zoom) - scrollSpeed)
             {
                 GameStateManager.Instance.OffsetCamera(0, scrollSpeed);
             }
@@ -280,13 +303,13 @@ namespace TacticsGame.Scene
             base.LoadContent();
 
             // TEMP: eventually, put this initialization elsewhere, when creating the scene for the first time.
-            if (grid == null)
+            if (Grid == null)
             {                
-                grid = new TileGrid(50, 50, 32);
-                grid.LoadTiles();
+                Grid = new TileGrid(50, 50, 32);
+                Grid.LoadTiles();
             }
             
-            grid.TileClicked += this.HandleClickedOnATile;
+            Grid.TileClicked += this.HandleClickedOnATile;
 
             if (!this.uiInitialized)
             {
@@ -296,10 +319,10 @@ namespace TacticsGame.Scene
 
         public override void Draw(GameTime gameTime)
         {
-            grid.Draw(gameTime);
+            Grid.Draw(gameTime);
 
             // Draw zones
-            foreach (Zone zone in this.zones)
+            foreach (Zone zone in this.Zones)
             {
                 zone.Draw(gameTime);
             }
@@ -317,7 +340,7 @@ namespace TacticsGame.Scene
             }
 
             // Draw obstacles
-            foreach (Obstacle obst in this.obstacles)
+            foreach (Obstacle obst in this.Obstacles)
             {
                 obst.Draw(gameTime);
             }
@@ -335,9 +358,9 @@ namespace TacticsGame.Scene
             }            
 
             // Draw debug crap
-            if (grid.SelectedTileCoords.HasValue)
+            if (Grid.SelectedTileCoords.HasValue)
             {
-                Utilities.DrawDebugText(grid.SelectedTileCoords.Value.X + ", " + grid.SelectedTileCoords.Value.Y, new Vector2(10, 0));
+                Utilities.DrawDebugText(Grid.SelectedTileCoords.Value.X + ", " + Grid.SelectedTileCoords.Value.Y, new Vector2(10, 0));
             }
 
             Utilities.DrawDebugText(GameStateManager.Instance.CameraView.X + ", " + GameStateManager.Instance.CameraView.Y, new Vector2(10, 15));

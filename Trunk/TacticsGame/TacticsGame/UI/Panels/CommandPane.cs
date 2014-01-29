@@ -144,7 +144,7 @@ namespace TacticsGame.UI
             this.ClearUnitDisplay();
 
             this.uxSelectionLabel.Text = selectedEntity.DisplayName;
-            IconInfo icon = selectedEntity.GetEntityIcon();
+            IconInfo icon = selectedEntity.Sprite.GetEntityIcon();
             this.uxSelectedIcon.ImageTexture = icon.SheetImage;
             this.uxSelectedIcon.ImageClip = icon.Clip;
 

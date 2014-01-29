@@ -31,7 +31,7 @@ namespace TacticsGame.Scene
     {        
         private void StateChangedToAwaitingAbilityAnimation()
         {
-            this.grid.ClearTargetRadius();
+            this.Grid.ClearTargetRadius();
         }
 
         private void StateChangedToEnemyTurnReadyToAttack()
@@ -50,8 +50,8 @@ namespace TacticsGame.Scene
         private void StateChangedToAwaitingAbilityTargetSelection()
         {
             Debug.Assert(this.SelectedEntity is Unit);
-            this.grid.ClearMovementRadius();
-            this.grid.SetDisplayedAbilityRadius(this.SelectedEntity as Unit, this.activeAbility);
+            this.Grid.ClearMovementRadius();
+            this.Grid.SetDisplayedAbilityRadius(this.SelectedEntity as Unit, this.activeAbility);
         }
 
         /// <summary>
@@ -92,8 +92,8 @@ namespace TacticsGame.Scene
 
         private void ClearAllGridFilters()
         {
-            this.grid.ClearMovementRadius();
-            this.grid.ClearTargetRadius();
+            this.Grid.ClearMovementRadius();
+            this.Grid.ClearTargetRadius();
         }
 
         /// <summary>
@@ -193,7 +193,7 @@ namespace TacticsGame.Scene
 
         private void PutUnitInReadyList(Unit unit)
         {
-            unit.CurrentDrawMode = DrawMode.Normal;
+            unit.Sprite.CurrentDrawMode = DrawMode.Normal;
             this.waitingList.RemoveIfExists(unit);
             this.doneList.RemoveIfExists(unit);
             this.readyList.Add(unit);
@@ -201,7 +201,7 @@ namespace TacticsGame.Scene
 
         private void PutUnitInWaitingList(Unit unit)
         {
-            unit.CurrentDrawMode = DrawMode.Waiting;
+            unit.Sprite.CurrentDrawMode = DrawMode.Waiting;
             this.readyList.RemoveIfExists(unit);
             this.doneList.RemoveIfExists(unit);
             this.waitingList.Add(unit);
@@ -209,7 +209,7 @@ namespace TacticsGame.Scene
 
         private void PutUnitInDoneList(Unit unit)
         {
-            unit.CurrentDrawMode = DrawMode.Done;
+            unit.Sprite.CurrentDrawMode = DrawMode.Done;
             this.readyList.RemoveIfExists(unit);
             this.waitingList.RemoveIfExists(unit);
             this.doneList.Add(unit);
@@ -283,7 +283,7 @@ namespace TacticsGame.Scene
                 }
                 else
                 {
-                    unit.CurrentDrawMode = DrawMode.Waiting;
+                    unit.Sprite.CurrentDrawMode = DrawMode.Waiting;
                     newWaitQueue.Add(unit);
                 }
             }
@@ -423,7 +423,7 @@ namespace TacticsGame.Scene
                 return false;
             }
 
-            HashSet<Tile> tileRange = grid.GetTileRadius(currentUnit.CurrentTile, currentUnit.GetAttackMaxRange(), true, currentUnit.GetAttackMinRange());
+            HashSet<Tile> tileRange = Grid.GetTileRadius(currentUnit.CurrentTile, currentUnit.GetAttackMaxRange(), true, currentUnit.GetAttackMinRange());
             if (tileRange.Contains(targetUnit.CurrentTile))
             {
                 return true;
@@ -454,22 +454,22 @@ namespace TacticsGame.Scene
             {
                 if (this.readyList.Contains(this.SelectedEntity as Unit))
                 {
-                    this.grid.SetDisplayedMovementRadius(this.SelectedEntity as Unit);
+                    this.Grid.SetDisplayedMovementRadius(this.SelectedEntity as Unit);
 
                     if ((this.SelectedEntity as Unit).CanAttack)
                     {
-                        this.grid.SetDisplayedAttackRadius(this.SelectedEntity as Unit);
+                        this.Grid.SetDisplayedAttackRadius(this.SelectedEntity as Unit);
                     }
                     else
                     {
-                        this.grid.ClearTargetRadius();
+                        this.Grid.ClearTargetRadius();
                     }
                 }
             }
             else
             {
-                this.grid.ClearMovementRadius();
-                this.grid.ClearTargetRadius();
+                this.Grid.ClearMovementRadius();
+                this.Grid.ClearTargetRadius();
             }
 
             this.RefreshUIState();
@@ -495,7 +495,7 @@ namespace TacticsGame.Scene
         {
             if (this.enemyDecisionEngine.CanPerformAnAttack(this.activeEnemy))
             {
-                Tile target = this.enemyDecisionEngine.DecideAttackTarget(this.activeEnemy, this.grid, this.Units);
+                Tile target = this.enemyDecisionEngine.DecideAttackTarget(this.activeEnemy, this.Grid, this.Units);
 
                 if (target != null)
                 {
@@ -518,8 +518,8 @@ namespace TacticsGame.Scene
         /// </summary>
         /// <param name="unit"></param>
         private void UnitDoneForTurn(Unit unit)
-        {            
-            unit.CurrentDrawMode = DrawMode.Done;            
+        {
+            unit.Sprite.CurrentDrawMode = DrawMode.Done;            
         }
 
         /// <summary>
@@ -554,7 +554,7 @@ namespace TacticsGame.Scene
             pos.Y = unit.DrawPosition.Top - 8;
             FloatingText effect = new FloatingText(null, pos, icon, 1000, null, true, 0.5f);
 
-            unit.AddSubSprite(effect);
+            unit.Sprite.AddSubSprite(effect);
             //this.floatingText.Add(effect);
         }
 
@@ -575,9 +575,9 @@ namespace TacticsGame.Scene
 
             Debug.Assert(this.activeEnemy != null, "Error in the logic somewhere! Enemy should not be null!");
                        
-            Tile target = this.enemyDecisionEngine.DecideMovementTarget(this.activeEnemy, this.grid, this.Units);
+            Tile target = this.enemyDecisionEngine.DecideMovementTarget(this.activeEnemy, this.Grid, this.Units);
 
-            this.movementTiles = this.grid.GetPathBetween(this.activeEnemy.CurrentTile, target);
+            this.movementTiles = this.Grid.GetPathBetween(this.activeEnemy.CurrentTile, target);
 
             if (this.movementTiles != null)
             {
@@ -613,8 +613,8 @@ namespace TacticsGame.Scene
             this.SelectedEntity = null;
             this.targetTile = null;
             this.CurrentState = State.Idle;
-            this.grid.ClearMovementRadius();
-            this.grid.ClearTargetRadius();
+            this.Grid.ClearMovementRadius();
+            this.Grid.ClearTargetRadius();
             this.activeAbility = null;
 
             this.RefreshUIState();
@@ -662,7 +662,7 @@ namespace TacticsGame.Scene
                 if (this.movementTiles.Count == 0)
                 {
                     // Done moving
-                    entity.ResetTransitionSpeed();
+                    entity.Sprite.ResetTransitionSpeed();
                     if (this.CurrentState == State.EnemyUnitMoving)
                     {
                         if (!this.UnitPerformedAnAction(this.activeEnemy as Unit, UnitActionType.Move))
@@ -731,7 +731,7 @@ namespace TacticsGame.Scene
             GameStateManager.Instance.PopScene(); // this scene                        
             
             // So that this scene no longer handles these clicks
-            this.grid.TileClicked -= this.HandleClickedOnATile;
+            this.Grid.TileClicked -= this.HandleClickedOnATile;
             this.ClearUIHandlers();
 
             ZoneManagementScene scene = (ZoneManagementScene)GameStateManager.Instance.CurrentScene; // scene we want
@@ -749,7 +749,7 @@ namespace TacticsGame.Scene
         /// <param name="grid"></param>
         public void SetGameObjects(List<GameObject> gameObjects, TileGrid grid)
         {
-            this.grid = grid;                        
+            this.Grid = grid;                        
 
             foreach (GameObject gameObject in gameObjects)
             {
@@ -759,7 +759,7 @@ namespace TacticsGame.Scene
                 }
                 else if (gameObject is Obstacle)
                 {
-                    this.obstacles.Add(gameObject as Obstacle);
+                    this.Obstacles.Add(gameObject as Obstacle);
                 }
                 else if (gameObject is Building)
                 {
@@ -767,7 +767,7 @@ namespace TacticsGame.Scene
                 }
                 else if (gameObject is Zone)
                 {
-                    this.zones.Add(gameObject as Zone);
+                    this.Zones.Add(gameObject as Zone);
                 }
                 else
                 {
@@ -775,7 +775,7 @@ namespace TacticsGame.Scene
                 }
             }
 
-            this.grid.TileClicked += this.HandleClickedOnATile;
+            this.Grid.TileClicked += this.HandleClickedOnATile;
             this.SetCommandPaneButtonState();
         }        
 
@@ -799,10 +799,10 @@ namespace TacticsGame.Scene
             int tileYMin = dispatch.CurrentTile.Coordinate.Y + dispatch.TileHeight + 1;
             int tileYMax = tileYMin + 2;
 
-            List<Tile> tilesOfDispatch = this.grid.GetRangeOfTiles(tileXMin, tileXMax, tileYMin, tileYMax, true);
+            List<Tile> tilesOfDispatch = this.Grid.GetRangeOfTiles(tileXMin, tileXMax, tileYMin, tileYMax, true);
 
             List<Tile> tilesOfEnemyDispatch = new List<Tile>();
-            foreach (Zone zone in this.zones)
+            foreach (Zone zone in this.Zones)
             {
                 tilesOfEnemyDispatch.AddRangeIfNotExists(zone.CurrentTiles);
             }

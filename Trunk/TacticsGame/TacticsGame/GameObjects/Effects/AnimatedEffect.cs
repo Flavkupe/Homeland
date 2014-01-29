@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework;
 
 namespace TacticsGame.GameObjects
 {
-    public class AnimatedEffect : GameEntity, IExpire
+    public class AnimatedEffect : Sprite, IExpire
     {
         private int? loops;
 
@@ -19,7 +19,7 @@ namespace TacticsGame.GameObjects
             : base(effectName, type)
         {
             this.loops = loops;
-            Rectangle targetRect = target.TileResident.DrawPosition;
+            Rectangle targetRect = target.TileResident.Sprite.DrawPosition;
             this.DrawPosition = target.AreaRectangle.Clone();
         }
 

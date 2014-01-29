@@ -17,6 +17,7 @@ using TacticsGame.Utility;
 using Wintellect.PowerCollections;
 using TacticsGame.UI.Groups;
 using TacticsGame.AI.CombatMode;
+using TacticsGame.Managers;
 
 namespace TacticsGame.Scene
 {
@@ -221,12 +222,12 @@ namespace TacticsGame.Scene
 
                 if (this.CurrentState == State.UnitMoving)
                 {
-                    this.SelectedEntity.AccelerateTransitionSpeed();
+                    this.SelectedEntity.Sprite.AccelerateTransitionSpeed();
                     return;
                 }
                 else if (this.CurrentState == State.EnemyUnitMoving)
                 {
-                    this.activeEnemy.AccelerateTransitionSpeed();
+                    this.activeEnemy.Sprite.AccelerateTransitionSpeed();
                     return;
                 }
                 else if (this.CurrentState == State.EnemyUnitReadyToAttack || this.CurrentState == State.EnemyTurnReadyForNewMove)
@@ -280,7 +281,7 @@ namespace TacticsGame.Scene
 
             if (this.CurrentState == State.AwaitingAbilityTargetSelection)
             {
-                if (grid.TileIsInTargetRange(tile) && AbilityDriver.TileIsValidTarget(this.activeAbility, tile))
+                if (Grid.TileIsInTargetRange(tile) && AbilityDriver.TileIsValidTarget(this.activeAbility, tile))
                 {
                     this.UseAbilityOnTarget(this.activeAbility, this.SelectedEntity as Unit, tile);                    
                 }
@@ -304,11 +305,11 @@ namespace TacticsGame.Scene
                 if (selectionChanged)
                 {
                     // If the selected unit is not an enemy unit...
-                    if (grid.TileIsInMovementRange(tile))
+                    if (Grid.TileIsInMovementRange(tile))
                     {
                         // Clicked on an empty tile within movement range; draw movement path to that tile and change state
                         this.targetTile = tile;
-                        this.movementTiles = grid.GetPathBetween(this.SelectedEntity.CurrentTile, this.targetTile);
+                        this.movementTiles = Grid.GetPathBetween(this.SelectedEntity.CurrentTile, this.targetTile);
                         this.CurrentState = State.UnitDestinationSpecified;
                     }
                     else if (tile.TileResident == null)
@@ -583,7 +584,7 @@ namespace TacticsGame.Scene
                 // Animate unit
                 if (this.SelectedEntity is Unit)
                 {
-                    ((Unit)this.SelectedEntity).UpdateAnimation(gameTime);
+                    ((Unit)this.SelectedEntity).Sprite.UpdateAnimation(gameTime);
                 }
             }
 
@@ -599,7 +600,7 @@ namespace TacticsGame.Scene
             else if (this.CurrentState == State.EnemyUnitMoving)
             {
                 // Animate enemy
-                this.activeEnemy.UpdateAnimation(gameTime);
+                this.activeEnemy.Sprite.UpdateAnimation(gameTime);
 
                 this.HandleUnitTransitioning(this.activeEnemy);
             }

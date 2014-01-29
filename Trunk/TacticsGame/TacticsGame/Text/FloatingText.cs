@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework;
 using TacticsGame.Utility;
 using Microsoft.Xna.Framework.Graphics;
 using TacticsGame.GameObjects;
+using TacticsGame.Managers;
 
 namespace TacticsGame.Text
 {

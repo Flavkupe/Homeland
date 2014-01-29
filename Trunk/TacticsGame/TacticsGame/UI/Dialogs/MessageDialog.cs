@@ -6,6 +6,7 @@ using TacticsGame.UI.Controls;
 using Nuclex.UserInterface;
 using Nuclex.UserInterface.Controls.Desktop;
 using TacticsGame.UI.Groups;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Dialogs
 {

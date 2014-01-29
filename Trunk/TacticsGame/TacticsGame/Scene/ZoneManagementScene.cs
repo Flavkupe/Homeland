@@ -17,6 +17,7 @@ using TacticsGame.Text;
 using TacticsGame.UI;
 using TacticsGame.Managers;
 using TacticsGame.UI.Dialogs;
+using TacticsGame.Simulation;
 
 namespace TacticsGame.Scene
 {
@@ -41,21 +42,7 @@ namespace TacticsGame.Scene
         [NonSerialized]
         private bool pause = false;
         [NonSerialized]
-        KeyboardState oldState;
-
-        [NonSerialized]
-        private const int baseActivityTickDuration = 1000;
-        [NonSerialized]
-        private const int hurryActivityTickDuration = 100;
-        [NonSerialized]
-        private int activityTickDuration = baseActivityTickDuration;
-
-        [NonSerialized]
-        private UnitDecisionEngine unitDecisionEngine = new UnitDecisionEngine();
-        [NonSerialized]
-        private UnitDecisionResultEngine unitDecisionResultEngine = new UnitDecisionResultEngine();
-        [NonSerialized]
-        private UnitDecisionUtils unitDecisionUtils = new UnitDecisionUtils();
+        KeyboardState oldState;             
 
         [NonSerialized]
         private GuildHouse guildBuilding;        
@@ -72,10 +59,7 @@ namespace TacticsGame.Scene
         [NonSerialized]
         private GameEntity selectedEntity = null;               
 
-        private bool allUnitsDone = false;
-
-        protected List<UnitDecisionActivity> decisionActivities = new List<UnitDecisionActivity>();
-        protected List<UnitDecisionActivity> shopOwnerDecisionActivities = new List<UnitDecisionActivity>();
+        private ManagementSimulation simulation = new ManagementSimulation();
 
         private delegate void PostDialogEventDelegate();
         private PostDialogEventDelegate postDialogEvent;
@@ -92,151 +76,64 @@ namespace TacticsGame.Scene
 
         protected List<DecisionMakingUnit> DecisionMakingUnits
         {
-            get { return this.townState.DecisionMakingUnits; }
-            set { this.townState.DecisionMakingUnits = value; }
+            get { return this.TownState.DecisionMakingUnits; }
+            set { this.TownState.DecisionMakingUnits = value; }
+        }
+
+        public ManagementSimulation Simulation
+        {
+            get { return simulation; }
         }
 
         protected virtual void InitializeScene()
         {
             // TEMP
             Obstacle obst = new Obstacle("Rock");
-            obst.SetLocationTo(grid.GetTile(4, 4));
-            this.obstacles.Add(obst);
+            obst.SetLocationTo(Grid.GetTile(4, 4));
+            this.Obstacles.Add(obst);
 
-            Building bld = new Shop(grid.VisibleTileDimensions);
-            bld.SetLocationTo(grid.GetTile(6, 6));
+            Building bld = new Shop(Grid.VisibleTileDimensions);
+            bld.SetLocationTo(Grid.GetTile(6, 6));
             this.Buildings.Add(bld);
 
             Building bld4 = new Blacksmith();
-            bld4.SetLocationTo(grid.GetTile(5, 10));
+            bld4.SetLocationTo(Grid.GetTile(5, 10));
             this.Buildings.Add(bld4);
 
             Building bld3 = new Tavern();
-            bld3.SetLocationTo(grid.GetTile(15, 6));
+            bld3.SetLocationTo(Grid.GetTile(15, 6));
             this.Buildings.Add(bld3);
 
-            GuildHouse bld2 = new GuildHouse(grid.VisibleTileDimensions);
-            bld2.SetLocationTo(grid.GetTile(12, 10));
+            GuildHouse bld2 = new GuildHouse(Grid.VisibleTileDimensions);
+            bld2.SetLocationTo(Grid.GetTile(12, 10));
             this.Buildings.Add(bld2);
             this.guildBuilding = bld2;
 
             Zone zone = new WoodlandZone(6,2);
-            this.zones.Add(zone);
-            zone.SetTopLeftTile(this.grid.GetTile(3, 0));
+            this.Zones.Add(zone);
+            zone.SetTopLeftTile(this.Grid.GetTile(3, 0));
 
             Zone zone2 = new MountainZone(2, 6);
-            this.zones.Add(zone2);
-            zone2.SetTopLeftTile(this.grid.GetTile(0, 10));
+            this.Zones.Add(zone2);
+            zone2.SetTopLeftTile(this.Grid.GetTile(0, 10));
 
             DecisionMakingUnit unit = new Ranger();
+            unit.SetLocationTo(bld2.DoorTile.GetSouth(), false);
             this.DecisionMakingUnits.Add(unit);
 
             DecisionMakingUnit unit2 = new Footman();
+            unit2.SetLocationTo(bld2.DoorTile.GetSouth(), false);
             this.DecisionMakingUnits.Add(unit2);
 
             DecisionMakingUnit unit3 = new Fool();
+            unit3.SetLocationTo(bld2.DoorTile.GetSouth(), false);
             this.DecisionMakingUnits.Add(unit3);
 
-            this.townState.TownGuildhouse = this.guildBuilding;
-            PlayerStateManager.Instance.ActiveTown = this.townState;
+            this.TownState.TownGuildhouse = this.guildBuilding;
+            PlayerStateManager.Instance.ActiveTown = this.TownState;
 
             this.ResetTurn();
-        }
-
-        ////////////////////
-        #region UI Overrides        
-
-        /// <summary>
-        /// Override if there is no action feed.
-        /// </summary>
-        protected virtual void ShowActivityResultsOnActionFeed(UnitDecisionActivity activity, ActivityResult results)
-        {
-            this.actionFeed.UpdateResultOnActivity(activity, results);
-        }
-
-        /// <summary>
-        /// Override if no UI is present.
-        /// </summary>
-        protected virtual void UpdateActivityOnUI(UnitDecisionActivity activity)
-        {
-            this.actionFeed.UpdateActivity(activity);
-        }
-
-        /// <summary>
-        /// Uses present UI to announce text.
-        /// </summary>
-        /// <param name="text"></param>
-        protected virtual void AnnounceTextToUI(string text)
-        {
-            this.actionFeed.AddToFeed(text);
-        }
-
-        /// <summary>
-        /// Puts the activity in the UI for updating
-        /// </summary>
-        /// <param name="activity"></param>
-        protected virtual void AddActivityToUIFeed(UnitDecisionActivity activity)
-        {
-            this.actionFeed.AddToFeed(activity);
-        }
-
-        #endregion
-        ////////////////////
-
-        /// <summary>
-        /// Clears all handlers for when we are ready to dispose of this scene.
-        /// </summary>
-        protected override void ClearUIHandlers()
-        {
-            this.commandPane.CommandButtonClicked -= this.HandleCommandPaneCommand;
-            this.commandPane.ContinueButtonClicked -= this.HandleContinueButtonClicked;
-            this.commandPane.BuildButtonClicked -= this.HandleBuildBuildingIconClicked;        
-            InterfaceManager.Instance.DialogClosed -= this.HandleDialogClosed;
-            this.actionFeed.ActivityIconClicked -= this.HandleUnitIconClicked;
-        }
-
-        /// <summary>
-        /// Creates the UI handlers for this scene.
-        /// </summary>
-        protected override void SetUIHandlers()
-        {
-            this.commandPane.CommandButtonClicked += this.HandleCommandPaneCommand;
-            this.commandPane.ContinueButtonClicked += this.HandleContinueButtonClicked;
-            this.commandPane.BuildButtonClicked += this.HandleBuildBuildingIconClicked;
-            InterfaceManager.Instance.DialogClosed += this.HandleDialogClosed;
-            this.actionFeed.ActivityIconClicked += this.HandleUnitIconClicked;
-        }
-
-        void HandleCommandPaneCommand(object sender, CommandPaneCommandEventArgs e)
-        {
-            switch (e.Command)
-            {
-                case Commands.RequestsClicked:
-                    this.HandleRequestsButtonClicked();
-                    break;
-                case Commands.CaravanClicked:
-                    this.HandleCaravanButtonClicked();
-                    break;
-                case Commands.VisitorsClicked:
-                    this.HandleVisitorsButtonClicked();
-                    break;
-                case Commands.ShowStockClicked:                    
-                    this.HandleShowStockClicked();
-                    break;
-                case Commands.UnitsButtonClicked:
-                    this.HandleUnitButtonClicked();
-                    break;
-                case Commands.SellClicked:
-                    this.HandleSellButtonClicked();
-                    break;
-                case Commands.EdictsClicked:
-                    this.HandleEdictsButtonClicked();
-                    break;
-                case Commands.FinancesClicked:
-                    this.HandleFinanceButtonClicked();
-                    break;
-            }   
-        }        
+        }          
 
         private GameEntity SelectedEntity
         {
@@ -308,71 +205,29 @@ namespace TacticsGame.Scene
 
                 this.state = value;
             }
-        }
-
-        /// <summary>
-        /// Some tile in the grid was selected that was not previously selected.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        protected override void HandleClickedOnATile(object sender, TileGrid.TileClickedEventArgs e)
-        {
-            Tile selection = e.ClickedTile;
-
-            if (this.CurrentState == State.PlacingBuilding)
-            {
-                this.PlaceBuildingOnTile(selection);
-                return;
-            }
-            else
-            {
-                if (selection.TileResident != null)
-                {
-                    this.SelectedEntity = selection.TileResident;
-
-                    if (selection.TileResident is Building)
-                    {
-                        this.CurrentState = State.BuildingSelected;
-                    }
-                    else
-                    {
-                        this.CurrentState = State.MiscSelected;
-                    }
-                }
-                else
-                {
-                    this.ClearSelection();
-                }
-            }
-        }                               
+        }                  
 
         public override void LoadContent()
         {                      
             // Load heavy graphical and common-resource content
             base.LoadContent();
-            this.grid.LoadContent();
+            this.Grid.LoadContent();
             this.DecisionMakingUnits.ForEach(a => a.LoadContent());            
             this.Units.ForEach(a => a.LoadContent());
-            this.obstacles.ForEach(a => a.LoadContent());
+            this.Obstacles.ForEach(a => a.LoadContent());
             this.Buildings.ForEach(a => a.LoadContent());
 
             // Set references of units to corresponding tiles
-            this.DecisionMakingUnits.ForEach(a => a.SetLocationTo(this.grid.GetTile(a.Coordinates.X, a.Coordinates.Y)));
-            this.Units.ForEach(a => a.SetLocationTo(this.grid.GetTile(a.Coordinates.X, a.Coordinates.Y)));            
-            this.obstacles.ForEach(a => a.SetLocationTo(this.grid.GetTile(a.Coordinates.X, a.Coordinates.Y)));
-            this.Buildings.ForEach(a => a.SetLocationTo(this.grid.GetTile(a.Coordinates.X, a.Coordinates.Y)));
+            this.DecisionMakingUnits.ForEach(a => a.SetLocationTo(this.Grid.GetTile(a.Coordinates.X, a.Coordinates.Y), false));
+            this.Units.ForEach(a => a.SetLocationTo(this.Grid.GetTile(a.Coordinates.X, a.Coordinates.Y), false));            
+            this.Obstacles.ForEach(a => a.SetLocationTo(this.Grid.GetTile(a.Coordinates.X, a.Coordinates.Y)));
+            this.Buildings.ForEach(a => a.SetLocationTo(this.Grid.GetTile(a.Coordinates.X, a.Coordinates.Y)));
 
             // Create new lists for non-serialized lists and objects
             this.visualEffects = new List<AnimatedEffect>();
             this.floatingText = new List<FloatingText>();
             this.fade = new Fade();
-            this.unitDecisionEngine = new UnitDecisionEngine();        
-            this.unitDecisionResultEngine = new UnitDecisionResultEngine();        
-            this.unitDecisionUtils = new UnitDecisionUtils();
             this.tilesWeJustFiltered = new List<Tile>();
-
-            // Random initializations
-            this.activityTickDuration = baseActivityTickDuration;
 
             // Find the guild building
             foreach (Building building in this.Buildings)
@@ -384,11 +239,11 @@ namespace TacticsGame.Scene
                 }
             }
 
-            this.townState.TownGuildhouse = this.guildBuilding;
-            PlayerStateManager.Instance.ActiveTown = this.townState;
+            this.TownState.TownGuildhouse = this.guildBuilding;
+            PlayerStateManager.Instance.ActiveTown = this.TownState;
 
             // Set references of objects to the deserialized versions of those objects by comparing IDs
-            this.decisionActivities.ForEach(a => a.LoadReferencesFromLists(this.DecisionMakingUnits, this.Buildings));
+            this.Simulation.ManagementActivities.ForEach(a => a.LoadReferencesFromLists(this.DecisionMakingUnits, this.Buildings));
             this.Buildings.ForEach(a => a.LoadReferencesFromLists(this.DecisionMakingUnits, this.Buildings));
 
             // Make a list of owners
@@ -401,60 +256,20 @@ namespace TacticsGame.Scene
                 }
             }           
 
-            this.shopOwnerDecisionActivities.ForEach(a => a.LoadReferencesFromLists(owners, this.Buildings));
+            // TODO: i might have broken this...
+            this.Simulation.ManagementActivities.Where(a => a.IsOwner).ToList().ForEach(a => a.LoadReferencesFromLists(owners, this.Buildings));
 
             // UI stuff 
             this.SetUIHandlers();
             this.ClearSelection();
             this.actionFeed.ClearContents();
             this.actionFeed.ClearUnitView();                        
-            foreach (UnitDecisionActivity activity in this.decisionActivities)
+            foreach (UnitManagementActivity activity in this.Simulation.ManagementActivities.Where(a => !a.IsOwner))
             {
                 // Put the loaded activity items into the action feed
-                this.actionFeed.AddToFeed(activity);
+                this.AddActivityToUIFeed(activity);
             }            
-        }
-
-        protected override void HandleMouseAndKeyboardInputs()
-        {
-            this.HandleScrollInputs();
-
-            if (this.commandPane.MouseIsOverControl())
-            {
-                // Let the UI deal with it
-                return;
-            }
-
-            if (this.CurrentState == State.ShowingDialog)
-            {
-                // Don't interrupt dialog.
-                return;
-            }
-
-            KeyboardState keystate = Keyboard.GetState();
-
-            if (keystate.IsKeyUp(Keys.P) && this.oldState != null && this.oldState.IsKeyDown(Keys.P))
-            {
-                this.pause = !this.pause;
-            }
-            else if (keystate.IsKeyUp(Keys.Q) && this.oldState != null && this.oldState.IsKeyDown(Keys.Q))
-            {
-                this.QuickSave();
-            }
-            else if (keystate.IsKeyUp(Keys.L) && this.oldState != null && this.oldState.IsKeyDown(Keys.L))
-            {
-                this.QuickLoad();
-            }
-                                                               
-            base.HandleMouseAndKeyboardInputs();      
-
-            if (this.RMBReleased)
-            {
-                this.ClearSelection();
-            }
-
-            this.oldState = Keyboard.GetState();
-        }
+        }        
 
         public override void QuickLoad()
         {
@@ -495,7 +310,7 @@ namespace TacticsGame.Scene
                 }
 
                 // Check which keys and mouse buttons have been pressed     
-                this.UpdateMouseInput();                
+                this.UpdateMouseInput();
 
                 // Deals with key presses
                 this.HandleMouseAndKeyboardInputs();
@@ -523,7 +338,23 @@ namespace TacticsGame.Scene
 
                 // Everything that happens only when the game is unpaused goes below
 
-                this.ProcessUnitAndOwnerDecisions(gameTime);
+                this.DaylightFilter.Update(gameTime);
+                this.Simulation.UpdateWorldTime(gameTime);
+
+                // Simulate all entities
+                List<UnitManagementActivity> allActivities = new List<UnitManagementActivity>(this.Simulation.ManagementActivities);
+
+                foreach (UnitManagementActivity activity in allActivities)
+                {
+                    UnitActivityUpdateStatus activityUpdate = this.Simulation.ProcessUnitActivity(activity, gameTime);
+                    this.ProcessUnitActivityUpdate(activityUpdate);
+                }
+
+                if (this.Simulation.DayIsOver)
+                {
+                    this.UpdateCommandPaneText("Next Day");
+                    this.AnnounceTextToUI("All units are done for the day.");
+                }
             }
 
             this.actionFeed.Update(gameTime);
@@ -538,24 +369,32 @@ namespace TacticsGame.Scene
                 (this.draggingBuilding as GameEntity).Draw(gameTime);
             }
 
-            //foreach (DecisionMakingUnit unit in this.decisionMakingUnits)
-            //{
-            //    unit.Draw(gameTime);
-            //}
+            foreach (UnitManagementActivity activity in this.Simulation.ManagementActivities)
+            {
+                if (activity.State == ActivityState.GoingToActivity || activity.State == ActivityState.ReturningFromActivity)
+                {
+                    activity.Unit.Draw(gameTime);
+                    activity.Unit.Sprite.UpdateAnimation(gameTime);
+                }
+            }
 
             if (this.CurrentState == State.Fading) 
             {
                 this.fade.Draw(gameTime);
             }
 
+            this.DaylightFilter.Draw(gameTime);
+
             Utilities.DrawDebugText(this.state.ToString(), new Vector2(10, 60));
+
+            Utilities.DrawDebugText("Zoom: " + GameStateManager.Instance.ZoomLevel, new Vector2(10, 80));
+
+            Utilities.DrawDebugText(GameManager.World.WorldTime.ToShortTimeString(), new Vector2(10, 100));
 
             if (pause)
             {
-                Utilities.DrawDebugText("Paused", new Vector2(10, 80));
+                Utilities.DrawDebugText("Paused", new Vector2(10, 120));
             }
-
-            Utilities.DrawDebugText("Zoom: " + GameStateManager.Instance.ZoomLevel, new Vector2(10, 80));
         }
 
         public override void  Dispose()

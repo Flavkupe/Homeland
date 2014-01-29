@@ -9,6 +9,7 @@ using Nuclex.UserInterface;
 using System.Collections.ObjectModel;
 using TacticsGame.UI.Dialogs;
 using System.Diagnostics;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Special
 {

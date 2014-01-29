@@ -37,6 +37,15 @@ namespace TacticsGame.GameObjects.Buildings.Types
             get { return PlayerStateManager.Instance.PlayerInventory; }
         }
 
+        public override Map.Tile DoorTile
+        {
+            get
+            {
+                // TEMP
+                return this.CurrentTiles[14];
+            }
+        }
+
         public override bool IsAutonomousBuilding { get { return false; } }
 
         public override bool IsBuildingWithStock { get { return true; } }

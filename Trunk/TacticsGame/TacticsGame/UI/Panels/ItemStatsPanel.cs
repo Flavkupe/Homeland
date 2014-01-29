@@ -9,6 +9,7 @@ using TacticsGame.Items;
 using TacticsGame.Items.SpecialStats;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Panels
 {

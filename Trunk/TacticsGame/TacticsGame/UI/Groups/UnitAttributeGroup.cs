@@ -9,6 +9,7 @@ using TacticsGame.GameObjects.Units;
 using TacticsGame.GameObjects.EntityMetadata;
 using TacticsGame.UI.Controls;
 using Microsoft.Xna.Framework;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Groups
 {

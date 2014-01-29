@@ -50,6 +50,9 @@ namespace TacticsGame
         private static void InitializeFirstScene()
         {
             //ZoneCombatScene firstScene = new ZoneCombatScene();
+            
+            // TODO: put this somewhere else?
+            GameStateManager.Instance.World = WorldGenerationManager.Instance.GenerateNewWorld();
             ZoneManagementScene firstScene = new ZoneManagementScene();
 
             GameStateManager.Instance.PushScene(firstScene);

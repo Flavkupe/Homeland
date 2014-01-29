@@ -77,16 +77,22 @@ namespace TacticsGame.UI
         {
             int extraLeft = extraPadding == null ? 0 : extraPadding.Left;
             int extraTop = extraPadding == null ? 0 : extraPadding.Top;
-            int extraRight = extraPadding == null ? 0 : extraPadding.Right;            
+            int extraRight = extraPadding == null ? 0 : extraPadding.Right;
+            int extraBottom = extraPadding == null ? 0 : extraPadding.Bottom;
 
-            control.Bounds = new UniRectangle(currentX + extraLeft, currentY + extraTop, control.Bounds.GetWidth(), control.Bounds.GetHeight());
+            UniRectangle newBounds = new UniRectangle(this.currentX + extraLeft, currentY + extraTop, control.Bounds.GetWidth(), control.Bounds.GetHeight());
 
+            if (this.currentX + newBounds.GetWidth() + this.Margin.Right > this.Bounds.GetWidth())
+            {
+                this.currentX = this.Margin.Left;
+                this.currentY += control.Bounds.GetHeight() + this.Margin.Bottom + extraBottom;                                
+            }
+
+            control.Bounds = newBounds.RelocateClone(this.currentX + extraLeft, this.currentY);
             this.currentX += control.Bounds.GetWidth() + this.Margin.Right + extraRight;
 
-            if (forceNewLine || this.currentX + control.Bounds.GetWidth() + this.Margin.Right > this.Bounds.GetWidth())
+            if (forceNewLine)
             {
-                int extraBottom = (extraPadding == null ? 0 : extraPadding.Bottom);
-
                 this.currentX = this.Margin.Left;
                 this.currentY += control.Bounds.GetHeight() + this.Margin.Bottom + extraBottom;
             }

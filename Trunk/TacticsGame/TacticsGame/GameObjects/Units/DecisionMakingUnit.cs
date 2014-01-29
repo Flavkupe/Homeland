@@ -79,11 +79,6 @@ namespace TacticsGame.GameObjects.Units
 
         public Preferences Preferences { get { return preferences; } }
 
-        public virtual bool OnlyBuysPreferredItemTypes
-        {
-            get { return false; }
-        }
-
         public List<Recipe> KnownRecipes
         {
             get { return this.knownRecipes; }
@@ -119,30 +114,6 @@ namespace TacticsGame.GameObjects.Units
         public virtual bool WantsToUpgradeArmor { get { return TurnsSinceArmorUpgrade > 3 || this.Equipment.MissingArmor; } }     
 
         /// <summary>
-        /// Preferences for item type for unit. Can be overriden.
-        /// </summary>
-        public virtual Dictionary<ItemType, int> ItemTypePreference
-        {
-            get { return this.preferences.ItemPreference.ItemTypePreference; }
-            protected set { this.preferences.ItemPreference.ItemTypePreference = value; }
-        }
-        
-        /// <summary>
-        /// Innate item preferences for the unit. Can be overriden.
-        /// </summary>
-        public virtual Dictionary<string, int> ItemPreference
-        {
-            get { return this.preferences.ItemPreference.ItemNamePreferences; }
-            protected set { this.preferences.ItemPreference.ItemNamePreferences = value; }
-        }        
-
-        public virtual int PriceMarkupRange
-        {
-            get { return this.preferences.ItemPreference.PriceMarkupRange; }
-            set { this.preferences.ItemPreference.PriceMarkupRange = value; }
-        }
-
-        /// <summary>
         /// Recorded history of transaction sales and purchases
         /// </summary>
         public Dictionary<string, int> TransactionHistory
@@ -154,6 +125,16 @@ namespace TacticsGame.GameObjects.Units
         /// Whether or not the unit is a trader by trade. Hireable units and travellers are not traders by trade.
         /// </summary>
         public virtual bool IsTrader { get { return true; } }
+
+        /// <summary>
+        /// Gets whether or not the unit is a shopowner. A shopowner is a unit that owns inventory in a building.
+        /// </summary>
+        public virtual bool IsShopOwner { get { return false; } }
+
+        /// <summary>
+        /// Gets whether or not the unit is a shopowner. A shopowner is a unit that owns inventory in a building.
+        /// </summary>
+        public virtual bool IsVisitor { get { return false; } }
 
         public static DecisionMakingUnit CreateRandomUnit()
         {

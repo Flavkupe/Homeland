@@ -27,6 +27,8 @@ namespace TacticsGame.GameObjects.Units
 
         private UnitStats baseStats;
 
+        private bool isInCombat = false;
+
         private UnitStats currentStats;
 
         private UnitStatus statusEffects = new UnitStatus();
@@ -63,7 +65,12 @@ namespace TacticsGame.GameObjects.Units
         {
             get { return unitClass; }            
         }
-        
+
+        public bool IsInCombat
+        {
+            get { return isInCombat; }
+            set { isInCombat = value; }
+        }
 
         public Equipment Equipment
         {
@@ -498,15 +505,20 @@ namespace TacticsGame.GameObjects.Units
         #endregion
         ////////       
 
-        protected override void ReachedTransitionDestination(Tile transitionTarget)
+        protected override void OnReachedTransitionDestination(Tile transitionTarget)
         {
-            this.CurrentStats.ActionPoints -= transitionTarget.Cost;
-            base.ReachedTransitionDestination(transitionTarget);
+            if (this.IsInCombat)
+            {
+                this.CurrentStats.ActionPoints -= transitionTarget.Cost;
+            }
+
+            base.OnReachedTransitionDestination(transitionTarget);
         }
 
         public void PrepareForNextCombatTurn()
         {
             this.CurrentStats.ActionPoints = this.BaseStats.ActionPoints;
+            this.IsInCombat = true;
 
             foreach (AbilityInfo ability in this.knownAbilities)
             {
@@ -521,27 +533,27 @@ namespace TacticsGame.GameObjects.Units
 
         public override void Draw(Microsoft.Xna.Framework.GameTime time)
         {
-            if (this.CurrentDrawMode == DrawMode.Waiting)
+            if (this.Sprite.CurrentDrawMode == DrawMode.Waiting)
             {
-                this.Animated = false;
-                this.colorFilter = new Color(100, 50, 100, 200);
+                this.Sprite.Animated = false;
+                this.Sprite.ColorFilter = new Color(100, 50, 100, 200);
             }
-            else if (this.CurrentDrawMode == DrawMode.Done)
+            else if (this.Sprite.CurrentDrawMode == DrawMode.Done)
             {
-                this.Animated = false;
-                this.colorFilter = new Color(0, 0, 0, 200);
+                this.Sprite.Animated = false;
+                this.Sprite.ColorFilter = new Color(0, 0, 0, 200);
             }
             else
             {
-                this.Animated = true;
-                this.colorFilter = null;
+                this.Sprite.Animated = true;
+                this.Sprite.ColorFilter = null;
             }
 
             base.Draw(time);
 
             // Draw HP
-            int hpWidth = Math.Max(0, (int)(((float)this.CurrentStats.HP / (float)this.BaseStats.HP) * (float)this.DrawPosition.Width - 4));
-            Utilities.DrawRectangle(new Rectangle(this.DrawPosition.Left + 2, this.DrawPosition.Top - 4, hpWidth, 2), Color.Red);
+            int hpWidth = Math.Max(0, (int)(((float)this.CurrentStats.HP / (float)this.BaseStats.HP) * (float)this.Sprite.DrawPosition.Width - 4));
+            Utilities.DrawRectangle(new Rectangle(this.Sprite.DrawPosition.Left + 2, this.Sprite.DrawPosition.Top - 4, hpWidth, 2), Color.Red);
         }        
     }
 }

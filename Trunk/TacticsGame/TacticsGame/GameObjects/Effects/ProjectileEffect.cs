@@ -14,17 +14,17 @@ namespace TacticsGame.GameObjects.Effects
 
         public ProjectileEffect(string abilityName, Tile source, Tile target, int speed)
             : base(abilityName, target, ResourceType.VisualEffect)
-        {
-            this.CurrentTile = source;
-            Rectangle sourceRect = source.TileResident.DrawPosition;
+        {            
+            Rectangle sourceRect = source.TileResident.Sprite.DrawPosition;
             this.DrawPosition = new Rectangle(sourceRect.Center.X, sourceRect.Center.Y, this.textureInfo.Width, this.textureInfo.Height);
             this.transitionSpeed = speed;
-            this.InitiateTransitionToTarget(target.AreaRectangle.Center);                
+            this.OnInitiateTransitionToTarget(target.AreaRectangle.Center);                
         }
 
-        protected override void ReachedTransitionDestination(Tile transitionTarget)
+        protected override void OnReachedTransitionDestination()
         {
             this.reachedTarget = true;
+            base.OnReachedTransitionDestination();
         }
 
         public override bool IsExpired

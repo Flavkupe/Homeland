@@ -153,6 +153,16 @@
     <Compile Include="Abilities\AbilityEffect.cs" />
     <Compile Include="Abilities\AbilityType.cs" />
     <Compile Include="Abilities\AbilitySceneResults.cs" />
+    <Compile Include="AI\MaintenanceMode\ActivityMode.cs" />
+    <Compile Include="AI\MaintenanceMode\Engines\ActionResultTextManager.cs" />
+    <Compile Include="AI\MaintenanceMode\Engines\SimplifiedPreferenceEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\IPreferenceEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\IActionResultTextManager.cs" />
+    <Compile Include="AI\MaintenanceMode\IActionResultEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\IDecisionEngine.cs" />
+    <Compile Include="Items\ItemMetadata.cs" />
+    <Compile Include="Managers\UnitActionManager.cs" />
+    <Compile Include="Managers\GameManager.cs" />
     <Compile Include="Managers\WorldGenerationManager.cs" />
     <Compile Include="Preference\GovernancePreference.cs" />
     <Compile Include="Preference\ItemPreference.cs" />
@@ -164,15 +174,12 @@
     <Compile Include="AI\CombatMode\UnitCombatActivity.cs" />
     <Compile Include="AI\MaintenanceMode\ActivityResult.cs" />
     <Compile Include="AI\MaintenanceMode\Decision.cs" />
-    <Compile Include="AI\MaintenanceMode\UnitDecisionActivity.cs" />
+    <Compile Include="AI\MaintenanceMode\UnitManagementActivity.cs" />
     <Compile Include="AI\MaintenanceMode\Params.cs" />
-    <Compile Include="AI\MaintenanceMode\UnitDecisionEngine.cs" />
-    <Compile Include="AI\MaintenanceMode\UnitDecisionResultEngine.cs" />
-    <Compile Include="AI\MaintenanceMode\UnitDecisionUtils.cs" />
+    <Compile Include="AI\MaintenanceMode\Engines\EducatedDecisionEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\Engines\EducatedResultEngine.cs" />
+    <Compile Include="AI\MaintenanceMode\Engines\EducatedPreferenceEngine.cs" />
     <Compile Include="AI\CombatMode\SimpleEnemyDecisionEngine.cs" />
-    <Compile Include="AI\MaintenanceMode\UnitDecisionUtils.Text.cs">
-      <DependentUpon>UnitDecisionUtils.cs</DependentUpon>
-    </Compile>
     <Compile Include="Attributes\DisplayNameAttribute.cs" />
     <Compile Include="Attributes\IconResourceAttribute.cs" />
     <Compile Include="Attributes\TextureResourceAttribute.cs" />
@@ -266,23 +273,30 @@
     <Compile Include="PlayerThings\PlayerInfo.cs" />
     <Compile Include="Preference\Preference.cs" />
     <Compile Include="Preference\PreferenceValue.cs" />
+    <Compile Include="Scene\Filters\DaylightFilter.cs" />
+    <Compile Include="Scene\GameSpeed.cs" />
+    <Compile Include="Simulation\ManagementSimulation.cs" />
+    <Compile Include="Simulation\UnitActivityStatus.cs" />
     <Compile Include="UI\Dialogs\CaravanDialog.cs" />
+    <Compile Include="UI\Dialogs\DailyReportDialog.cs" />
+    <Compile Include="UI\Dialogs\Interfaces\IDialogPage.cs" />
+    <Compile Include="UI\Groups\DailyReport\DailyReportPage.cs" />
+    <Compile Include="UI\Groups\DailyReport\TaxesPage.cs" />
     <Compile Include="UI\Special\ItemValueControl.cs" />
     <Compile Include="UI\Special\InventoryControl.cs" />
     <Compile Include="World\Caravans\Caravan.cs" />
     <Compile Include="World\DailyActivityStats.cs" />
     <Compile Include="World\ForeignTownInfo.cs" />
+    <Compile Include="World\ITownMarketManager.cs" />
+    <Compile Include="World\TownMarketManager.cs" />
     <Compile Include="World\TownState.cs" />
     <Compile Include="Managers\Resources\ResourceType.cs" />
     <Compile Include="Scene\Drivers\AbilityDriver.cs" />
-    <Compile Include="Scene\Fade.cs" />
+    <Compile Include="Scene\Filters\Fade.cs" />
     <Compile Include="Scene\ZoneCombatScene.Logic.cs">
       <DependentUpon>ZoneCombatScene.cs</DependentUpon>
     </Compile>
     <Compile Include="Scene\ZoneManagementScene.cs" />
-    <Compile Include="Scene\ZoneManagementScene.DecisionLogic.cs">
-      <DependentUpon>ZoneManagementScene.cs</DependentUpon>
-    </Compile>
     <Compile Include="Scene\ZoneManagementScene.Handlers.cs">
       <DependentUpon>ZoneManagementScene.cs</DependentUpon>
     </Compile>
@@ -290,7 +304,7 @@
       <DependentUpon>ZoneManagementScene.cs</DependentUpon>
     </Compile>
     <Compile Include="Text\FloatingText.cs" />
-    <Compile Include="GameObjects\AnimatedSprite.cs" />
+    <Compile Include="GameObjects\Sprite.cs" />
     <Compile Include="GameObjects\GameEntity.cs" />
     <Compile Include="GameObjects\Obstacles\Obstacle.cs" />
     <Compile Include="GameObjects\Units\Enemy\EnemyUnit.cs" />
@@ -367,12 +381,12 @@
     <Compile Include="Utility\Utilities.cs" />
     <Compile Include="Utility\ValueEventArgs.cs" />
     <Compile Include="World\GameWorld.cs" />
+    <Compile Include="World\WorldMarketManager.cs" />
     <Compile Include="World\WorldState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
-    <Content Include="PowerCollections.dll" />
     <Content Include="Xml\Abilities.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>

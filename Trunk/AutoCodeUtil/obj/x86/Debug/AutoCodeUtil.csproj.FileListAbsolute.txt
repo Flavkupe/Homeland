@@ -3,3 +3,8 @@ C:\code\Tactics\Trunk\AutoCodeUtil\bin\Debug\AutoCodeUtil.pdb
 C:\code\Tactics\Trunk\AutoCodeUtil\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\code\Tactics\Trunk\AutoCodeUtil\obj\x86\Debug\AutoCodeUtil.exe
 C:\code\Tactics\Trunk\AutoCodeUtil\obj\x86\Debug\AutoCodeUtil.pdb
+C:\code\Homeland\Trunk\AutoCodeUtil\bin\Debug\AutoCodeUtil.exe
+C:\code\Homeland\Trunk\AutoCodeUtil\bin\Debug\AutoCodeUtil.pdb
+C:\code\Homeland\Trunk\AutoCodeUtil\obj\x86\Debug\AutoCodeUtil.csprojResolveAssemblyReference.cache
+C:\code\Homeland\Trunk\AutoCodeUtil\obj\x86\Debug\AutoCodeUtil.exe
+C:\code\Homeland\Trunk\AutoCodeUtil\obj\x86\Debug\AutoCodeUtil.pdb

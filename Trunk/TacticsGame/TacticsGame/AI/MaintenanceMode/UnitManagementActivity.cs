@@ -8,16 +8,24 @@ using TacticsGame.GameObjects.Buildings;
 using Microsoft.Xna.Framework.Graphics;
 using System.Diagnostics;
 using TacticsGame.GameObjects.Visitors;
+using TacticsGame.Managers;
+using TacticsGame.Map;
+using TacticsGame.Scene;
 
 
 namespace TacticsGame.AI.MaintenanceMode
 {
     [Serializable]
-    public class UnitDecisionActivity
+    public class UnitManagementActivity
     {                
         private float progress = 0.0f;
 
+        [NonSerialized]
+        private const int BaseActivityTickDuration = 1000;
+
         private bool doneForTurn;
+
+        private bool isOwner = false;       
 
         [NonSerialized]
         private DecisionMakingUnit unit;
@@ -25,6 +33,8 @@ namespace TacticsGame.AI.MaintenanceMode
         private string unitId;
 
         private Decision decision;
+
+        private ActivityState activityState;
 
         [NonSerialized]
         private Building targetBuilding;       
@@ -34,14 +44,19 @@ namespace TacticsGame.AI.MaintenanceMode
         [NonSerialized]
         private DecisionMakingUnit targetVisitor;
 
+        private Tile targetTile;
+
+        private Stack<Tile> pathStack = new Stack<Tile>();        
+
         private string targetVisitorId;
 
         private float expectedDuration;
 
-        public UnitDecisionActivity(DecisionMakingUnit unit, Decision decision, float duration)
+        public UnitManagementActivity(DecisionMakingUnit unit, Decision decision, float duration)
         {
             this.Unit = unit;
             this.Decision = decision;
+            this.State = this.Decision == Decision.Idle ? ActivityState.Idle : ActivityState.PreparingToStartActivity; 
             this.ExpectedDuration = duration;
             this.DoneForTurn = false;                 
         }
@@ -53,6 +68,17 @@ namespace TacticsGame.AI.MaintenanceMode
         {
             get { return doneForTurn; }
             set { doneForTurn = value; }
+        }
+
+        public bool IsOwner
+        {
+            get { return isOwner; }
+            set { isOwner = value; }
+        }
+
+        public Stack<Tile> PathStack
+        {
+            get { return this.pathStack; }
         }
 
         /// <summary>
@@ -81,6 +107,12 @@ namespace TacticsGame.AI.MaintenanceMode
             }
         }
 
+        public Tile TargetTile
+        {
+            get { return targetTile; }
+            set { targetTile = value; }
+        }
+
         /// <summary>
         /// The visitor this unit may be targetting
         /// </summary>
@@ -103,6 +135,12 @@ namespace TacticsGame.AI.MaintenanceMode
             set { decision = value; }
         }
 
+        public ActivityState State
+        {
+            get { return activityState; }
+            set { activityState = value; }
+        }
+
         /// <summary>
         /// How long activity is expected to last for
         /// </summary>
@@ -122,11 +160,50 @@ namespace TacticsGame.AI.MaintenanceMode
         /// </summary>
         public float PercentComplete { get { return this.progress / this.ExpectedDuration; } }
 
-        public virtual void Update(GameTime gameTime, int tickDuration = 1000) 
+        public virtual void Update(GameTime gameTime) 
         {
-            progress += gameTime == null ? tickDuration : ((float)gameTime.ElapsedGameTime.Milliseconds / (float)tickDuration);
+            if (this.activityState == MaintenanceMode.ActivityState.Idle)
+            {
+                // Increment progress in waiting idly
+                this.IncrementProgress(gameTime);
+                if (this.Complete)
+                {
+                    this.activityState = ActivityState.AwaitingNextActivity;
+                }
+            }
+            else if (this.activityState == MaintenanceMode.ActivityState.InActivity)
+            {
+                // Increment progress in current activity
+                this.IncrementProgress(gameTime);
+                if (this.Complete)
+                {
+                    this.activityState = ActivityState.PreparingToReturnFromActivity;
+                }
+            }
+            else if (this.activityState == ActivityState.GoingToActivity || this.activityState == ActivityState.ReturningFromActivity)
+            {
+                // Increment unit's movement towards activity
+                this.Unit.Update(gameTime);
+                if ((this.activityState == ActivityState.GoingToActivity || this.activityState == ActivityState.ReturningFromActivity) && !this.Unit.IsTransitioning)
+                {
+                    if (this.pathStack.Count == 0)
+                    {
+                        this.activityState = this.activityState == ActivityState.GoingToActivity ? ActivityState.InActivity : ActivityState.DoneWithActivity;
+                    }
+                    else
+                    {
+                        this.TargetTile = this.pathStack.Pop();
+                        this.Unit.InitiateTransitionTo(this.TargetTile, false);
+                    }
+                }
+            }
+        }
 
-            // TODO: progress based on unit?                         
+        private void IncrementProgress(GameTime gameTime)
+        {
+            int speed = Utilities.GetSpeedMultiplier(GameManager.GameStateManager.GameSpeed);
+            int tickDuration = BaseActivityTickDuration / speed;
+            progress += gameTime == null ? tickDuration : ((float)gameTime.ElapsedGameTime.Milliseconds / (float)tickDuration);
         }
 
         /// <summary>
@@ -135,6 +212,7 @@ namespace TacticsGame.AI.MaintenanceMode
         public void NewDecision(MaintenanceMode.Decision decision, int decisionDuration)
         {
             this.Decision = decision;
+            this.State = decision == Decision.Idle ? ActivityState.Idle : ActivityState.PreparingToStartActivity;
             this.ExpectedDuration = decisionDuration;
             this.progress = 0.0f;
         }
@@ -162,8 +240,7 @@ namespace TacticsGame.AI.MaintenanceMode
                 case MaintenanceMode.Decision.Buy:
                     return TextureManager.Instance.GetIconInfo("Buy");
                 case MaintenanceMode.Decision.Sell:
-                    return TextureManager.Instance.GetIconInfo("Sell");
-                case MaintenanceMode.Decision.Idle:                    
+                    return TextureManager.Instance.GetIconInfo("Sell");                                
                 default:
                     return null;
             }                        

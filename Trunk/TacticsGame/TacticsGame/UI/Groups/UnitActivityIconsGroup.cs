@@ -9,6 +9,7 @@ using TacticsGame.Items;
 using Microsoft.Xna.Framework;
 using TacticsGame.GameObjects.Units;
 using TacticsGame.AI.CombatMode;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Groups
 {
@@ -26,7 +27,7 @@ namespace TacticsGame.UI.Groups
             this.Children.Add(uxIconGroup);
         }        
 
-        public void ResetActivityIcons(IEnumerable<UnitDecisionActivity> activities)
+        public void ResetActivityIcons(IEnumerable<UnitManagementActivity> activities)
         {
             this.Children.Clear();
 
@@ -40,7 +41,7 @@ namespace TacticsGame.UI.Groups
         {
             if (this.UnitActivityClickedEvent != null)
             {
-                UnitDecisionActivity activity = ((TooltipButtonControl)sender).Tag as UnitDecisionActivity;
+                UnitManagementActivity activity = ((TooltipButtonControl)sender).Tag as UnitManagementActivity;
                 if (activity != null) 
                 {                
                     this.UnitActivityClickedEvent(this, new UnitActivityClickedEventArgs(activity));
@@ -81,9 +82,9 @@ namespace TacticsGame.UI.Groups
         /// Adds multiple icons to the list.
         /// </summary>
         /// <param name="activities"></param>
-        public void AddActivityIcons(IEnumerable<UnitDecisionActivity> activities)
+        public void AddActivityIcons(IEnumerable<UnitManagementActivity> activities)
         {
-            foreach (UnitDecisionActivity activity in activities)
+            foreach (UnitManagementActivity activity in activities)
             {
                 this.AddDecisionActivityIcon(activity, false);
             }
@@ -161,7 +162,7 @@ namespace TacticsGame.UI.Groups
         /// <summary>
         /// Adds an icon to the list representing the activity.
         /// </summary>
-        public void AddDecisionActivityIcon(UnitDecisionActivity activity, bool refresh = true)
+        public void AddDecisionActivityIcon(UnitManagementActivity activity, bool refresh = true)
         {
             TooltipButtonControl newButton = new TooltipButtonControl();
             newButton.TooltipText = activity.Unit.DisplayName;
@@ -185,7 +186,7 @@ namespace TacticsGame.UI.Groups
         /// Updates the icon for when a decision activity changes
         /// </summary>
         /// <param name="activity"></param>
-        public void UpdateActivityIcon(UnitDecisionActivity activity)
+        public void UpdateActivityIcon(UnitManagementActivity activity)
         {
             foreach (UnitActivityIcon control in this.uxIconGroup.Controls)
             {                
@@ -206,7 +207,7 @@ namespace TacticsGame.UI.Groups
         /// </summary>
         /// <param name="activity"></param>
         /// <param name="result"></param>
-        public void UpdateResultOnActivityIcon(UnitDecisionActivity activity, ActivityResult result)
+        public void UpdateResultOnActivityIcon(UnitManagementActivity activity, ActivityResult result)
         {
             foreach (UnitActivityIcon control in this.uxIconGroup.VisibleControls)
             {
@@ -263,6 +264,15 @@ namespace TacticsGame.UI.Groups
                         y -= (int)crazyText.Bounds.Size.Y.Offset - 3;
                     }
 
+                    if (result.ActionPointCost < 0)
+                    {
+                        string text = "+ " + Math.Abs(result.ActionPointCost);
+                        IconInfo icon = TextureManager.Instance.GetIconInfo(ResourceId.Icons.RunnyGuyIcon);
+                        CrazyTextWithIcon crazyText = new CrazyTextWithIcon(text, icon, 0, y);
+                        control.Children.Add(crazyText);
+                        y -= (int)crazyText.Bounds.Size.Y.Offset - 3;
+                    }
+
                     return;
                 }
             }             
@@ -272,7 +282,7 @@ namespace TacticsGame.UI.Groups
         /// Removes first occurance of control whose tag matches "activity".
         /// </summary>
         /// <param name="activity"></param>
-        public void RemoveActivityIcon(UnitDecisionActivity activity)
+        public void RemoveActivityIcon(UnitManagementActivity activity)
         {            
             foreach (UnitActivityIcon control in this.uxIconGroup.Controls)
             {                
@@ -290,7 +300,7 @@ namespace TacticsGame.UI.Groups
             foreach (Control control in this.uxIconGroup.Controls)
             {                               
                 TooltipButtonControl tooltipControl = ((UnitActivityIcon)control).Button;
-                UnitDecisionActivity activity = (UnitDecisionActivity)tooltipControl.Tag;
+                UnitManagementActivity activity = (UnitManagementActivity)tooltipControl.Tag;
 
                 if (!activity.Complete && activity.Decision != Decision.Idle)
                 {
@@ -312,8 +322,8 @@ namespace TacticsGame.UI.Groups
 
         public class UnitActivityClickedEventArgs : EventArgs
         {
-            public UnitDecisionActivity Activity { get; set; }
-            public UnitActivityClickedEventArgs(UnitDecisionActivity activity)
+            public UnitManagementActivity Activity { get; set; }
+            public UnitActivityClickedEventArgs(UnitManagementActivity activity)
             {
                 this.Activity = activity;
             }

@@ -7,6 +7,9 @@ namespace TacticsGame.World
 {
     public class GameWorld
     {
+        public const int DayEndHour = 22;
+        public const int DayStartHour = 8;
+
         private List<ForeignTownInfo> foreignTowns = new List<ForeignTownInfo>();
 
         public List<ForeignTownInfo> ForeignTowns
@@ -15,6 +18,20 @@ namespace TacticsGame.World
             set { foreignTowns = value; }
         }
 
+        private TownState currentTown = new TownState();
 
+        public TownState CurrentTown
+        {
+            get { return this.currentTown; }
+            set { this.currentTown = value; }
+        }
+
+        private DateTime worldTime;
+
+        public DateTime WorldTime
+        {
+            get { return worldTime; }
+            set { worldTime = value; }
+        }
     }
 }

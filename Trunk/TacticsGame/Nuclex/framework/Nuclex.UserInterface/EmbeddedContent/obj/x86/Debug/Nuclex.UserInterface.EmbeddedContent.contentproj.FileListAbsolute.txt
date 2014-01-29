@@ -1,3 +1,4 @@
 D:\nuclex-framework-r1404-sources\framework\Nuclex.UserInterface\EmbeddedContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\EmbeddedContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\code\Tactics\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\EmbeddedContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\code\Homeland\Trunk\TacticsGame\Nuclex\framework\Nuclex.UserInterface\EmbeddedContent\obj\x86\Debug\Nuclex.UserInterface.EmbeddedContent.contentprojResolveAssemblyReference.cache

@@ -12,6 +12,7 @@ using TacticsGame.GameObjects.Units;
 using TacticsGame.UI.Controls;
 using TacticsGame.UI.Groups;
 using TacticsGame.GameObjects.EntityMetadata;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI
 {

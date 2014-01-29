@@ -18,7 +18,7 @@ namespace TacticsGame.GameObjects.Buildings
 
         Rectangle DrawPosition { get; set; }
 
-        void SetLocationTo(Tile tile);
+        void SetLocationTo(Tile tile, bool setTileResident = true);
 
         Point Coordinates { get; set; }
 

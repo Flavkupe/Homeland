@@ -16,12 +16,12 @@ namespace TacticsGame.GameObjects.Owners
             this.CurrentStats.Skills.LevelSkill(UnitSkills.SkillType.Appraisal, 4);
             this.CurrentStats.Skills.LevelSkill(UnitSkills.SkillType.Merchant, 5);
 
-            this.ItemTypePreference.Add(ItemType.Misc, 20);
-            this.ItemTypePreference.Add(ItemType.Commodity, 40);
-            this.ItemTypePreference.Add(ItemType.Luxury, 20);
-            this.ItemTypePreference.Add(ItemType.Resource, 20);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Misc, 20);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Commodity, 40);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Luxury, 20);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Resource, 20);
 
-            this.PriceMarkupRange = 15;
+            this.Preferences.ItemPreference.PriceMarkupRange = 15;
 
             this.Preferences.ItemPreference.QuantityIntoleranceModifier = 2; // much more tolerant of large item quantities because of resellers
         }        

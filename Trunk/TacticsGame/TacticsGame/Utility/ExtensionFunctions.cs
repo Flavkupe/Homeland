@@ -182,6 +182,14 @@ namespace TacticsGame
             }
         }
 
+        public static void PushRangeReversed<T>(this Stack<T> stack, IEnumerable<T> list)
+        {
+            foreach (T item in list.Reverse())
+            {
+                stack.Push(item);
+            }
+        }      
+
         public static string AttributeValue(this XmlElement element, string name, string defaultValue)
         {
             string attr = element.GetAttribute(name);

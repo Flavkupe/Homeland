@@ -13,6 +13,14 @@ namespace TacticsGame.Items
 
         public Rarity Rarity { get; set; }
 
+        private ItemMetadata metadata = ItemMetadata.None;
+
+        public ItemMetadata Metadata
+        {
+            get { return metadata; }
+            set { metadata = value; }
+        }
+
         public string Description { get; set; }
 
         public ItemStats Clone()

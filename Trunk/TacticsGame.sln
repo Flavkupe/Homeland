@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homeland", "TacticsGame\TacticsGame\Homeland.csproj", "{80F56A69-D3AF-4A64-911F-C0DEB999352B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacticsGameContent", "TacticsGame\TacticsGameContent\TacticsGameContent.contentproj", "{71D71CCD-C0B9-4479-A7A5-C1D9964D798E}"
@@ -8,8 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuclex.UserInterface (xna-4.0-x86)", "TacticsGame\Nuclex\framework\Nuclex.UserInterface\Nuclex.UserInterface (xna-4.0-x86).csproj", "{2CB08AB5-46B8-44A9-92AE-33790629696D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuclex.UserInterface.EmbeddedContent", "TacticsGame\Nuclex\framework\Nuclex.UserInterface\EmbeddedContent\Nuclex.UserInterface.EmbeddedContent.contentproj", "{FD57D556-4449-4C04-A0F8-763AA510B705}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtility", "TestUtility\TestUtility.csproj", "{1D867220-0AB7-4491-971E-A5D22B954C52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{94FADF9F-0FD2-492A-8CE2-62D79A117CE3}"
 EndProject
@@ -26,6 +24,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{80F56A69-D3AF-4A64-911F-C0DEB999352B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{80F56A69-D3AF-4A64-911F-C0DEB999352B}.Debug|Any CPU.Build.0 = Debug|x86
 		{80F56A69-D3AF-4A64-911F-C0DEB999352B}.Debug|x86.ActiveCfg = Debug|x86
 		{80F56A69-D3AF-4A64-911F-C0DEB999352B}.Debug|x86.Build.0 = Debug|x86
 		{80F56A69-D3AF-4A64-911F-C0DEB999352B}.DebugIgnoreGraphics|Any CPU.ActiveCfg = Debug|x86
@@ -55,15 +54,6 @@ Global
 		{FD57D556-4449-4C04-A0F8-763AA510B705}.DebugIgnoreGraphics|x86.ActiveCfg = Debug|Any CPU
 		{FD57D556-4449-4C04-A0F8-763AA510B705}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD57D556-4449-4C04-A0F8-763AA510B705}.Release|x86.ActiveCfg = Debug|Any CPU
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.Debug|x86.ActiveCfg = Debug|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.Debug|x86.Build.0 = Debug|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.DebugIgnoreGraphics|Any CPU.ActiveCfg = DebugIgnoreGraphics|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.DebugIgnoreGraphics|x86.ActiveCfg = DebugIgnoreGraphics|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.DebugIgnoreGraphics|x86.Build.0 = DebugIgnoreGraphics|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.Release|Any CPU.ActiveCfg = Release|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.Release|x86.ActiveCfg = Release|x86
-		{1D867220-0AB7-4491-971E-A5D22B954C52}.Release|x86.Build.0 = Release|x86
 		{8363209D-CFF8-4ADC-BD03-4D2088C50F26}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{8363209D-CFF8-4ADC-BD03-4D2088C50F26}.Debug|x86.ActiveCfg = Debug|x86
 		{8363209D-CFF8-4ADC-BD03-4D2088C50F26}.Debug|x86.Build.0 = Debug|x86

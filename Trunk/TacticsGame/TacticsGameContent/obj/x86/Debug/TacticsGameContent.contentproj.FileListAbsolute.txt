@@ -2,3 +2,4 @@ C:\Users\Flav\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\Tact
 C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\TacticsGame\TacticsGameContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Flavio\Documents\Visual Studio 2010\Projects\TacticsGame\Trunk\TacticsGame\TacticsGameContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\code\Tactics\Trunk\TacticsGame\TacticsGameContent\obj\x86\Debug\TacticsGameContent.contentprojResolveAssemblyReference.cache
+C:\code\Homeland\Trunk\TacticsGame\TacticsGameContent\obj\x86\Debug\TacticsGameContent.contentprojResolveAssemblyReference.cache

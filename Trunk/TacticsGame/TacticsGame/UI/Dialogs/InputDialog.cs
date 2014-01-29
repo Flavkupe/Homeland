@@ -5,15 +5,16 @@ using System.Text;
 using TacticsGame.UI.Controls;
 using Nuclex.UserInterface.Controls.Desktop;
 using Nuclex.UserInterface;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Dialogs
 {
-    class InputDialog : ModalDialogControl
+    public class InputDialog : ModalDialogControl
     {
         private InputDialog()
-            :base()
+            : base()
         {
-            InitializeControls();
+            this.InitializeControls();
         }
 
         public event EventHandler<EventArgsEx<string>> InputResult; 

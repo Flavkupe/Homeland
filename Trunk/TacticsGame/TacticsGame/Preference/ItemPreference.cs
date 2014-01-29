@@ -12,25 +12,15 @@ namespace TacticsGame.Preference
         private int priceMarkupRange = 0;
         private int quantityIntoleranceModifier = 10;
 
+        private bool onlyBuysPreferredItemTypes = false;     
+
         private Dictionary<string, int> preferenceByItemName = new Dictionary<string, int>();
 
         private Dictionary<ItemType, int> preferenceByItemType = new Dictionary<ItemType, int>();
 
         private Dictionary<Rarity, int> preferenceByItemRarity = new Dictionary<Rarity, int>();
 
-        // TEMP until all others are converted away
-        public Dictionary<ItemType, int> ItemTypePreference
-        {
-            get { return preferenceByItemType; }
-            set { preferenceByItemType = value; }
-        }
-
-        // TEMP until all others are converted away
-        public Dictionary<string, int> ItemNamePreferences
-        {
-            get { return preferenceByItemName; }
-            set { preferenceByItemName = value; }
-        }
+        private Dictionary<ItemMetadata, int> preferenceByItemMetadata = new Dictionary<ItemMetadata, int>();
 
         /// <summary>
         /// Modifier to specify how little the unit is willing to tolerate repeats of items. 0 indicates they are indifferent to having more items, 10 is normal, 20 is highly intolerant 
@@ -63,6 +53,11 @@ namespace TacticsGame.Preference
             this.preferenceByItemRarity[itemRarity] = preference;
         }
 
+        public void SetPreference(ItemMetadata itemMetadata, int preference)
+        {
+            this.preferenceByItemMetadata[itemMetadata] = preference;
+        }
+
         public int GetPreference(string itemName)
         {
             return this.preferenceByItemName.GetValueOrZero(itemName);
@@ -77,12 +72,40 @@ namespace TacticsGame.Preference
         {
             return this.preferenceByItemRarity.GetValueOrZero(rarity);
         }
+        
+        public int GetPreference(ItemMetadata itemMetadata)
+        {
+            return this.preferenceByItemMetadata.GetValueOrZero(itemMetadata);
+        }
 
-        public int GetPreference(Item item)
+        public virtual int GetPreference(Item item)
         {
             return this.GetPreference(item.Stats.Rarity) +
-                   this.GetPreference(item.ObjectName) + 
+                   this.GetPreference(item.ObjectName) +
+                   this.GetPreference(item.Stats.Metadata) +
                    this.GetPreference(item.Stats.Type);
+        }
+
+        /// <summary>
+        /// Gets the preference only by finding the maximum of all preference types, rather than adding the values all up.
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public int GetDominantPreference(Item item)
+        {
+            return Math.Max(Math.Max(this.GetPreference(item.Stats.Rarity), this.GetPreference(item.ObjectName)), 
+                            Math.Max(this.GetPreference(item.Stats.Metadata), this.GetPreference(item.Stats.Type)));
+        }
+
+        public bool OnlyBuysPreferredItemTypes
+        {
+            get { return onlyBuysPreferredItemTypes; }
+            set { onlyBuysPreferredItemTypes = value; }
+        }
+
+        public bool WillNotBuyItem(Item item)
+        {
+            return this.onlyBuysPreferredItemTypes == true && this.GetPreference(item) <= 0;
         }
     }
 }

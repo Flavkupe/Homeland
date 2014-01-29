@@ -48,14 +48,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Homeland.exe" size="1189376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Homeland.exe" size="1212416">
       <assemblyIdentity name="Homeland" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NLfDFBd1pTD+aE5Ct6svE2Xy+rM=</dsig:DigestValue>
+        <dsig:DigestValue>rdv5OIK7oRFZJHWTV5hOCNN5L3I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -240,14 +240,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Nuclex.UserInterface.dll" size="666624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Nuclex.UserInterface.dll" size="667136">
       <assemblyIdentity name="Nuclex.UserInterface" version="4.0.0.0" publicKeyToken="0F01C2D3090063DE" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9hQSFG4jhjY+c/lHsgkhCpjKQP4=</dsig:DigestValue>
+        <dsig:DigestValue>bYizI0nS2oOqKDvLO1iNcEqgWPc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -299,13 +299,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Content\Fonts\Debug.xnb" size="21678">
+  <file name="Content\Fonts\Debug.xnb" size="38062">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>RCn6b28nvqpAOk5w/Sjcs/1/yb4=</dsig:DigestValue>
+      <dsig:DigestValue>Ja59bIxORmWYAJsePAxG79THlys=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Fonts\MainFont.xnb" size="21678">
@@ -314,7 +314,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ixUBJif1Swgs2jpveU1GuaPwWRE=</dsig:DigestValue>
+      <dsig:DigestValue>ZWA6yJMrSD2nKE6ShWrk4GBAvHw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Icons\BottleTrader.xnb" size="4283">
@@ -1514,15 +1514,6 @@
       <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PowerCollections.dll" size="200704">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>b5IG7Fh5s1pTmupa/vf28xNZsR8=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="SuaveSheet.xnb" size="262331">
     <hash>
       <dsig:Transforms>
@@ -1586,13 +1577,13 @@
       <dsig:DigestValue>NjbpPNXgkOaTxoD+nR8IvC25gfc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Xml\Items.xml" size="19693" writeableType="applicationData">
+  <file name="Xml\Items.xml" size="20337" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ERQ7RLOYU7ZquEyRyaXVdMw/ewQ=</dsig:DigestValue>
+      <dsig:DigestValue>SiaO9mLegRLfbv8+ywG7lFMQ/S8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Xml\Misc.xml" size="1451" writeableType="applicationData">

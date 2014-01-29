@@ -141,7 +141,7 @@ namespace TacticsGame.UI.Dialogs
 
         private void RequestSellBid()
         {
-            int shopkeepBid = UnitDecisionUtils.MakeBid(this.target, this.item, false);
+            int shopkeepBid = GameManager.UnitActionManager.PreferenceEngine.MakeBid(this.target, this.item, false);
             this.lastBidOfferedByTarget = shopkeepBid;
             this.uxTextbox.Text = shopkeepBid.ToString();
             this.uxRequestBidButton.Enabled = false;
@@ -150,7 +150,7 @@ namespace TacticsGame.UI.Dialogs
 
         private void RequestBuyBid()
         {
-            int shopkeepBid = UnitDecisionUtils.MakeBid(this.target, this.item, true);            
+            int shopkeepBid = GameManager.UnitActionManager.PreferenceEngine.MakeBid(this.target, this.item, true);            
             this.lastBidOfferedByTarget = shopkeepBid;
             this.uxTextbox.Text = shopkeepBid.ToString();
             this.uxRequestBidButton.Enabled = false;
@@ -195,7 +195,7 @@ namespace TacticsGame.UI.Dialogs
                 return;
             }
 
-            int shopkeepBid = UnitDecisionUtils.MakeBid(this.target, this.item, false);
+            int shopkeepBid = GameManager.UnitActionManager.PreferenceEngine.MakeBid(this.target, this.item, false);
 
             if (shopkeepBid >= playerBid || (this.lastBidOfferedByTarget.HasValue && this.lastBidOfferedByTarget.Value >= playerBid))
             {
@@ -217,7 +217,7 @@ namespace TacticsGame.UI.Dialogs
                 return;
             }
 
-            int shopkeepBid = UnitDecisionUtils.MakeBid(this.target, this.item, true);
+            int shopkeepBid = GameManager.UnitActionManager.PreferenceEngine.MakeBid(this.target, this.item, true);
             //Console.WriteLine("Seller {0} is willing to sell {1} for {2}", this.target.DisplayName, this.item.DisplayName, shopkeepBid);
             shopkeepBid += Utilities.GetRangePercent(shopkeepBid, -10, 10); // Range it anywhere from -10 to 10 percent of value
             //Console.WriteLine("Seller {0} is adjusting price of {1} to require a cost of {2}", this.target.DisplayName, this.item.DisplayName, shopkeepBid);

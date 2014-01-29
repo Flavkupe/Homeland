@@ -7,6 +7,7 @@ using Nuclex.UserInterface.Visuals.Flat;
 using Nuclex.UserInterface;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using TacticsGame.Managers;
 
 
 namespace TacticsGame.UI.Controls

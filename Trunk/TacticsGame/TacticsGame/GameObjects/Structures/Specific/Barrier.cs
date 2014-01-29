@@ -35,7 +35,7 @@ namespace TacticsGame.GameObjects.Structures.Specific
 
         public IconInfo Icon
         {
-            get { return this.GetEntityIcon(); }
+            get { return this.Sprite.GetEntityIcon(); }
         }
     }
 }

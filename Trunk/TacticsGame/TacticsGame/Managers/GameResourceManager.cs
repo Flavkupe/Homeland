@@ -333,6 +333,17 @@ namespace TacticsGame.Managers
                 XmlElement element = (XmlElement)description[0];
                 info.Stats.Description = element.InnerText;
             }
+
+            XmlNodeList metadataNodes = itemStats.GetElementsByTagName("Metadata");
+            foreach(XmlElement node in metadataNodes) 
+            {
+                ItemMetadata value = node.AttributeValueAsEnum<ItemMetadata>("Value", ItemMetadata.None);
+                Debug.Assert(value != ItemMetadata.None, "Failed to parse item metadata value, or assigned 'None'!");
+                if (value != ItemMetadata.None)
+                {
+                    info.Stats.Metadata |= value;
+                }
+            }
         }
 
         private void GetSpecialAttributesForAbility(XmlElement currentElement, AbilityResourceInfo info)

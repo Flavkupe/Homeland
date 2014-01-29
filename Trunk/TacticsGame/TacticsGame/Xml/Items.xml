@@ -23,11 +23,12 @@
   </Item>
   <Item Id="BasicBow" DisplayName="Basic Bow" >
     <TextureInfo IconName="BasicBow" />
-    <ItemStats Cost="60" ItemType="Weapon">
-      <Description>A simple wooden bow.</Description>
+    <ItemStats Cost="60" ItemType="Weapon">      
+      <Description>A simple wooden bow.</Description>      
       <WeaponStats Attack="3" APCost="4" RangeMax="5" RangeMin="3" Type="Bow" >
         <VisualEffect TargetType="Enemy" VisualEffectType="LinearProjectile" Cycles="1" EffectName="RockThrow" Scale="0.3" />
       </WeaponStats>
+                  
     </ItemStats>
   </Item>
   <Item Id="BasicDagger" DisplayName="Basic Dagger" >
@@ -302,6 +303,7 @@
     <TextureInfo IconName="IronOre" />
     <ItemStats Cost="15" ItemType="Ingredient" >
       <Description>A small clump of solid ore.</Description>
+      <Metadata Value="MiningLoot"/>
     </ItemStats>
   </Item>
   <Item Id="IronBar" DisplayName="Iron Bar" >
@@ -326,66 +328,78 @@
     <TextureInfo IconName="BulbousRoot" />
     <ItemStats Rarity="Common" Cost="8" ItemType="Ingredient" >
       <Description>A small, chubby root.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="GreenShroom" DisplayName="Green Mushroom" >
     <TextureInfo IconName="GreenShroom" />
     <ItemStats Rarity="Common" Cost="5" ItemType="Ingredient" >
       <Description>A green speckled mushroom.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="HerbCluster" DisplayName="Herb Cluster" >
     <TextureInfo IconName="HerbCluster" />
     <ItemStats Rarity="Common" Cost="15" ItemType="Ingredient" >
       <Description>A cluster of aromatic herbs.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="LeafCluster" DisplayName="Leaf Cluster" >
     <TextureInfo IconName="LeafCluster" />
     <ItemStats Rarity="Common" Cost="10" ItemType="Ingredient" >
       <Description>A bundle of pungent leaves.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="Leather" DisplayName="Leather" >
     <TextureInfo IconName="Leather" />
-    <ItemStats Rarity="Uncommon" Cost="20" ItemType="Ingredient" >
+    <ItemStats Rarity="Uncommon" Cost="20" ItemType="Ingredient" >      
       <Description>A tough piece of raw hide.</Description>
+      <Metadata Value="CraftingIngredient"/>
+      <Metadata Value="HuntingLoot"/>
     </ItemStats>
   </Item>
   <Item Id="RedShroom" DisplayName="Red Mushroom" >
     <TextureInfo IconName="RedShroom" />
     <ItemStats Rarity="Common" Cost="8" ItemType="Ingredient" >
       <Description>A speckled red mushroom.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="Root" DisplayName="Wild Root" >
     <TextureInfo IconName="Root" />
     <ItemStats Rarity="Common" Cost="10" ItemType="Ingredient" >
       <Description>A tangled root.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="WhiteFlowers" DisplayName="White Flowers" >
     <TextureInfo IconName="WhiteFlowers" />
     <ItemStats Rarity="Common" Cost="20" ItemType="Ingredient" >
       <Description>A bundle of white flowes.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="WildMushroom" DisplayName="Wild Mushroom" >
     <TextureInfo IconName="WildMushroom" />
     <ItemStats Rarity="Uncommon" Cost="30" ItemType="Ingredient" >
       <Description>A small, pungent mushroom.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="YellowFlowers" DisplayName="Yellow Flower" >
     <TextureInfo IconName="YellowFlowers" />
     <ItemStats Rarity="Uncommon" Cost="30" ItemType="Ingredient" >
       <Description>A flower with a great scent.</Description>
+      <Metadata Value="ForageLoot" />
     </ItemStats>
   </Item>
   <Item Id="Vial" DisplayName="Vial" >
     <TextureInfo IconName="Vial" />
     <ItemStats Rarity="Common" Cost="10" ItemType="Ingredient" >
       <Description>A small glass cylinder.</Description>
+      <Metadata Value="CraftingIngredient"/>
     </ItemStats>
   </Item>
   
@@ -470,12 +484,14 @@
     <TextureInfo IconName="Wood" />
     <ItemStats Cost="15" ItemType="Resource" >
       <Description>Wood for construction.</Description>
+      <Metadata Value="WoodcuttingLoot"/>
     </ItemStats>
   </Item>
   <Item Id="Stone" DisplayName="Stone" >
     <TextureInfo IconName="Stone" />
     <ItemStats Cost="20" ItemType="Resource" >
       <Description>Stone for construction.</Description>
+      <Metadata Value="StoneMiningLoot"/>
     </ItemStats>
   </Item>
 

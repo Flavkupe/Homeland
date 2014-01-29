@@ -7,6 +7,10 @@ using TacticsGame.UI.Dialogs;
 using System.Diagnostics;
 using TacticsGame.GameObjects.Units;
 using TacticsGame.Managers;
+using TacticsGame.Map;
+using TacticsGame.UI;
+using TacticsGame.AI.MaintenanceMode;
+using Microsoft.Xna.Framework.Input;
 
 namespace TacticsGame.Scene
 {
@@ -21,26 +25,162 @@ namespace TacticsGame.Scene
             }
         }
 
-        private void HandleContinueButtonClicked(object sender, EventArgs e)
+        /// <summary>
+        /// Some tile in the grid was selected that was not previously selected.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected override void HandleClickedOnATile(object sender, TileGrid.TileClickedEventArgs e)
         {
-            if (this.allUnitsDone)
+            Tile selection = e.ClickedTile;
+
+            if (this.CurrentState == State.PlacingBuilding)
             {
-                this.ProcessTurnDone();
-                this.InitiateFade();
+                this.PlaceBuildingOnTile(selection);
+                return;
             }
             else
             {
-                if (this.activityTickDuration == hurryActivityTickDuration)
+                if (selection.TileResident != null)
                 {
-                    this.activityTickDuration = baseActivityTickDuration;
+                    this.SelectedEntity = selection.TileResident;
+
+                    if (selection.TileResident is Building)
+                    {
+                        this.CurrentState = State.BuildingSelected;
+                    }
+                    else
+                    {
+                        this.CurrentState = State.MiscSelected;
+                    }
+                }
+                else
+                {
+                    this.ClearSelection();
+                }
+            }
+        }
+
+        protected override void HandleMouseAndKeyboardInputs()
+        {
+            this.HandleScrollInputs();
+
+            if (this.commandPane.MouseIsOverControl())
+            {
+                // Let the UI deal with it
+                return;
+            }
+
+            if (this.CurrentState == State.ShowingDialog)
+            {
+                // Don't interrupt dialog.
+                return;
+            }
+
+            KeyboardState keystate = Keyboard.GetState();
+
+            if (keystate.IsKeyUp(Keys.P) && this.oldState != null && this.oldState.IsKeyDown(Keys.P))
+            {
+                this.pause = !this.pause;
+            }
+            else if (keystate.IsKeyUp(Keys.Q) && this.oldState != null && this.oldState.IsKeyDown(Keys.Q))
+            {
+                this.QuickSave();
+            }
+            else if (keystate.IsKeyUp(Keys.L) && this.oldState != null && this.oldState.IsKeyDown(Keys.L))
+            {
+                this.QuickLoad();
+            }
+
+            base.HandleMouseAndKeyboardInputs();
+
+            if (this.RMBReleased)
+            {
+                this.ClearSelection();
+            }
+
+            this.oldState = Keyboard.GetState();
+        }
+
+        private void HandleCommandPaneCommand(object sender, CommandPaneCommandEventArgs e)
+        {
+            switch (e.Command)
+            {
+                case Commands.RequestsClicked:
+                    this.HandleRequestsButtonClicked();
+                    break;
+                case Commands.CaravanClicked:
+                    this.HandleCaravanButtonClicked();
+                    break;
+                case Commands.VisitorsClicked:
+                    this.HandleVisitorsButtonClicked();
+                    break;
+                case Commands.ShowStockClicked:
+                    this.HandleShowStockClicked();
+                    break;
+                case Commands.UnitsButtonClicked:
+                    this.HandleUnitButtonClicked();
+                    break;
+                case Commands.SellClicked:
+                    this.HandleSellButtonClicked();
+                    break;
+                case Commands.EdictsClicked:
+                    this.HandleEdictsButtonClicked();
+                    break;
+                case Commands.FinancesClicked:
+                    this.HandleFinanceButtonClicked();
+                    break;
+            }
+        }     
+
+        private void HandleContinueButtonClicked(object sender, EventArgs e)
+        {
+            if (this.Simulation.DayIsOver)
+            {
+                this.PlayerEndedTurn();                
+            }
+            else
+            {
+                if (GameManager.GameStateManager.GameSpeed == GameSpeed.Fast)
+                {
+                    GameManager.GameStateManager.GameSpeed = GameSpeed.Normal;
                     this.commandPane.ContinueButton.Text = "Hurry!";
                 }
                 else
                 {
-                    this.activityTickDuration = hurryActivityTickDuration;
+                    GameManager.GameStateManager.GameSpeed = GameSpeed.Fast;                    
                     this.commandPane.ContinueButton.Text = "Slow Down!";
                 }
             }
+        }
+
+        private void HandleDailyReportClosed(object sender, EventArgs e)
+        {
+            this.InitiateEndOfTurnFade();
+        }
+
+        /// <summary>
+        /// Clears all handlers for when we are ready to dispose of this scene.
+        /// </summary>
+        protected override void ClearUIHandlers()
+        {
+            this.commandPane.CommandButtonClicked -= this.HandleCommandPaneCommand;
+            this.commandPane.ContinueButtonClicked -= this.HandleContinueButtonClicked;
+            this.commandPane.BuildButtonClicked -= this.HandleBuildBuildingIconClicked;
+            InterfaceManager.Instance.DialogClosed -= this.HandleDialogClosed;
+            this.actionFeed.ActivityIconClicked -= this.HandleUnitIconClicked;
+        }
+
+        /// <summary>
+        /// Creates the UI handlers for this scene.
+        /// </summary>
+        protected override void SetUIHandlers()
+        {
+            this.commandPane.CommandButtonClicked += this.HandleCommandPaneCommand;
+            this.commandPane.ContinueButtonClicked += this.HandleContinueButtonClicked;
+            this.commandPane.BuildButtonClicked += this.HandleBuildBuildingIconClicked;
+            InterfaceManager.Instance.DialogClosed += this.HandleDialogClosed;
+            this.actionFeed.ActivityIconClicked += this.HandleUnitIconClicked;
         }
 
         /// <summary>
@@ -173,6 +313,37 @@ namespace TacticsGame.Scene
             }
 
             this.postDialogEvent = null;
+        }
+
+        /// <summary>
+        /// Override if there is no action feed.
+        /// </summary>
+        protected virtual void ShowActivityResultsOnActionFeed(UnitManagementActivity activity, ActivityResult results)
+        {
+            this.actionFeed.UpdateResultOnActivity(activity, results);
+        }
+
+        protected virtual void UpdateActivityOnUI(UnitManagementActivity activity)
+        {
+            this.actionFeed.UpdateActivity(activity);
+        }
+
+        /// <summary>
+        /// Uses present UI to announce text.
+        /// </summary>
+        /// <param name="text"></param>
+        protected virtual void AnnounceTextToUI(string text)
+        {
+            this.actionFeed.AddToFeed(text);
+        }
+
+        /// <summary>
+        /// Puts the activity in the UI for updating
+        /// </summary>
+        /// <param name="activity"></param>
+        protected virtual void AddActivityToUIFeed(UnitManagementActivity activity)
+        {
+            this.actionFeed.AddToFeed(activity);
         }
     }
 }

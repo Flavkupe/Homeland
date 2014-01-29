@@ -12,7 +12,7 @@ using TacticsGame.World;
 using TacticsGame.Utility.Classes;
 using TacticsGame.PlayerThings;
 
-namespace TacticsGame
+namespace TacticsGame.Managers
 {
     public class GameStateManager : Singleton<GameStateManager>
     {
@@ -31,6 +31,8 @@ namespace TacticsGame
         private float zoomLevel = 1.0f;
 
         private int panSpeed = 4;
+
+        private GameSpeed gameSpeed = GameSpeed.Normal;
 
         private GameStateManager()
         {
@@ -97,6 +99,12 @@ namespace TacticsGame
         {
             get { return gameObjective; }
             set { gameObjective = value; }
+        }
+
+        public GameSpeed GameSpeed
+        {
+            get { return gameSpeed; }
+            set { gameSpeed = value; }
         }
 
         public ObjectiveStatus GetObjectiveStatus()
@@ -234,6 +242,6 @@ namespace TacticsGame
             }
 
             return false;
-        }        
+        }
     }
 }

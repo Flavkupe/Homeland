@@ -10,11 +10,34 @@ using TacticsGame.Items;
 using TacticsGame.GameObjects.Owners;
 using TacticsGame.Metrics;
 using TacticsGame.GameObjects.Visitors;
+using TacticsGame.World;
+using TacticsGame.GameObjects.Zones;
 
-namespace TacticsGame.AI.MaintenanceMode
+namespace TacticsGame.AI.MaintenanceMode.Engines
 {
-    public class UnitDecisionEngine
-    {        
+    public class EducatedDecisionEngine : TacticsGame.AI.MaintenanceMode.IDecisionEngine
+    {
+        private IPreferenceEngine preferenceEngine = null;
+
+        private ITownMarketManager townMarketManager = null; 
+
+        public EducatedDecisionEngine()
+        {
+            this.preferenceEngine = new EducatedPreferenceEngine();
+            this.townMarketManager = new TownMarketManager(this.preferenceEngine);
+        }
+
+        public EducatedDecisionEngine(IPreferenceEngine preferenceEngine, ITownMarketManager townMarketManager)
+        {
+            this.preferenceEngine = preferenceEngine ?? new EducatedPreferenceEngine();
+            this.townMarketManager = townMarketManager ?? new TownMarketManager(this.preferenceEngine);
+        }
+
+        public IPreferenceEngine PreferenceEngine
+        {
+            get { return this.preferenceEngine; }
+        }
+
         public virtual Decision MakeDecision(IMakeDecisions unit)
         {
             int propensityToGoSell = CalculatePropensityToSell(unit);
@@ -83,10 +106,9 @@ namespace TacticsGame.AI.MaintenanceMode
             }
         }
 
-        private DecisionMakingUnit DecideWhichVisitorToBuyFrom(IMakeDecisions unit, List<DecisionMakingUnit> list)
-        {
-            // TODO
-            return list.GetRandomItem();
+        private DecisionMakingUnit DecideWhichVisitorToBuyFrom(IMakeDecisions unit, List<DecisionMakingUnit> visitors)
+        {                       
+            return visitors.GetRandomItem();
         }
 
         private DecisionMakingUnit DecideWhichVisitorToSellTo(IMakeDecisions unit, List<DecisionMakingUnit> list, Dictionary<string, int> itemsInterestedInSelling)
@@ -208,14 +230,12 @@ namespace TacticsGame.AI.MaintenanceMode
 
         private static int PropensityToSellItemToUnit(IMakeDecisions unitSelling, Item item, DecisionMakingUnit unitBuying)
         {
-            int propensity = unitBuying.OnlyBuysPreferredItemTypes && !unitBuying.ItemTypePreference.ContainsKey(item.Stats.Type) 
-                                                                   && !unitBuying.ItemPreference.ContainsKey(item.ObjectName) ? Params.Prohibitive : 0; // will not shop if the owner won't buy item
-            propensity += unitBuying.ItemTypePreference.ContainsKey(item.Stats.Type) ? unitBuying.ItemTypePreference[item.Stats.Type] : 0; // Add owner's preference for the item to propensity to buy from owner
-            propensity += unitBuying.ItemPreference.ContainsKey(item.ToString()) ? unitBuying.ItemPreference[item.ToString()] : 0; // Add owner's preference for the item to propensity to buy from owner
+            if (unitBuying.Preferences.ItemPreference.WillNotBuyItem(item)) return Params.Prohibitive; // will not shop if the owner won't buy item            
+            int propensity = 0; 
+            propensity += unitBuying.Preferences.ItemPreference.GetPreference(item); // Add owner's preference for the item to propensity to buy from owner
             propensity += unitBuying.Inventory.Money > Params.BuildingToSellTo_MinimumMoney ? 0 : Params.Prohibitive; // TODO: find a better number than 10... 
-            propensity += unitBuying.Inventory.Money > item.Stats.Cost ? Params.MidLow : 0; // Shopkeep can afford the item... TODO: right now, this is assuming the unit knows exact cost... use appraisal?
-            propensity += ParamUtils.PropensityToGetMoreItemsByQuantity(unitBuying.Inventory.GetItemCount(item)); // Add/Subtract the willingness of the buying unit to get more items... ie less propensity if he has multiple of the items.
-            
+            propensity += unitBuying.Inventory.Money > item.Stats.Cost ? Params.MidLow : 0; // Shopkeep can afford the item... 
+            propensity += ParamUtils.PropensityToGetMoreItemsByQuantity(unitBuying.Inventory.GetItemCount(item)); // Add/Subtract the willingness of the buying unit to get more items... ie less propensity if he has multiple of the items.            
             propensity = propensity.MinCap(0);
             MetricsLogger.LogAppendStatistic(MetricType.WantToSellTo, string.Format("{0}=>{1}", unitSelling.DisplayName, unitBuying.DisplayName), propensity);                        
             return propensity;
@@ -226,7 +246,7 @@ namespace TacticsGame.AI.MaintenanceMode
             Dictionary<string, int> propensityToSellType = new Dictionary<string, int>(); // How much units wants to sell item types, to find the right store.
             foreach (Item item in unit.Inventory.Items)
             {
-                int willingnessToSell = UnitDecisionUtils.DetermineWillingnessToSellItem(unit, item);
+                int willingnessToSell = this.preferenceEngine.DetermineWillingnessToSellItem(unit, item);
                 propensityToSellType.SetOrIncrement(item.ObjectName, willingnessToSell);
             }
 
@@ -296,18 +316,28 @@ namespace TacticsGame.AI.MaintenanceMode
 
         protected virtual int CalculatePropensityToLeisure(IMakeDecisions unit)
         {
+            if (unit.CurrentStats.ActionPoints >= unit.BaseStats.ActionPoints)
+            {
+                // If unit is full in AP, have very little incentive to rest.
+                return 1;
+            }
+
             int total = Params.PropensityToLeisure_Starting;
 
             MetricsLogger.LogAppendStatistic(MetricType.Propensity, "ToLeisure", total);
 
             total += Utilities.GetRandomNumber(0, Params.RandomVariance);
+
+            total += unit.CurrentStats.ActionPoints <= 2 ? Params.Mid : 0;
+            total += unit.CurrentStats.ActionPoints == 0 ? Params.VeryHigh : 0;
+
             return total;
         }
 
         protected virtual int CalculatePropensityToGatherWood(IMakeDecisions unit)
         {
             int total = 10;
-            int numItems= unit.Inventory.GetItemCount("Wood");
+            int numItems = unit.Inventory.GetItemCount(ItemMetadata.WoodcuttingLoot);
             total += numItems == 0 ? 30 : 0; // no wood... increase likeleyhood
             total += numItems > 4 ? -Params.High : 0; // already have lots
             total += numItems > 10 ? Params.Prohibitive : 0; // already have way lots
@@ -319,15 +349,8 @@ namespace TacticsGame.AI.MaintenanceMode
         protected virtual int CalculatePropensityToForage(IMakeDecisions unit)
         {
             int total = 10;
-            // TODO: standardize this system by having item categories
-            int numItems = unit.Inventory.GetItemCount("HerbCluster");
-            numItems += unit.Inventory.GetItemCount("BulbousRoot");
-            numItems += unit.Inventory.GetItemCount("LeafCluster");
-            numItems += unit.Inventory.GetItemCount("RedShroom");
-            numItems += unit.Inventory.GetItemCount("Root");
-            numItems += unit.Inventory.GetItemCount("WhiteFlowers");
-            numItems += unit.Inventory.GetItemCount("WildMushroom");
-            numItems += unit.Inventory.GetItemCount("YellowFlowers");
+
+            int numItems = unit.Inventory.GetItemCount(ItemMetadata.HuntingLoot);
 
             total += numItems == 0 ? 30 : 0; // no items... increase likeleyhood
             total += numItems > 6 ? -Params.MidLow : 0; // already have lots
@@ -342,7 +365,7 @@ namespace TacticsGame.AI.MaintenanceMode
         protected virtual int CalculatePropensityToHunt(IMakeDecisions unit)
         {
             int total = 10;
-            int numItems = unit.Inventory.GetItemCount("Leather");
+            int numItems = unit.Inventory.GetItemCount(ItemMetadata.HuntingLoot);
             total += numItems == 0 ? 30 : 0; // no leather... increase likeleyhood
             total += numItems > 3 ? -Params.High : 0; // already have lots
             total += numItems > 10 ? Params.Prohibitive : 0; // already have way lots
@@ -354,7 +377,7 @@ namespace TacticsGame.AI.MaintenanceMode
         protected virtual int CalculatePropensityToMineOre(IMakeDecisions unit)
         {
             int total = 10;
-            int numItems = unit.Inventory.GetItemCount("IronOre");
+            int numItems = unit.Inventory.GetItemCount(ItemMetadata.MiningLoot);
             total += numItems == 0 ? 30 : 0; // no ore... increase likeleyhood
             total += numItems > 4 ? -Params.High : 0; // already have lots
             total += numItems > 10 ? Params.Prohibitive : 0; // already have way lots
@@ -366,7 +389,7 @@ namespace TacticsGame.AI.MaintenanceMode
         protected virtual int CalculatePropensityToGatherStone(IMakeDecisions unit)
         {
             int total = 10;
-            int numItems = unit.Inventory.GetItemCount("Stone");
+            int numItems = unit.Inventory.GetItemCount(ItemMetadata.StoneMiningLoot);
             total += numItems == 0 ? 30 : 0; // no stone... increase likeleyhood
             total += numItems > 4 ? -Params.High : 0; // already have lots
             total += numItems > 10 ? Params.Prohibitive : 0; // already have way lots
@@ -402,5 +425,43 @@ namespace TacticsGame.AI.MaintenanceMode
         /////////
         #endregion
         /////////
+
+        public bool DecisionRequiresBuilding(Decision decision)
+        {
+            return decision == Decision.Buy || decision == Decision.Sell;
+        }
+
+        public bool DecisionRequiresVisitor(Decision decision)
+        {
+            return decision == Decision.Buy || decision == Decision.Sell;
+        }
+
+
+        public bool DecisionRequiresExitZone(Decision decision)
+        {
+            return decision == Decision.GetLumber || decision == Decision.Hunt || decision == Decision.MineGems || decision == Decision.MineOre ||
+                   decision == Decision.MineStone || decision == Decision.Forage;
+        }
+
+        public ExitZone GetTargetZone(Decision decision, IEnumerable<ExitZone> zones) 
+        {
+            if (decision == Decision.GetLumber || decision == Decision.Forage)
+            {
+                return zones.Where(a => a.LeadsToWood).GetRandomItem();
+            }
+
+            if (decision == Decision.Hunt)
+            {
+                return zones.Where(a => a.LeadsToHunt).GetRandomItem();
+            }
+
+            if (decision == Decision.MineGems || decision == Decision.MineStone || decision == Decision.MineOre)
+            {
+                return zones.Where(a => a.LeadsToStone).GetRandomItem();
+            }
+
+            return null;
+        }
+
     }
 }

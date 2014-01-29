@@ -8,6 +8,9 @@ using TacticsGame.GameObjects.Units;
 using TacticsGame.Edicts;
 using TacticsGame.Items;
 using TacticsGame.World.Caravans;
+using TacticsGame.GameObjects.Obstacles;
+using TacticsGame.GameObjects.Zones;
+using TacticsGame.Map;
 
 namespace TacticsGame.World
 {
@@ -31,7 +34,13 @@ namespace TacticsGame.World
 
         private List<DecisionMakingUnit> decisionMakingUnits = new List<DecisionMakingUnit>();
 
-        private List<Caravan> caravans = new List<Caravan>();        
+        private List<Caravan> caravans = new List<Caravan>();
+
+        private List<Obstacle> obstacles = new List<Obstacle>();
+
+        private List<Zone> zones = new List<Zone>();
+
+        private TileGrid tileGrid = null;
 
         private int dailyTaxes = 0;
 
@@ -59,6 +68,29 @@ namespace TacticsGame.World
         {
             get { return caravans; }
             set { caravans = value; }
+        }
+
+        public List<Obstacle> Obstacles
+        {
+            get { return obstacles; }
+            set { obstacles = value; }
+        }
+
+        public List<Zone> Zones
+        {
+            get { return zones; }
+            set { zones = value; }
+        }
+
+        public IEnumerable<ExitZone> ExitZones
+        {
+            get { return this.Zones.OfType<ExitZone>(); }
+        }
+
+        public TileGrid TileGrid
+        {
+            get { return tileGrid; }
+            set { tileGrid = value; }
         }
 
         /// <summary>

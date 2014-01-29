@@ -116,7 +116,7 @@ namespace TacticsGame.Map
             }
 
             this.PassableContents.Add(entity);
-            entity.DrawPosition = this.AreaRectangle;
+            entity.Sprite.DrawPosition = this.AreaRectangle;
             entity.CurrentTile = this;
         }
 

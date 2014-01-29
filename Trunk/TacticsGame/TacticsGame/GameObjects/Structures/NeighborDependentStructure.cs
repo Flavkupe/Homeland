@@ -21,9 +21,9 @@ namespace TacticsGame.GameObjects.Structures
             this.subRectangle = new Rectangle(0, 0, 32, 32);
         }
 
-        public override void SetLocationTo(Tile newTile)
+        public override void SetLocationTo(Tile newTile, bool setTileResident = true)
         {
-            base.SetLocationTo(newTile);
+            base.SetLocationTo(newTile, setTileResident);
 
             this.PlacedOnTile(newTile);
         }
@@ -182,11 +182,11 @@ namespace TacticsGame.GameObjects.Structures
 
         public override void Draw(GameTime time)
         {
-            Utilities.DrawTexture2D(this.textureInfo.Texture, this.DrawPosition, this.subRectangle, this.CannotBeBuilt ? (Color?)Color.Red : null);
+            Utilities.DrawTexture2D(this.Sprite.TextureInfo.Texture, this.DrawPosition, this.subRectangle, this.CannotBeBuilt ? (Color?)Color.Red : null);
 
             if (this.drawPosition2 != null)
             {
-                Utilities.DrawTexture2D(this.textureInfo.Texture, this.drawPosition2.Value, this.subRectangle2.Value, this.CannotBeBuilt ? (Color?)Color.Red : null);
+                Utilities.DrawTexture2D(this.Sprite.TextureInfo.Texture, this.drawPosition2.Value, this.subRectangle2.Value, this.CannotBeBuilt ? (Color?)Color.Red : null);
             }
         }
     }

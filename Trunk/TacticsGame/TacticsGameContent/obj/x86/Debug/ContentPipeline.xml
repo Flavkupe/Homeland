@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Grass.xnb</Output>
-      <Time>2013-03-07T20:37:52.0372307-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Grass.xnb</Output>
+      <Time>2014-01-07T21:25:17.2831995-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Dirt.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb</Output>
-      <Time>2013-03-07T20:37:52.1152309-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Dirt.xnb</Output>
+      <Time>2014-01-07T21:25:17.2711914-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cursor.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb</Output>
-      <Time>2013-03-07T20:37:51.9592306-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Cursor.xnb</Output>
+      <Time>2014-01-07T21:25:17.2711914-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Animated\sampleSprite.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb</Output>
-      <Time>2013-03-07T20:37:51.9748306-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleSprite.xnb</Output>
+      <Time>2014-01-07T21:25:17.2681893-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\defaultIcon.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb</Output>
-      <Time>2013-03-07T20:37:50.5552281-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\defaultIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2611835-08:00</Time>
     </Item>
     <Item>
       <Source>Xml\FlavSheet.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb</Output>
-      <Time>2013-06-05T23:04:10.7642744-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Xml\FlavSheet.xnb</Output>
+      <Time>2014-01-07T21:25:17.2872027-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\sampleIcon.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb</Output>
-      <Time>2013-03-17T22:00:49.8033793-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2631845-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\rock.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb</Output>
-      <Time>2013-03-07T20:37:51.9748306-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\rock.xnb</Output>
+      <Time>2014-01-07T21:25:17.2862016-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Footsteps.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb</Output>
-      <Time>2013-03-07T20:37:52.1308309-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Footsteps.xnb</Output>
+      <Time>2014-01-07T21:25:17.2721921-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\X.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb</Output>
-      <Time>2013-03-07T20:37:52.1308309-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\X.xnb</Output>
+      <Time>2014-01-07T21:25:17.2862016-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\sampleEnemyIcon.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb</Output>
-      <Time>2013-03-17T22:00:49.7933787-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\sampleEnemyIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2631845-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Animated\sampleEnemy.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb</Output>
-      <Time>2013-03-07T20:37:52.0060307-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\sampleEnemy.xnb</Output>
+      <Time>2014-01-07T21:25:17.2671886-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Animated\Effects\SwordEffect.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb</Output>
-      <Time>2013-03-07T20:37:51.9748306-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\Effects\SwordEffect.xnb</Output>
+      <Time>2014-01-07T21:25:17.2661862-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Skeleton.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb</Output>
-      <Time>2013-03-07T20:37:52.1152309-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Skeleton.xnb</Output>
+      <Time>2014-01-07T21:25:17.2852013-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\EnemyCursor.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb</Output>
-      <Time>2013-03-07T20:37:51.9592306-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\EnemyCursor.xnb</Output>
+      <Time>2014-01-07T21:25:17.2711914-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Abilities\Focus.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\Focus.xnb</Output>
-      <Time>2013-03-07T20:37:52.0372307-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\Focus.xnb</Output>
+      <Time>2014-01-07T21:25:17.2661862-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Abilities\RockThrow.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\RockThrow.xnb</Output>
-      <Time>2013-03-07T20:37:52.0528308-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Abilities\RockThrow.xnb</Output>
+      <Time>2014-01-07T21:25:17.2661862-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Buildings\brickHouseItemShop.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\brickHouseItemShop.xnb</Output>
-      <Time>2013-03-12T19:23:10.7828048-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\brickHouseItemShop.xnb</Output>
+      <Time>2014-01-07T21:25:17.2701903-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Apple.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Apple.xnb</Output>
-      <Time>2013-03-12T19:23:11.4068059-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Apple.xnb</Output>
+      <Time>2014-01-07T21:25:17.2391689-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Bottle.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bottle.xnb</Output>
-      <Time>2013-03-12T19:23:11.4068059-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bottle.xnb</Output>
+      <Time>2014-01-07T21:25:17.2411698-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Sword.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sword.xnb</Output>
-      <Time>2013-03-12T19:23:11.3912059-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sword.xnb</Output>
+      <Time>2014-01-07T21:25:17.252178-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Frames\Ranger.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Ranger.xnb</Output>
-      <Time>2013-03-17T22:00:51.8114941-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Ranger.xnb</Output>
+      <Time>2014-01-07T21:25:17.2831995-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Diamond.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Diamond.xnb</Output>
-      <Time>2013-03-17T22:00:49.8553822-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Diamond.xnb</Output>
+      <Time>2014-01-07T21:25:17.2431717-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\GoldIngot.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GoldIngot.xnb</Output>
-      <Time>2013-03-17T22:00:49.8113797-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GoldIngot.xnb</Output>
+      <Time>2014-01-07T21:25:17.244172-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\LeatherBoots.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeatherBoots.xnb</Output>
-      <Time>2013-03-17T22:00:49.8653828-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeatherBoots.xnb</Output>
+      <Time>2014-01-07T21:25:17.2481752-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Spear.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Spear.xnb</Output>
-      <Time>2013-03-17T22:00:49.8463817-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Spear.xnb</Output>
+      <Time>2014-01-07T21:25:17.2511773-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Frames\Fool.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Fool.xnb</Output>
-      <Time>2013-03-17T22:00:51.6704861-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Fool.xnb</Output>
+      <Time>2014-01-07T21:25:17.2811981-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Frames\Footsoldier.png</Source>
@@ -250,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Footsoldier.xnb</Output>
-      <Time>2013-03-17T22:00:51.7694917-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Frames\Footsoldier.xnb</Output>
+      <Time>2014-01-07T21:25:17.2811981-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Wood.png</Source>
@@ -259,8 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Wood.xnb</Output>
-      <Time>2013-03-17T22:00:49.8383813-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Wood.xnb</Output>
+      <Time>2014-01-07T21:25:17.2541794-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Stone.png</Source>
@@ -268,8 +268,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Stone.xnb</Output>
-      <Time>2013-03-17T22:00:49.8293807-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Stone.xnb</Output>
+      <Time>2014-01-07T21:25:17.252178-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Coin.png</Source>
@@ -277,8 +277,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coin.xnb</Output>
-      <Time>2013-03-17T22:00:49.8213803-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coin.xnb</Output>
+      <Time>2014-01-07T21:25:17.242171-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\ShopkeepIcon.png</Source>
@@ -286,8 +286,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\ShopkeepIcon.xnb</Output>
-      <Time>2013-03-22T22:35:59.5442949-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\ShopkeepIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2611835-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\stockIcon.png</Source>
@@ -295,8 +295,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\stockIcon.xnb</Output>
-      <Time>2013-03-22T01:14:50.6716469-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\stockIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2631845-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\foolIcon.png</Source>
@@ -304,8 +304,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\foolIcon.xnb</Output>
-      <Time>2013-03-22T02:03:35.3109267-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\foolIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2621838-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\footmanIcon.png</Source>
@@ -313,8 +313,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\footmanIcon.xnb</Output>
-      <Time>2013-03-22T02:02:24.6118829-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\footmanIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2621838-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\rangerIcon.png</Source>
@@ -322,8 +322,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\rangerIcon.xnb</Output>
-      <Time>2013-03-22T02:03:06.7612937-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\rangerIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2621838-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Buildings\Building2.png</Source>
@@ -331,8 +331,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Building2.xnb</Output>
-      <Time>2013-03-22T18:56:18.2003652-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Building2.xnb</Output>
+      <Time>2014-01-07T21:25:17.2681893-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Buildings\smithy.png</Source>
@@ -340,8 +340,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\smithy.xnb</Output>
-      <Time>2013-03-21T23:50:10.4639088-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\smithy.xnb</Output>
+      <Time>2014-01-07T21:25:17.2711914-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\SmithyIcon.png</Source>
@@ -349,8 +349,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\SmithyIcon.xnb</Output>
-      <Time>2013-03-22T22:36:48.972122-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\SmithyIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2611835-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Buy.png</Source>
@@ -358,8 +358,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Buy.xnb</Output>
-      <Time>2013-03-26T19:20:19.299663-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Buy.xnb</Output>
+      <Time>2014-01-07T21:25:17.2381682-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Sell.png</Source>
@@ -367,8 +367,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Sell.xnb</Output>
-      <Time>2013-03-26T19:20:19.3126637-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Sell.xnb</Output>
+      <Time>2014-01-07T21:25:17.2611835-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Scroll1.png</Source>
@@ -376,8 +376,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Scroll1.xnb</Output>
-      <Time>2013-03-31T18:53:18.1226744-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Scroll1.xnb</Output>
+      <Time>2014-01-07T21:25:17.2611835-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Animated\wolf.png</Source>
@@ -385,8 +385,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\wolf.xnb</Output>
-      <Time>2013-04-03T19:34:41.9788356-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\wolf.xnb</Output>
+      <Time>2014-01-07T21:25:17.2681893-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\wolfIcon.png</Source>
@@ -394,8 +394,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\wolfIcon.xnb</Output>
-      <Time>2013-04-03T19:34:41.2087915-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\wolfIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2641852-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Animated\fool.png</Source>
@@ -403,8 +403,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\fool.xnb</Output>
-      <Time>2013-04-03T19:34:41.9998368-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\fool.xnb</Output>
+      <Time>2014-01-07T21:25:17.2671886-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Animated\ranger.png</Source>
@@ -412,8 +412,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\ranger.xnb</Output>
-      <Time>2013-04-03T19:34:41.9898362-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\ranger.xnb</Output>
+      <Time>2014-01-07T21:25:17.2671886-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\travellerIcon.png</Source>
@@ -421,8 +421,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\travellerIcon.xnb</Output>
-      <Time>2013-04-08T23:02:37.5261342-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\travellerIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2631845-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\junkCollectorIcon.png</Source>
@@ -430,8 +430,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\junkCollectorIcon.xnb</Output>
-      <Time>2013-04-22T20:03:01.5839773-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\junkCollectorIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2621838-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Bone.png</Source>
@@ -439,8 +439,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bone.xnb</Output>
-      <Time>2013-04-11T22:01:45.9586005-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bone.xnb</Output>
+      <Time>2014-01-07T21:25:17.2411698-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Feather.png</Source>
@@ -448,8 +448,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Feather.xnb</Output>
-      <Time>2013-04-11T22:00:43.9328915-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Feather.xnb</Output>
+      <Time>2014-01-07T21:25:17.2431717-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Fur.png</Source>
@@ -457,8 +457,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Fur.xnb</Output>
-      <Time>2013-04-11T22:01:06.2409307-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Fur.xnb</Output>
+      <Time>2014-01-07T21:25:17.244172-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Rags.png</Source>
@@ -466,8 +466,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rags.xnb</Output>
-      <Time>2013-04-11T22:01:24.6645631-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rags.xnb</Output>
+      <Time>2014-01-07T21:25:17.2491759-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\PowerIcon.png</Source>
@@ -475,8 +475,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\PowerIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.198602-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\PowerIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2581806-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\RangeIcon.png</Source>
@@ -484,8 +484,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RangeIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.2096026-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RangeIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2591813-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\RunnyGuyIcon.png</Source>
@@ -493,8 +493,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RunnyGuyIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.2276037-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RunnyGuyIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2591813-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\CrownIcon.png</Source>
@@ -502,8 +502,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CrownIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.2816068-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CrownIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2561809-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\OddStarIcon.png</Source>
@@ -511,8 +511,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\OddStarIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.2186032-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\OddStarIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2581806-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\QuestionMarkIcon.png</Source>
@@ -520,8 +520,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\QuestionMarkIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.2726063-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\QuestionMarkIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2581806-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\ShieldIcon.png</Source>
@@ -529,8 +529,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\ShieldIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.2896072-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\ShieldIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2601828-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\TreasureChestIcon.png</Source>
@@ -538,8 +538,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\TreasureChestIcon.xnb</Output>
-      <Time>2013-04-14T16:15:29.2376043-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\TreasureChestIcon.xnb</Output>
+      <Time>2014-01-07T21:25:17.2601828-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Buildings\Tavern.png</Source>
@@ -547,8 +547,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Tavern.xnb</Output>
-      <Time>2013-04-14T16:15:30.4466734-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Tavern.xnb</Output>
+      <Time>2014-01-07T21:25:17.26919-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\NeighborDependant\Fence.png</Source>
@@ -556,8 +556,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Fence.xnb</Output>
-      <Time>2013-04-15T21:34:43.9035452-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Fence.xnb</Output>
+      <Time>2014-01-07T21:25:17.2842006-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\NeighborDependant\NiceRoad.png</Source>
@@ -565,8 +565,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\NiceRoad.xnb</Output>
-      <Time>2013-04-15T21:34:43.9155459-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\NiceRoad.xnb</Output>
+      <Time>2014-01-07T21:25:17.2842006-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\NeighborDependant\Barrier.png</Source>
@@ -574,8 +574,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Barrier.xnb</Output>
-      <Time>2013-04-17T21:21:33.9735096-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Barrier.xnb</Output>
+      <Time>2014-01-07T21:25:17.2831995-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\NeighborDependant\Cobblestone.png</Source>
@@ -583,8 +583,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Cobblestone.xnb</Output>
-      <Time>2013-04-17T21:21:33.9735096-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\Cobblestone.xnb</Output>
+      <Time>2014-01-07T21:25:17.2842006-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\NeighborDependant\StoneWall.png</Source>
@@ -592,8 +592,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\StoneWall.xnb</Output>
-      <Time>2013-04-17T21:21:34.0047096-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\NeighborDependant\StoneWall.xnb</Output>
+      <Time>2014-01-07T21:25:17.2852013-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\BasicBow.png</Source>
@@ -601,8 +601,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicBow.xnb</Output>
-      <Time>2013-04-18T21:10:47.5823498-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicBow.xnb</Output>
+      <Time>2014-01-07T21:25:17.2401679-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\BasicCap.png</Source>
@@ -610,8 +610,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicCap.xnb</Output>
-      <Time>2013-04-18T21:10:47.639353-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicCap.xnb</Output>
+      <Time>2014-01-07T21:25:17.2401679-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\BasicDagger.png</Source>
@@ -619,8 +619,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicDagger.xnb</Output>
-      <Time>2013-04-18T21:10:47.5913503-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BasicDagger.xnb</Output>
+      <Time>2014-01-07T21:25:17.2411698-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\ClothShirt.png</Source>
@@ -628,8 +628,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ClothShirt.xnb</Output>
-      <Time>2013-04-18T21:10:47.569349-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ClothShirt.xnb</Output>
+      <Time>2014-01-07T21:25:17.242171-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\IronBar.png</Source>
@@ -637,8 +637,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronBar.xnb</Output>
-      <Time>2013-04-18T21:10:47.6013509-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronBar.xnb</Output>
+      <Time>2014-01-07T21:25:17.2461734-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\IronOre.png</Source>
@@ -646,8 +646,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronOre.xnb</Output>
-      <Time>2013-04-18T21:10:47.5593485-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronOre.xnb</Output>
+      <Time>2014-01-07T21:25:17.2461734-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Buildings\WoodHouse.png</Source>
@@ -655,8 +655,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\WoodHouse.xnb</Output>
-      <Time>2013-04-22T20:03:01.63198-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\WoodHouse.xnb</Output>
+      <Time>2014-01-07T21:25:17.26919-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Branch.png</Source>
@@ -664,8 +664,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Branch.xnb</Output>
-      <Time>2013-04-29T20:27:35.2585902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Branch.xnb</Output>
+      <Time>2014-01-07T21:25:17.2411698-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Coal.png</Source>
@@ -673,8 +673,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coal.xnb</Output>
-      <Time>2013-04-29T20:27:35.2273902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Coal.xnb</Output>
+      <Time>2014-01-07T21:25:17.242171-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Flint.png</Source>
@@ -682,8 +682,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Flint.xnb</Output>
-      <Time>2013-04-29T20:27:35.3053903-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Flint.xnb</Output>
+      <Time>2014-01-07T21:25:17.2431717-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Opal.png</Source>
@@ -691,8 +691,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Opal.xnb</Output>
-      <Time>2013-04-29T20:27:35.2429902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Opal.xnb</Output>
+      <Time>2014-01-07T21:25:17.2481752-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Rubble.png</Source>
@@ -700,8 +700,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rubble.xnb</Output>
-      <Time>2013-04-29T20:27:35.2897903-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Rubble.xnb</Output>
+      <Time>2014-01-07T21:25:17.2501766-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Ruby.png</Source>
@@ -709,8 +709,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ruby.xnb</Output>
-      <Time>2013-04-29T20:27:35.3209903-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ruby.xnb</Output>
+      <Time>2014-01-07T21:25:17.2501766-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Sapphire.png</Source>
@@ -718,8 +718,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sapphire.xnb</Output>
-      <Time>2013-04-29T20:27:35.2897903-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Sapphire.xnb</Output>
+      <Time>2014-01-07T21:25:17.2501766-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Shale.png</Source>
@@ -727,8 +727,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Shale.xnb</Output>
-      <Time>2013-04-29T20:27:35.2429902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Shale.xnb</Output>
+      <Time>2014-01-07T21:25:17.2511773-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\SmallCrystal.png</Source>
@@ -736,8 +736,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallCrystal.xnb</Output>
-      <Time>2013-04-29T20:27:35.2585902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallCrystal.xnb</Output>
+      <Time>2014-01-07T21:25:17.2511773-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\TreeResin.png</Source>
@@ -745,8 +745,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeResin.xnb</Output>
-      <Time>2013-04-29T20:27:35.2585902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeResin.xnb</Output>
+      <Time>2014-01-07T21:25:17.252178-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\TreeSap.png</Source>
@@ -754,8 +754,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeSap.xnb</Output>
-      <Time>2013-04-29T20:27:35.2585902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\TreeSap.xnb</Output>
+      <Time>2014-01-07T21:25:17.2531787-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\UncutRuby.png</Source>
@@ -763,8 +763,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutRuby.xnb</Output>
-      <Time>2013-04-29T20:27:35.2273902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutRuby.xnb</Output>
+      <Time>2014-01-07T21:25:17.2531787-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\UncutSapphire.png</Source>
@@ -772,8 +772,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutSapphire.xnb</Output>
-      <Time>2013-04-29T20:27:35.3209903-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\UncutSapphire.xnb</Output>
+      <Time>2014-01-07T21:25:17.2531787-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Bark.png</Source>
@@ -781,8 +781,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bark.xnb</Output>
-      <Time>2013-04-29T20:27:35.2429902-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Bark.xnb</Output>
+      <Time>2014-01-07T21:25:17.2401679-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\GoldBag.png</Source>
@@ -790,8 +790,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldBag.xnb</Output>
-      <Time>2013-05-02T21:34:38.048835-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldBag.xnb</Output>
+      <Time>2014-01-07T21:25:17.2571807-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\GoldCoins.png</Source>
@@ -799,8 +799,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldCoins.xnb</Output>
-      <Time>2013-05-02T21:34:38.0278338-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GoldCoins.xnb</Output>
+      <Time>2014-01-07T21:25:17.2571807-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\Book.png</Source>
@@ -808,8 +808,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Book.xnb</Output>
-      <Time>2013-05-02T21:34:38.0438348-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Book.xnb</Output>
+      <Time>2014-01-07T21:25:17.2551797-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\Fist.png</Source>
@@ -817,8 +817,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Fist.xnb</Output>
-      <Time>2013-05-02T21:34:38.0388345-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Fist.xnb</Output>
+      <Time>2014-01-07T21:25:17.2571807-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Ham.png</Source>
@@ -826,8 +826,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ham.xnb</Output>
-      <Time>2013-05-02T21:34:37.9118272-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Ham.xnb</Output>
+      <Time>2014-01-07T21:25:17.244172-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\IronShield.png</Source>
@@ -835,8 +835,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronShield.xnb</Output>
-      <Time>2013-05-02T21:34:37.9028267-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\IronShield.xnb</Output>
+      <Time>2014-01-07T21:25:17.2461734-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Map.png</Source>
@@ -844,8 +844,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Map.xnb</Output>
-      <Time>2013-05-02T21:34:37.9168275-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Map.xnb</Output>
+      <Time>2014-01-07T21:25:17.2481752-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Scroll.png</Source>
@@ -853,8 +853,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Scroll.xnb</Output>
-      <Time>2013-05-02T21:34:37.8938262-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Scroll.xnb</Output>
+      <Time>2014-01-07T21:25:17.2501766-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Whip.png</Source>
@@ -862,8 +862,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Whip.xnb</Output>
-      <Time>2013-05-02T21:34:37.8978264-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Whip.xnb</Output>
+      <Time>2014-01-07T21:25:17.2541794-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Buildings\Workshop.png</Source>
@@ -871,8 +871,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Workshop.xnb</Output>
-      <Time>2013-05-02T21:34:37.6828141-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Buildings\Workshop.xnb</Output>
+      <Time>2014-01-07T21:25:17.2701903-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Balm.png</Source>
@@ -880,8 +880,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Balm.xnb</Output>
-      <Time>2013-05-28T21:35:46.4053049-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Balm.xnb</Output>
+      <Time>2014-01-07T21:25:17.2391689-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\BulbousRoot.png</Source>
@@ -889,8 +889,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BulbousRoot.xnb</Output>
-      <Time>2013-05-28T21:35:46.4673085-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\BulbousRoot.xnb</Output>
+      <Time>2014-01-07T21:25:17.242171-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\EnergyElixer.png</Source>
@@ -898,8 +898,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\EnergyElixer.xnb</Output>
-      <Time>2013-05-28T21:35:46.4503075-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\EnergyElixer.xnb</Output>
+      <Time>2014-01-07T21:25:17.2431717-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\GreenShroom.png</Source>
@@ -907,8 +907,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GreenShroom.xnb</Output>
-      <Time>2013-05-28T21:35:46.4403069-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\GreenShroom.xnb</Output>
+      <Time>2014-01-07T21:25:17.244172-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\HealingPotion.png</Source>
@@ -916,8 +916,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HealingPotion.xnb</Output>
-      <Time>2013-05-28T21:35:46.3813036-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HealingPotion.xnb</Output>
+      <Time>2014-01-07T21:25:17.2451731-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\HerbCluster.png</Source>
@@ -925,8 +925,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HerbCluster.xnb</Output>
-      <Time>2013-05-28T21:35:46.423306-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HerbCluster.xnb</Output>
+      <Time>2014-01-07T21:25:17.2451731-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Horn.png</Source>
@@ -934,8 +934,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Horn.xnb</Output>
-      <Time>2013-05-28T21:35:46.4553078-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Horn.xnb</Output>
+      <Time>2014-01-07T21:25:17.2451731-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\LeafCluster.png</Source>
@@ -943,8 +943,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeafCluster.xnb</Output>
-      <Time>2013-05-28T21:35:46.3993046-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\LeafCluster.xnb</Output>
+      <Time>2014-01-07T21:25:17.2471745-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Leather.png</Source>
@@ -952,8 +952,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Leather.xnb</Output>
-      <Time>2013-05-28T21:35:46.4343066-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Leather.xnb</Output>
+      <Time>2014-01-07T21:25:17.2481752-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\NiceFur.png</Source>
@@ -961,8 +961,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\NiceFur.xnb</Output>
-      <Time>2013-05-28T21:35:46.4463073-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\NiceFur.xnb</Output>
+      <Time>2014-01-07T21:25:17.2481752-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\OpenTreasure.png</Source>
@@ -970,8 +970,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\OpenTreasure.xnb</Output>
-      <Time>2013-05-28T21:35:46.4623082-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\OpenTreasure.xnb</Output>
+      <Time>2014-01-07T21:25:17.2491759-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\RedShroom.png</Source>
@@ -979,8 +979,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\RedShroom.xnb</Output>
-      <Time>2013-05-28T21:35:46.3863038-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\RedShroom.xnb</Output>
+      <Time>2014-01-07T21:25:17.2491759-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Root.png</Source>
@@ -988,8 +988,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Root.xnb</Output>
-      <Time>2013-05-28T21:35:46.4293063-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Root.xnb</Output>
+      <Time>2014-01-07T21:25:17.2491759-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\SmallTincture.png</Source>
@@ -997,8 +997,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallTincture.xnb</Output>
-      <Time>2013-05-28T21:35:46.3633025-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\SmallTincture.xnb</Output>
+      <Time>2014-01-07T21:25:17.2511773-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Talon.png</Source>
@@ -1006,8 +1006,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Talon.xnb</Output>
-      <Time>2013-05-28T21:35:46.4113053-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Talon.xnb</Output>
+      <Time>2014-01-07T21:25:17.252178-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\Vial.png</Source>
@@ -1015,8 +1015,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Vial.xnb</Output>
-      <Time>2013-05-28T21:35:46.3763033-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\Vial.xnb</Output>
+      <Time>2014-01-07T21:25:17.2531787-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\WhiteFlowers.png</Source>
@@ -1024,8 +1024,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WhiteFlowers.xnb</Output>
-      <Time>2013-05-28T21:35:46.3583022-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WhiteFlowers.xnb</Output>
+      <Time>2014-01-07T21:25:17.2541794-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\WildMushroom.png</Source>
@@ -1033,8 +1033,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WildMushroom.xnb</Output>
-      <Time>2013-05-28T21:35:46.3693029-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\WildMushroom.xnb</Output>
+      <Time>2014-01-07T21:25:17.2541794-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\YellowFlowers.png</Source>
@@ -1042,8 +1042,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\YellowFlowers.xnb</Output>
-      <Time>2013-05-28T21:35:46.4163056-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\YellowFlowers.xnb</Output>
+      <Time>2014-01-07T21:25:17.2551797-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\BottleTrader.png</Source>
@@ -1051,8 +1051,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\BottleTrader.xnb</Output>
-      <Time>2013-05-29T20:49:15.1064491-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\BottleTrader.xnb</Output>
+      <Time>2014-01-07T21:25:17.2381682-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\SandClock.png</Source>
@@ -1060,8 +1060,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\SandClock.xnb</Output>
-      <Time>2013-06-06T20:29:24.0779036-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\SandClock.xnb</Output>
+      <Time>2014-01-07T21:25:17.2591813-08:00</Time>
     </Item>
     <Item>
       <Source>Textures\Animated\footsoldier.png</Source>
@@ -1069,8 +1069,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\footsoldier.xnb</Output>
-      <Time>2013-06-06T20:29:23.9378956-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Textures\Animated\footsoldier.xnb</Output>
+      <Time>2014-01-07T21:25:17.2671886-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\BlackOrb.png</Source>
@@ -1078,8 +1078,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\BlackOrb.xnb</Output>
-      <Time>2013-06-18T19:31:51.9058542-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\BlackOrb.xnb</Output>
+      <Time>2014-01-07T21:25:17.2551797-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\GreenOrb.png</Source>
@@ -1087,8 +1087,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GreenOrb.xnb</Output>
-      <Time>2013-06-18T19:32:22.1875862-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\GreenOrb.xnb</Output>
+      <Time>2014-01-07T21:25:17.2571807-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\RedOrb.png</Source>
@@ -1096,8 +1096,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RedOrb.xnb</Output>
-      <Time>2013-06-18T19:31:31.1806688-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\RedOrb.xnb</Output>
+      <Time>2014-01-07T21:25:17.2591813-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\YellowishOrb.png</Source>
@@ -1105,8 +1105,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\YellowishOrb.xnb</Output>
-      <Time>2013-06-18T20:20:54.955187-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\YellowishOrb.xnb</Output>
+      <Time>2014-01-07T21:25:17.2601828-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\CheckMark.png</Source>
@@ -1114,8 +1114,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CheckMark.xnb</Output>
-      <Time>2013-07-09T20:19:01.8756239-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\CheckMark.xnb</Output>
+      <Time>2014-01-07T21:25:17.2561809-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\Zs.png</Source>
@@ -1123,8 +1123,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Zs.xnb</Output>
-      <Time>2013-07-09T20:19:01.8606231-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\Zs.xnb</Output>
+      <Time>2014-01-07T21:25:17.2601828-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\HornInstrument.png</Source>
@@ -1132,8 +1132,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HornInstrument.xnb</Output>
-      <Time>2013-07-09T20:19:02.418655-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\HornInstrument.xnb</Output>
+      <Time>2014-01-07T21:25:17.2451731-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\JesterCap.png</Source>
@@ -1141,8 +1141,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\JesterCap.xnb</Output>
-      <Time>2013-07-09T20:19:02.4336559-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\JesterCap.xnb</Output>
+      <Time>2014-01-07T21:25:17.2471745-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Misc\MiscSheet.png</Source>
@@ -1150,8 +1150,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\MiscSheet.xnb</Output>
-      <Time>2013-07-09T20:19:01.8716237-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Misc\MiscSheet.xnb</Output>
+      <Time>2014-01-07T21:25:17.2581806-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\IconsSheet.png</Source>
@@ -1159,8 +1159,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\IconsSheet.xnb</Output>
-      <Time>2013-07-09T20:19:02.4136547-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\IconsSheet.xnb</Output>
+      <Time>2014-01-07T21:25:17.2391689-08:00</Time>
     </Item>
     <Item>
       <Source>Icons\Items\ItemsSheet.png</Source>
@@ -1168,8 +1168,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ItemsSheet.xnb</Output>
-      <Time>2013-07-09T20:19:02.4226552-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Icons\Items\ItemsSheet.xnb</Output>
+      <Time>2014-01-07T21:25:17.2471745-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Debug.spritefont</Source>
@@ -1177,8 +1177,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb</Output>
-      <Time>2013-03-07T20:37:50.3212277-08:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\Debug.xnb</Output>
+      <Time>2014-01-07T21:25:17.2371674-08:00</Time>
     </Item>
     <Item>
       <Source>Fonts\MainFont.spritefont</Source>
@@ -1186,8 +1186,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\MainFont.xnb</Output>
-      <Time>2013-07-09T20:19:02.5316615-07:00</Time>
+      <Output>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\Fonts\MainFont.xnb</Output>
+      <Time>2014-01-07T21:25:17.2381682-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1195,10 +1195,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\code\Tactics\Trunk\TacticsGame\TacticsGameContent\</RootDirectory>
-      <LoggerRootDirectory>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\code\Tactics\Trunk\TacticsGame\TacticsGameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\code\Tactics\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\code\Homeland\Trunk\TacticsGame\TacticsGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\code\Homeland\Trunk\TacticsGame\TacticsGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\code\Homeland\Trunk\TacticsGame\TacticsGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -1226,8 +1226,8 @@
         <Value>2010-08-23T13:41:18-07:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2013-02-20T20:36:42.0707144-08:00</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-01-08T01:08:30.9661421-08:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

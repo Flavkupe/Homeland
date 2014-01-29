@@ -24,16 +24,12 @@ namespace TacticsGame.GameObjects.Visitors
         {
         }       
 
-        public override bool OnlyBuysPreferredItemTypes
-        {
-            get { return true; }
-        }
-
         public virtual bool SellsItems { get { return false; } }
         public virtual bool BuysItems { get { return false; } }
 
         protected override void InitializeEquipment()
-        {            
+        {
+            this.Preferences.ItemPreference.OnlyBuysPreferredItemTypes = true;
         }
 
         public static Visitor CreateRandomVisitor()
@@ -58,5 +54,10 @@ namespace TacticsGame.GameObjects.Visitors
         {
             get { return false; }
         }
+
+        /// <summary>
+        /// Gets whether or not the unit is a shopowner. A shopowner is a unit that owns inventory in a building.
+        /// </summary>
+        public virtual bool IsVisitor { get { return true; } }
     }
 }

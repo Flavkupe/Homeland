@@ -59,6 +59,19 @@
     </xs:restriction>
   </xs:simpleType>
 
+  <xs:simpleType name="ItemMetadataType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="SmithingIngredient" />
+      <xs:enumeration value="CraftingIngredient" />
+      <xs:enumeration value="ForageLoot" />
+      <xs:enumeration value="MiningLoot" />
+      <xs:enumeration value="HuntingLoot" />
+      <xs:enumeration value="StoneMiningLoot" />
+      <xs:enumeration value="WoodcuttingLoot" />
+    </xs:restriction>
+  </xs:simpleType>
+
   <xs:simpleType name="ArmorType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Light" />
@@ -227,7 +240,12 @@
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element name="Description" minOccurs="0" maxOccurs="1"></xs:element>
-                    <xs:element name="WeaponStats" minOccurs="0" maxOccurs="1">
+                    <xs:element name="Metadata" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="Value" type="ItemMetadataType" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="WeaponStats" minOccurs="0" maxOccurs="1">                      
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="VisualEffect" type="VisualEffectNodeType" minOccurs="1" maxOccurs="unbounded" />

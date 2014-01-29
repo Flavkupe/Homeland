@@ -52,6 +52,8 @@ namespace TacticsGame.Items
            return this.ObjectName;
         }
 
+        public bool HasMetadata(ItemMetadata metadata) { return this.Stats.Metadata.HasFlag(metadata); }
+
         /// <summary>
         /// Loads all the graphical stuff and other hard-to-serialize crap
         /// </summary>

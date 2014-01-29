@@ -85,19 +85,19 @@ namespace TacticsGame.Scene
 
                 if (effect.HPModification != 0)
                 {
-                    targetUnit.AddSubSprite(CreateNumberText(targetUnit, effect.HPModification, Color.Red, Color.LightBlue, ref yAdjustment));
+                    targetUnit.Sprite.AddSubSprite(CreateNumberText(targetUnit, effect.HPModification, Color.Red, Color.LightBlue, ref yAdjustment));
                     targetUnit.CurrentStats.HP += effect.HPModification; 
                 }
 
                 if (effect.APModification != 0)
                 {
-                    targetUnit.AddSubSprite(CreateNumberText(targetUnit, effect.APModification, Color.LightGray, Color.Green, ref yAdjustment));
+                    targetUnit.Sprite.AddSubSprite(CreateNumberText(targetUnit, effect.APModification, Color.LightGray, Color.Green, ref yAdjustment));
                     targetUnit.CurrentStats.ActionPoints += effect.APModification;
                 }
 
                 if (effect.MoraleModification != 0)
                 {
-                    targetUnit.AddSubSprite(CreateNumberText(targetUnit, effect.MoraleModification, Color.Purple, Color.Blue, ref yAdjustment));
+                    targetUnit.Sprite.AddSubSprite(CreateNumberText(targetUnit, effect.MoraleModification, Color.Purple, Color.Blue, ref yAdjustment));
                     targetUnit.CurrentStats.Morale += effect.MoraleModification;
                 }
 

@@ -34,12 +34,12 @@ namespace TacticsGame.GameObjects.Units
         {
             base.InitializePreferences();
 
-            this.ItemTypePreference.Add(ItemType.Scrap, -50);
-            this.ItemTypePreference.Add(ItemType.Resource, -30);
-            this.ItemTypePreference.Add(ItemType.Commodity, -40);
-            this.ItemTypePreference.Add(ItemType.Misc, -50);
-            this.ItemTypePreference.Add(ItemType.Ingredient, -30);
-            this.ItemTypePreference.Add(ItemType.Food, 5);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Scrap, -50);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Resource, -30);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Commodity, -40);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Misc, -50);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Ingredient, -30);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Food, 5);
             //this.ItemTypePreference.Add(ItemType.Luxury, 20);
         }
     }

@@ -26,8 +26,8 @@ namespace TacticsGame.GameObjects.Buildings
         public Building(string spriteName, int tileDimensions = 32)
             : base(spriteName, ResourceType.GameObject)
         {
-            this.TileHeight = this.textureInfo.Height / tileDimensions;
-            this.TileWidth = this.textureInfo.Width / tileDimensions;
+            this.TileHeight = this.Sprite.TextureInfo.Height / tileDimensions;
+            this.TileWidth = this.Sprite.TextureInfo.Width / tileDimensions;
 
             if (this.IsBuildingWithVisitors)
             {
@@ -46,16 +46,22 @@ namespace TacticsGame.GameObjects.Buildings
                 this.currentTile = value;
                 
                 List<Tile> currentTiles = new List<Tile>();
-                for (int i = 0; i < this.TileWidth; ++i)
+                for (int i = 0; i < this.TileHeight; ++i)
                 {
-                    for (int j = 0; j < this.TileHeight; ++j)
+                    for (int j = 0; j < this.TileWidth; ++j)
                     {
-                        currentTiles.AddIfNotNull(value.Grid.GetTile(this.currentTile.Coordinate.X + i, this.currentTile.Coordinate.Y + j));
+                        currentTiles.AddIfNotNull(value.Grid.GetTile(this.currentTile.Coordinate.X + j, this.currentTile.Coordinate.Y + i));
                     }
                 }
 
                 this.currentTiles = currentTiles;
             }
+        }
+
+        public virtual Tile DoorTile
+        {
+            // Default to bottom-right tile
+            get { return this.currentTiles[this.currentTiles.Count - 1]; }
         }
 
         /// <summary>
@@ -73,21 +79,21 @@ namespace TacticsGame.GameObjects.Buildings
         {
             if (this.Selected)
             {
-                this.colorFilter = Color.GreenYellow;
+                this.Sprite.ColorFilter = Color.GreenYellow;
             }
             else if (this.CannotBeBuilt)
             {
-                this.colorFilter = Color.DarkRed;
+                this.Sprite.ColorFilter = Color.DarkRed;
             }
             else
             {
-                this.colorFilter = null;
+                this.Sprite.ColorFilter = null;
             }
             
             base.Draw(time);
         }       
 
-        public virtual IconInfo Icon { get { return this.GetEntityIcon(); } }
+        public virtual IconInfo Icon { get { return this.Sprite.GetEntityIcon(); } }
 
         public Inventory Inventory { get { return this.Stock; } }
 

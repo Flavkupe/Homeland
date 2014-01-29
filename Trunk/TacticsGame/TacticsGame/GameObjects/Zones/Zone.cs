@@ -78,8 +78,6 @@ namespace TacticsGame.GameObjects.Zones
                 
                 Utilities.DrawRectangle(this.drawBounds.Value, color);
             }
-
         }
-
     }
 }

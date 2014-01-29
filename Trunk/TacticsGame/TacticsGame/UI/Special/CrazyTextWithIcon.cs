@@ -6,6 +6,7 @@ using Nuclex.UserInterface.Controls;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Nuclex.UserInterface;
+using TacticsGame.Managers;
 
 namespace TacticsGame.UI.Controls
 {
@@ -34,20 +35,13 @@ namespace TacticsGame.UI.Controls
 
             this.uxLabel.Bounds = new Nuclex.UserInterface.UniRectangle(0, 0, size.X, size.Y);
             this.uxLabel.Font = TextureManager.Instance.DebugFont;
-
-            if (color.HasValue)
-            {
-                this.uxLabel.LabelColor = color.Value;
-            }
-            else
-            {
-                this.uxLabel.LabelColor = Color.Black;
-            }
+            
+            this.uxLabel.LabelColor = color.HasValue ? color.Value : Color.Black;            
 
             // make the size of the icon YxY based on the font height so it aligns well and looks ok.
-            this.uxIcon.Bounds = new Nuclex.UserInterface.UniRectangle(this.uxLabel.Bounds.Right + 6, 3, size.Y, size.Y);
+            this.uxIcon.Bounds = new Nuclex.UserInterface.UniRectangle(this.uxLabel.Bounds.Right + 12, 3, size.Y, size.Y);
 
-            this.Bounds = new UniRectangle(startingX, startingY, this.uxLabel.Bounds.Size.X + this.uxIcon.Bounds.Size.X, size.Y);
+            this.Bounds = new UniRectangle(startingX, startingY, this.uxLabel.Bounds.Size.X + 12 + this.uxIcon.Bounds.Size.X, size.Y);
             
             this.Children.Add(this.uxIcon);
             this.Children.Add(this.uxLabel);

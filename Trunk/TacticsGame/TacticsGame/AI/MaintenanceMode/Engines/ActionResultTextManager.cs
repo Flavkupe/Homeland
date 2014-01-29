@@ -5,11 +5,11 @@ using System.Text;
 using TacticsGame.GameObjects.Units;
 using TacticsGame.Items;
 
-namespace TacticsGame.AI.MaintenanceMode
+namespace TacticsGame.AI.MaintenanceMode.Engines
 {
-    public partial class UnitDecisionUtils
+    public class ActionResultTextManager : IActionResultTextManager
     {
-        public string GetStringForUnitTaxed(UnitDecisionActivity activity, int moneyLost)
+        public string GetStringForUnitTaxed(UnitManagementActivity activity, int moneyLost)
         {
             return this.GetStringForUnitTaxed(activity.Unit, moneyLost);
         }
@@ -26,7 +26,7 @@ namespace TacticsGame.AI.MaintenanceMode
             }
         }
 
-        public string GetDecisionStringForActionStarted(UnitDecisionActivity activity)
+        public string GetDecisionStringForActionStarted(UnitManagementActivity activity)
         {
             Decision decision = activity.Decision;
             Unit unit = activity.Unit;
@@ -47,7 +47,7 @@ namespace TacticsGame.AI.MaintenanceMode
             else if (decision == Decision.Buy)
             {
                 return activity.TargetBuilding != null ? string.Format("{0} went to buy something at {1}.", unit.DisplayName, activity.TargetBuilding.DisplayName) :
-                                                         string.Format("{0} is buying from {1}.", unit.DisplayName, activity.TargetVisitor.DisplayName); 
+                                                         string.Format("{0} is buying from {1}.", unit.DisplayName, activity.TargetVisitor.DisplayName);
             }
             else
             {
@@ -55,12 +55,12 @@ namespace TacticsGame.AI.MaintenanceMode
             }
         }
 
-        public string GetDecisionStringForUnableToFindProperBuilding(UnitDecisionActivity activity)
+        public string GetDecisionStringForUnableToFindProperBuilding(UnitManagementActivity activity)
         {
             return string.Format("{0} was unable to find a suitable store!", activity.Unit.DisplayName);
-        }       
+        }
 
-        public string GetDecisionStringForActionComplete(UnitDecisionActivity activity, ActivityResult results)
+        public string GetDecisionStringForActionComplete(UnitManagementActivity activity, ActivityResult results)
         {
             return GetDecisionStringForActionComplete(activity.Unit, activity.Decision, results);
         }
@@ -82,7 +82,7 @@ namespace TacticsGame.AI.MaintenanceMode
             {
                 string target = results.TransactionTarget.DisplayName;
                 if (results.ItemsGained != null)
-                {                    
+                {
                     return string.Format("{0} purchased {1} from {2} for {3} moneys.", unit.DisplayName, GetStringForListOfItems(results.ItemsGained), target, results.MoneyLost);
                 }
                 else
@@ -110,7 +110,7 @@ namespace TacticsGame.AI.MaintenanceMode
             {
                 return string.Format("{0} rested at home.", unit.DisplayName);
             }
-        }        
+        }
 
         public string GetDecisionStringForUnitDone(Unit unit)
         {

@@ -30,29 +30,6 @@ namespace TacticsGame.PlayerThings
             this.inventory.AddItem(new Item("Stone"));
         }
 
-        public override Dictionary<string, int> ItemPreference
-        {
-            get
-            {
-                List<ItemOrder> orders = PlayerStateManager.Instance.ActiveTown.ItemOrders;
-
-                // TODO: cache or optimize or something... maybe
-                Dictionary<string, int> preference = new Dictionary<string,int>();                
-                foreach (ItemOrder order in orders)
-                {
-                    Item item = new Item(order.ItemName);                    
-                    int itemPref = 10 + order.Offer - item.Stats.Cost;
-                    preference[item.ObjectName] = itemPref;
-                }
-
-                return preference;
-            }
-            protected set
-            {
-                base.ItemPreference = value;
-            }
-        }
-
         /// <summary>
         /// Get the item and remove it from the player's Orders
         /// </summary>

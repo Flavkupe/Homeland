@@ -20,8 +20,8 @@ namespace TestUtility.Simulation
 
         protected bool turnDone = false;
 
-        protected UnitDecisionEngine decisionEngine = null;
-        protected UnitDecisionResultEngine decisionResultEngine = null;
+        protected UneducatedDecisionEngine decisionEngine = null;
+        protected UneducatedResultEngine decisionResultEngine = null;
         protected UnitDecisionUtils decisionUtils = null;        
 
         protected List<Visitor> visitors = new List<Visitor>();
@@ -97,9 +97,9 @@ namespace TestUtility.Simulation
 
         protected virtual void LoadDecisionEngines()
         {
-            decisionEngine = new UnitDecisionEngine();
+            decisionEngine = new UneducatedDecisionEngine();
             decisionUtils = new UnitDecisionUtils();
-            decisionResultEngine = new UnitDecisionResultEngine();
+            decisionResultEngine = new UneducatedResultEngine();
         }
 
         /// <summary>

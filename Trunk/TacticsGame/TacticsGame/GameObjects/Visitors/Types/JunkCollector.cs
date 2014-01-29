@@ -20,13 +20,11 @@ namespace TacticsGame.GameObjects.Visitors.Types
             this.BaseStats.Mental = Utilities.GetRandomNumber(0, 20);
             this.Inventory.Money = Utilities.GetRandomNumber(200, 400);
 
-            this.ItemTypePreference.Add(ItemType.Scrap, 200);
-            this.ItemTypePreference.Add(ItemType.Resource, -50);
-            this.ItemTypePreference.Add(ItemType.Misc, 50);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Scrap, 200);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Resource, -50);
+            this.Preferences.ItemPreference.SetPreference(ItemType.Misc, 50);
 
             this.Preferences.GovernancePreference.TaxTolerance = Utilities.GetRandomNumber(10, 30);
         }
-
-
     }
 }

@@ -8,18 +8,31 @@ using TacticsGame.Items;
 using TacticsGame.Metrics;
 using TacticsGame.Crafting;
 
-namespace TacticsGame.AI.MaintenanceMode
+namespace TacticsGame.AI.MaintenanceMode.Engines
 {
-    public class UnitDecisionResultEngine
+    public class EducatedResultEngine : IActionResultEngine
     {
         private IGenerateLoot lootEngine;        
 
-        public UnitDecisionResultEngine()
+        private IPreferenceEngine preferenceEngine;
+
+        public EducatedResultEngine(IPreferenceEngine preferenceEngine)
+            : this()
         {
-            lootEngine = new LootGenerationEngine();
+            this.preferenceEngine = preferenceEngine;          
         }
 
-        public virtual ActivityResult GetActionResult(UnitDecisionActivity activity)
+        public EducatedResultEngine()
+        {
+            if (this.preferenceEngine == null)
+            {
+                this.preferenceEngine = new EducatedPreferenceEngine();
+            }
+
+            this.lootEngine = new LootGenerationEngine();
+        }
+
+        public virtual ActivityResult GetActionResult(UnitManagementActivity activity)
         {
             if (activity.Unit is Owner)
             {
@@ -31,7 +44,7 @@ namespace TacticsGame.AI.MaintenanceMode
             }
         }
 
-        public virtual ActivityResult GetUnitActionResult(UnitDecisionActivity activity)
+        public virtual ActivityResult GetUnitActionResult(UnitManagementActivity activity)
         {            
             Decision decision = activity.Decision;
             DecisionMakingUnit unit = activity.Unit;
@@ -70,16 +83,19 @@ namespace TacticsGame.AI.MaintenanceMode
                 result.BuildingTarget = activity.TargetBuilding;
                 result.TransactionTarget = activity.TargetBuilding.Owner;                
             }
+            else if (decision == Decision.RestAtHome)
+            {
+                result = DetermineRestResults(unit);
+            }
             else
             {
                 result = new ActivityResult();
             }
 
-            unit.CurrentStats.ActionPoints -= result.ActionPointCost;
             return result; 
-        }        
+        }     
 
-        public virtual ActivityResult GetOwnerActionResult(UnitDecisionActivity activity)
+        public virtual ActivityResult GetOwnerActionResult(UnitManagementActivity activity)
         {
             Decision decision = activity.Decision;
             Owner unit = activity.Unit as Owner;
@@ -110,9 +126,16 @@ namespace TacticsGame.AI.MaintenanceMode
                 result = new ActivityResult();
             }
 
-            unit.CurrentStats.ActionPoints -= result.ActionPointCost;
             return result;
         }
+
+        private ActivityResult DetermineRestResults(DecisionMakingUnit unit)
+        {
+            return new ActivityResult()
+            {
+                ActionPointCost = -2, 
+            };
+        }   
 
         private ActivityResult DetermineCraftResults(IMakeDecisions unit)
         {
@@ -193,7 +216,7 @@ namespace TacticsGame.AI.MaintenanceMode
         /// </summary>
         private bool UnitThinksHeCanAfford(IMakeDecisions unit, Item item)
         {
-            return UnitDecisionUtils.MakeAppraisal(unit, item) < unit.Inventory.Money;
+            return this.preferenceEngine.MakeAppraisal(unit, item) < unit.Inventory.Money;
         }
 
         protected virtual ActivityResult DetermineSellResults(IMakeDecisions sellingUnit, IMakeDecisions buyingUnit)
@@ -203,7 +226,7 @@ namespace TacticsGame.AI.MaintenanceMode
             List<ObjectValuePair<Item>> sortedList = new List<ObjectValuePair<Item>>();
             foreach (Item item in sellingUnit.Inventory.Items)
             {
-                int willingness = UnitDecisionUtils.DetermineWillingnessToSellItem(sellingUnit, item);
+                int willingness = this.preferenceEngine.DetermineWillingnessToSellItem(sellingUnit, item);
                 if (willingness > 0)
                 {
                     sortedList.Add(new ObjectValuePair<Item>(item, willingness));
@@ -242,7 +265,7 @@ namespace TacticsGame.AI.MaintenanceMode
         protected virtual bool ProcessSale(IMakeDecisions seller, IMakeDecisions buyer, Item item, ActivityResult result, bool initiatorIsSeller)
         {           
             // Generate an initial bid
-            int bid = UnitDecisionUtils.MakeBid(seller, item, true);
+            int bid = this.preferenceEngine.MakeBid(seller, item, true);
 
             if (bid <= 0)
             {
@@ -256,7 +279,7 @@ namespace TacticsGame.AI.MaintenanceMode
             for (int i = 0; i < numBids; ++i)
             {
                 // Check if the buyer wants to buy item. If so, sell item. Otherwise, continue bidding.
-                if (UnitDecisionUtils.UnitWantsToBuyItem(buyer, seller, item, bid))
+                if (this.preferenceEngine.UnitWantsToBuyItem(buyer, seller, item, bid))
                 {
                     if (initiatorIsSeller)
                     {
@@ -286,7 +309,7 @@ namespace TacticsGame.AI.MaintenanceMode
 
                 //Console.WriteLine("Buyer {0} is unwilling to pay {1} for {2}", buyer.DisplayName, bid, item.DisplayName);
 
-                bid = UnitDecisionUtils.ImproveBid(seller, item, bid);
+                bid = this.preferenceEngine.ImproveBid(seller, item, bid);
                 if (bid == 0)
                 {
                     //Console.WriteLine("Bidder {0} bailed on the sale of {1}", seller.DisplayName, item.DisplayName);

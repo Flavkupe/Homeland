@@ -78,6 +78,11 @@ namespace TacticsGame.Items
             return this.itemCounter.GetItemCount(item);
         }
 
+        public int GetItemCount(ItemMetadata itemMetadata)
+        {
+            return this.items.Count(a => a.HasMetadata(itemMetadata));
+        }
+
         public int GetItemCount(Item item)
         {
             return this.GetItemCount(item.ObjectName);
@@ -125,6 +130,16 @@ namespace TacticsGame.Items
             {
                 item.LoadContent();
             }
+        }
+
+        public bool HasItem(Item wantedItem)
+        {
+            return this.items.Any(item => item.ObjectName == wantedItem.ObjectName);
+        }
+
+        public bool HasItem(string wantedItem)
+        {
+            return this.items.Any(item => item.ObjectName == wantedItem);
         }
     }
 }

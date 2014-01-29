@@ -7,7 +7,6 @@ namespace TacticsGame.AI.MaintenanceMode
 {
     public enum Decision
     {
-        Idle,
         Buy,
         Sell,
         GetLumber,
@@ -18,5 +17,6 @@ namespace TacticsGame.AI.MaintenanceMode
         Craft,
         Hunt,
         Forage,
+        Idle,
     }
 }
